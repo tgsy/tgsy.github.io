@@ -42,7 +42,7 @@ const MailChimp = (() => {
                 s.formMessage.addClass(s.animation);
               }, 750);
             } else {
-              window.location = `http://${top.location.host.toString()}/subscribe`;
+              window.location = 'http://${top.location.host.toString()}/subscribe';
             }
           },
           error: () => {
