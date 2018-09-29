@@ -1,0 +1,55 @@
+# Site/SEO settings
+email: singyee_goh@mymail.sutd.edu.sg
+baseurl: ""
+paginate: 12
+paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title/
+google_analytics:
+
+name: Tessa Goh
+title: Tessa Goh
+description: >
+  Portfolio
+url: http://tgsy.github.io
+default_img: /assets/images/about.jpg
+social:
+  - name: linkedin
+    url: https://www.linkedin.com/in/tessagoh
+  - name: github
+    url: https://github.com/tgsy
+
+# Contact settings
+contact_img: /assets/images/placeholder-28.jpg
+formcarry: https://formcarry.com/s/HkIo0nMb7
+
+# Disqus settings
+disqus: test-apkdzgmqhj
+
+# MailChimp settings
+mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
+mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
+
+# Author settings
+author:
+  - name: Tessa Goh
+    bio: Tessa Goh is a B.E. Penultimate Undergraduate at the Singapore University of Technology and Design.
+    url: http://tgsy.github.io
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - node_modules
+  - .DS_Store
+  - barber.jpg
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - package.json
+  - README.md

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "2017 50.001 Introduction to Information System and Programming - CCTCV"
+date: 2017-11-29
+description:
+image: /assets/images/CCTCV-poster.png
+author: Tessa Goh
+tags:
+  - Projects
+---
+An android application that aims to utilize the university’s CCTV system to bring the students access to the real-time availability of the different dining locations and studying spots all around campus.
+
+![Placeholder](/assets/images/CCTCV-poster.png)

@@ -1,3 +1,19 @@
-# Tessa Goh
+---
+layout: default
+---
+<!-- The main content area -->
+<div class="posts">
+  <div class="grid-xlarge">
+    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
 
-## Penultimate B.E. Undergraduate from Singapore University of Technology and Design, Information Systems Technology and Design Pillar. Focus track on Artificial Intelligence and User Interface Design
+      {% for post in paginator.posts %}
+
+        <!-- The tag below includes the markup for each post - partials/post-card.html -->
+        {% include post-card.html %}
+
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include pagination.html %}
+</div>
