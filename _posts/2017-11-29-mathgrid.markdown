@@ -8,8 +8,9 @@ author: Tessa Goh
 tags:
   - Projects
 ---
-A hardware game targetted at elementary children, it aims to improve their basic arithmetic skills
 
 ![Placeholder](/assets/images/MathGrid-poster.jpg)
 
 2017 50.002 Computation Structures 1D Project – Math Grid
+
+A hardware game targetted at elementary children, it aims to improve their basic arithmetic skills

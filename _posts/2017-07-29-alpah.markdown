@@ -12,6 +12,9 @@ tags:
 
 ![Placeholder](/assets/images/alpah-poster.jpg)
 
+SUTD-ZJU Asian Leadership Programme 2017 - Janus
+Theme 2 – Augmented Human
+
 The team delivered an AR application, Janus, for the final presentation and exhibition at the end of the project. Janus is an AR indoor navigation android application powered by Unity, meant to be used for ease of navigation within the walls of the International Design Institute (IDI) of Zhejiang University.
 
 Some of my personal contributions included coming up with the project application theme, UI designs, poster for the final application, presentation materials and other project-related visuals.
@@ -25,6 +28,3 @@ Some of my personal contributions included coming up with the project applicatio
 ![Placeholder](/assets/images/alpah-mobile07.png)
 ![Placeholder](/assets/images/alpah-mobile08.png)
 ![Placeholder](/assets/images/alpah-heatmap.png)
-
-SUTD-ZJU Asian Leadership Programme 2017 - Janus
-Theme 2 – Augmented Human
