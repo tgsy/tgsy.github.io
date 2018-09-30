@@ -1,6 +1,9 @@
 # Site/SEO settings
 email: singyee_goh@mymail.sutd.edu.sg
 baseurl:
+paginate: 12
+paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title/
 google_analytics:
 
 name: Tessa Goh
@@ -35,7 +38,9 @@ author:
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-tagslist
 compress_html:
   clippings: all
   comments: all
