@@ -2,7 +2,7 @@
 layout: post
 title: "Internship"
 date: 2018-09-26
-description: UX/UI Internship at DAN
+description: "UX/UI Internship @ DAN"
 image: /assets/images/internship.jpg
 author: Tessa Goh
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Zhejiang University
-Information Product Design 信息产品设计课程 2017 - MOSAIC"
+title: "MOSAIC"
 date: 2017-10-08
 description:
 image: /assets/images/mosaic-logo.png
@@ -11,6 +10,9 @@ tags:
   - Projects
   - Exchange
 ---
+
+Zhejiang University
+Information Product Design 信息产品设计课程 2017 - MOSAIC
 
 [Event Link] <http://www.zju.edu.cn/englishold/2017/0718/c4151a555445/page.htm>
 

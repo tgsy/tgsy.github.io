@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2016 3.007 Introduction to Design – Cohort 3 Team 09, Stasis"
+title: "Stasis"
 date: 2016-12-09
 description:
 image: /assets/images/Stasis-poster.jpg
@@ -29,3 +29,5 @@ I was the creative designer of this design project in charge of producing materi
 ![Placeholder](/assets/images/Design Journal Final_Page_10.jpg)
 ![Placeholder](/assets/images/Design Journal Final_Page_11.jpg)
 ![Placeholder](/assets/images/Design Journal Final_Page_12.jpg)
+
+2016 3.007 Introduction to Design – Cohort 3 Team 09, Stasis

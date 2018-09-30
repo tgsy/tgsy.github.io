@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "SUTD-ZJU Asian Leadership Programme 2017 - Janus
-Theme 2 – Augmented Human"
+title: "Janus"
 date: 2017-07-29
 description:
 image: /assets/images/alpah-poster.jpg
@@ -26,3 +25,6 @@ Some of my personal contributions included coming up with the project applicatio
 ![Placeholder](/assets/images/alpah-mobile07.png)
 ![Placeholder](/assets/images/alpah-mobile08.png)
 ![Placeholder](/assets/images/alpah-heatmap.png)
+
+SUTD-ZJU Asian Leadership Programme 2017 - Janus
+Theme 2 – Augmented Human

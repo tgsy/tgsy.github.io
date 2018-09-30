@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2017 50.002 Computation Structures – Mini Hardware Project"
+title: "MHP"
 date: 2017-07-29
 description:
 image: /assets/images/MHP-poster.jpg
@@ -10,3 +10,5 @@ tags:
 ---
 
 ![Placeholder](/assets/images/MHP-poster.jpg)
+
+2017 50.002 Computation Structures – Mini Hardware Project
