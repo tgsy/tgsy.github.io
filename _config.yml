@@ -10,7 +10,7 @@ name: Tessa Goh
 title: Tessa Goh
 description: >
  Portfolio
-url: "https://tranquil-headland-12899.herokuapp.com/"
+url: "https://tgsy.github.io/"
 default_img: /assets/images/about.jpg
 social:
   - name: linkedin
@@ -33,7 +33,7 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 author:
   - name: Tessa Goh
     bio: Tessa Goh is a B.E. Penultimate Undergraduate at the Singapore University of Technology and Design.
-    url: "https://tranquil-headland-12899.herokuapp.com/"
+    url: "https://tgsy.github.io/"
 
 # Build settings
 markdown: kramdown
