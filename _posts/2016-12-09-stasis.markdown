@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Stasis"
+date: 2016-12-09
+description:
+image: /assets/images/Stasis-poster.jpg
+author: Tessa Goh
+tags:
+  - Projects
+---
+
+![Placeholder](/assets/images/Stasis-poster.jpg)
+
+2016 3.007 Introduction to Design – Cohort 3 Team 09, Stasis
+
+Analysing Second Skin, a case study from bioLogic, MIT Media Lab and gaining inspiration, the team designed ways to transform formal wear to become more suitable for wear in Singapore’s tropical climate. By means of conducting a survey allowed the team to identify the crux of what contributes most to the discomfort of business shirts. Through multiple experiments, the conceptual product delivered for the final exhibition was proven to be effective.
+
+I was the creative designer of this design project in charge of producing materials that help visually communicate the complexities of the conceptual product throughout the designing process.
+
+![Placeholder](/assets/images/Stasis-montage.jpg)
+![Placeholder](/assets/images/Stasis-Site-Analysis.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_01.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_02.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_03.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_04.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_05.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_06.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_07.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_08.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_09.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_10.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_11.jpg)
+![Placeholder](/assets/images/Design Journal Final_Page_12.jpg)
