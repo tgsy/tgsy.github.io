@@ -5,6 +5,7 @@
 $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
+$grey: #8E9AA7;
 $primary: $teal;
 $dark:    $black;
 $enable-rounded: false;
@@ -26,6 +27,7 @@ body {
 }
 a {
     color: darken($primary, 24%);
+    font-size: larger;
 }
 img {
     max-width:100%;
@@ -211,16 +213,24 @@ img, img:hover {
         li {
             list-style: none;
             width: 100%;
-            a {
+            a, a:hover {
                 width: 100%;
                 display: inline-block;
                 padding: 2vh 0px 2vh 0px;
                 line-height: 20px;
                 text-decoration: none;
-                color: #8E9AA7;
+                color: $grey;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 32px;
                 position: relative;
+                
+            }
+
+            a:hover {
+                text-decoration: underline;
+                text-decoration-color: $teal;
+                text-decoration-thickness: 4px;
+                text-underline-position: under;
             }
         }
     }
@@ -310,7 +320,8 @@ img, img:hover {
         }
         .img-thumb {
             object-fit:cover;
-            height:400px;
+            // height:600px;
+            height:600px;
             width:100%;
             object-position:top;
         }
@@ -322,7 +333,8 @@ img, img:hover {
         }
         .img-thumb {
             object-fit:cover;
-            height:160px;
+            // height:160px;
+            height:240px;
             width:100%;
             object-position:top;
         }
@@ -406,7 +418,8 @@ img, img:hover {
     line-height:1.2;
 }
 .entry-featured-image {  
-    width:940px;  
+    // width:940px;  
+    width:700px;  
     max-width: 100%;
     text-align:center;
     margin-left:auto;
@@ -604,6 +617,12 @@ body.active-side {
     border-top:1px solid $gray-200;
     font-size:15px;
     background:#fff;
+    a {
+        i {
+            color: $grey;
+            font-size: 18px;
+        }
+    }
 }
 
 //responsive tweaks

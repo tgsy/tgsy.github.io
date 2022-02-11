@@ -1,35 +1,27 @@
 # Site
 name: "Tessa Goh"
 title: "Tessa Goh"
-description: "Hi! It' nice to meet you. I'm a UX designer, currently based in Singapore"
-logo: 'assets/images/logo.png'
+description: " 👋 Hi! I'm Tessa. \n\n I'm a UX designer, currently based in Singapore."
+logo: 'assets/images/logo.svg'
 favicon: 'assets/images/logo.png'
 baseurl: ""
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 email: tessagsy@gmail.com
 
 # Authors
 authors:
-  sal:
+  tessa:
     name: Tessa
-    display_name: tessa
-    avatar: 'assets/images/avatar-sal.png'
+    display_name: tgsy
+    avatar: 'assets/images/avatar-tessa.jpg'
     email: tessagsy@gmail.com
-    web: https://www.wowthemes.net/donate/
-    twitter: https://twitter.com/wowthemesnet
-    description: "uxd. actively looking for opportunities"
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+    # web: https://www.wowthemes.net/donate/
+    # twitter: https://twitter.com/wowthemesnet
+    description: "UX Designer, based in Singapore."
 
 # Plugins
 plugins:
@@ -67,10 +59,10 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
-authorbox: "enabled"
+authorbox: "disabled"
 
 # Sass
 sass:

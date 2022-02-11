@@ -25,7 +25,22 @@
                 </div>
                 {% endif %}
             </h2>
-            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+             <div class="{% unless post.categories == empty %} related-posts {% endunless %}">  
+                <div class="d-flex align-items-bottom justify-content-left">
+                <!-- Categories -->
+                {% assign sortedCategories = post.categories | sort %}
+                {% for category in sortedCategories %}
+                <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>                
+                {% endfor %}
+                <!-- Tags -->  
+                {% assign sortedTags = post.tags | sort %}
+                {% for tag in sortedTags %}                
+                <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>               
+                {% endfor %}
+                </div>
+            </div>
+            <!-- post preview text -->
+            <!-- <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4> -->
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
@@ -40,7 +55,7 @@
                 <span class="author-meta">
                 <span class="post-name font-weight-bold">{{ author.display_name }}</span> 
                 {% endif %}
-                <span class="post-date">{{ post.date | date_to_string }}</span>
+                <span class="post-date">{{ post.date | date: "%Y" }}</span>
                 </span>
                 <div class="clearfix"></div>
             </div>
