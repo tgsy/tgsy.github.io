@@ -1,11 +1,10 @@
 <!-- Related Posts
 ================================================== -->
 <div class="{% unless page.categories == empty %} related-posts {% endunless %}">  
-
     {% unless page.categories == empty %}
-    <h2 class="text-center mb-4">Other Works</h2>
+    <hr/>
+    <h2 class="text-center mb-4">More related to</h2>
     {% endunless %}
-    
     <div class="d-flex justify-content-center align-items-center">
     
     <!-- Categories -->
@@ -45,10 +44,16 @@
             {% include postbox.html %}
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
             {% if maxRelatedCounter >= maxRelated %}
-                {% break %}
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-light justify-content-end"> View more related content &rarr;</button>
+            </div>   
+            {% break %}
             {% endif %}
             {% endif %}
-        
         {% endfor %}
-        </div>        
+        {% if sameTagCount == 0 %}
+        </div><p class="text-center mb-4">Looks like there are no more related content.</p></div>
+        {% break %}
+        {% endif %}
+        </div>       
 </div>

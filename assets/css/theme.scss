@@ -10,6 +10,15 @@ $primary: $teal;
 $dark:    $black;
 $enable-rounded: false;
 
+// variables for scrolling animation
+$circle-w: 100px;
+$circle-bg: #fff;
+$arrow-bg:#55544F;
+$body-bg: #f4f4f4;
+$bezier: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+$bezier-bounce: cubic-bezier(.87,-.41,.19,1.44);
+$anim-timing: 3s;
+
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
 @import "bootstrap/mixins";
@@ -48,7 +57,163 @@ h1,h2,h3,h4,h5,h6 {
         font-size:50px;
         line-height:1.2;
     }
+
+    .name-highlight{
+        position:relative;
+      }
+      
+      .name-highlight:before{
+        content:"";
+        z-index:-1;
+        left:-4px;
+        top:3px;
+        background-color: $primary;
+        position:relative;
+        width:100%;
+        height:1.2em;
+        transform:rotate(-2deg);
+        // opacity:0.5;
+      }
+      
+      .name-highlight:after{
+        content:"";
+        z-index:-1;
+        left:-4px;
+        top:3px;
+        background-color: $primary;
+        position:absolute;
+        width:100%;
+        height:1.2em;
+        transform:rotate(-2deg);
+        // opacity:0.5;
+      }
+
+    .role-highlight{
+        text-decoration: underline;
+        text-decoration-color: $primary;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 0.15em;
+      }
 }
+
+.landingpage-intro {
+    .button-scrolldown {
+        margin: 16px;
+        font-size: 36px;
+        color: $grey;
+    }
+
+    .mouse_scroll {
+        display: block;
+        margin: 0 auto;
+        width: 24px;
+        height: 100px;
+        margin-top: 64px;
+        margin-bottom: 40px;
+    }
+    
+    .m_scroll_arrows
+    {
+      display: block;
+      width: 8px;
+      height: 8px;
+      -ms-transform: rotate(45deg); /* IE 9 */
+      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+       
+      border-right: 4px solid $black;
+      border-bottom: 4px solid $black;
+    //   border-radius: 5px;
+      margin: 0 0 3px 4px;
+      
+      width: 32px;
+      height: 32px;
+    }
+    
+    
+    .unu
+    {
+      margin-top: 1px;
+    }
+    
+    .unu, .doi, .trei
+    {
+        -webkit-animation: mouse-scroll 1s infinite;
+        -moz-animation: mouse-scroll 1s infinite;
+        animation: mouse-scroll 1s infinite;
+      
+    }
+    
+    .unu
+    {
+      -webkit-animation-delay: .1s;
+      -moz-animation-delay: .1s;
+      -webkit-animation-direction: alternate;
+      
+      animation-direction: alternate;
+      animation-delay: alternate;
+    }
+    
+    .doi
+    {
+      -webkit-animation-delay: .2s;
+      -moz-animation-delay: .2s;
+      -webkit-animation-direction: alternate;
+      
+      animation-delay: .2s;
+      animation-direction: alternate;
+      
+      margin-top: -4px;
+    }
+    
+    .trei
+    {
+      -webkit-animation-delay: .3s;
+      -moz-animation-delay: .3s;
+      -webkit-animation-direction: alternate;
+      
+      animation-delay: .3s;
+      animation-direction: alternate;
+      
+      
+      margin-top: -4px;
+    }
+    
+    @-webkit-keyframes mouse-scroll {
+    
+      0%   { opacity: 0;}
+      50%  { opacity: .5;}
+      100% { opacity: 1;}
+    }
+    @-moz-keyframes mouse-scroll {
+    
+      0%   { opacity: 0; }
+      50%  { opacity: .5; }
+      100% { opacity: 1; }
+    }
+    @-o-keyframes mouse-scroll {
+    
+      0%   { opacity: 0; }
+      50%  { opacity: .5; }
+      100% { opacity: 1; }
+    }
+    @keyframes mouse-scroll {
+    
+      0%   { opacity: 0; }
+      50%  { opacity: .5; }
+      100% { opacity: 1; }
+    }
+
+
+
+}
+
+
+
+hr.solid {
+    border-color: $grey;
+}
+
 .bigradius {
     border-radius: 40px;
 }
@@ -56,7 +221,9 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom:-30px;
 }
 .btn {
-    min-width: 180px;
+    // min-width: 180px;
+    padding: 15px 32px;
+    border-radius: 32px; 
 }
 blockquote {
     font-family: Times New Roman;
@@ -527,10 +694,11 @@ img, img:hover {
     }
     margin-top:120px;
     .badge {
-        font-size: 15px;
+        font-size: 16px;
         padding:5px 7px;
         display:inline-block;
         margin: 0 3px;
+        border-radius: 8px;
     }
 }
 

@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "AV Website Redesign"
+title:  "Website Redesign"
 author: false
-categories: [ Website Redesign ]
-tags: [ France ]
+categories: [Website Redesign]
+tags: [Website Redesign]
 image: assets/images/2.jpg
+share: false
+comments: false
 rating: false
 ---
 

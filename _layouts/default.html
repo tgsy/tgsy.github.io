@@ -18,6 +18,7 @@
 
 <script src="https://kit.fontawesome.com/e851d6824b.js" crossorigin="anonymous"></script>
 
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -81,10 +82,36 @@
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
+    <div class="landingpage-intro">
+        <span>
+            <p class="sitetag">
+                👋 Hi! I'm <span class="name-highlight">Tessa.</span><br><br>
+                I'm a <span class="role-highlight">UX Designer</span><br>
+                currently based in Singapore.
+                <!-- <br> -->
+            </p>
+            </span>
+            <!-- <div class="d-flex justify-content-center">
+                <span class="button-scrolldown justify-content-center">
+                   <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                   </span>
+            </div> -->
+            <div class="mouse_scroll">
+                <div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                </div>
+        </div>
+
+    </div>
     {% endif %}
+
+<!-- 
+    <p class="sitetag">
+        {{ site.description }}
+    </p> -->
 
     <!-- Content
     ================================================== -->
