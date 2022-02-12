@@ -2,8 +2,8 @@
 name: "Tessa Goh"
 title: "Tessa Goh"
 description: " 👋 Hi! I'm Tessa. \n\n I'm a UX designer, currently based in Singapore."
-logo: 'assets/images/logo-tgsy.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo-tgsy-horizontal.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'

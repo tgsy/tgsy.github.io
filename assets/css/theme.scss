@@ -28,7 +28,9 @@ $anim-timing: 3s;
 
 // general
 body, input, button, select, optgroup, textarea {   
-    font-family:Sen;
+    // font-family:Sen;
+    // font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     line-height:1.7;
@@ -296,6 +298,9 @@ img, img:hover {
     border-right: solid rgba(0, 0, 0, 0.07) 1px;
     z-index: 1022;
     background:#fff;
+    //added because of differing styling on mobile
+    color: $grey;
+    -webkit-appearance: none;
 }
 .nav-icon {
     position: fixed;
@@ -379,6 +384,8 @@ img, img:hover {
         }
         li {
             list-style: none;
+            line-height: 1em;
+            margin: 16px 0;
             width: 100%;
             a, a:hover {
                 width: 100%;
@@ -917,3 +924,13 @@ body.active-side {
         }
     }
 }
+
+//404 error
+.error-fourofour {
+    .error-message-body {
+        font-size: 20 px;
+        color: $grey;
+        line-height: 180%;
+    }
+}
+

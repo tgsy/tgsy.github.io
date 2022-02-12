@@ -3,12 +3,12 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/404.html",
     "title": "404",
-    "body": "404 Page not found!Please use the search bar from the bottom left or visit our homepage! "
+    "body": "404 Oops! You weren't supposed to see this.   The page you're looking for no longer exists.     Return to the main page and remember: you haven't seen anything. "
     }, {
     "id": 1,
     "url": "http://localhost:4000/about",
     "title": "About Me",
-    "body": "Born and bred in Singapore, I am currently based in the Defence Science and Technology Agency of Singapore as a UX architect. It’s my first job after graduating with a B. E. (Hons) in Computer Science (with a specialisation track in UX/UI Design) from the Singapore University of Technology and Design. I am on a active lookout for opportunitites. I ventured into the UX industry because I found myself more fascinated with the design process of a product during projects, during which I get to interact with people more rather than the implementation where I’ll deal more with code. In my free time, I also enjoy sketching and reading. If you will like to hear more about me or think that I’ll be a good fit for your team, feel free to drop me a message via email or LinkedIn to get in touch with me. I look forward to hearing from you! Drop me a message here &rarr;"
+    "body": "Born and bred in Singapore, I am currently based in the Defence Science and Technology Agency of Singapore as a UX architect. It’s my first job after graduating with a B. E. (Hons) in Computer Science (with a specialisation track in UX/UI Design) from the Singapore University of Technology and Design. I am on an active lookout for opportunitites. I ventured into the UX industry because I found myself more fascinated with the design process while working on projects, during which I get to interact with people more rather than the code. In my free time, I enjoy travelling, reading and skectching.      👉 If you will like to hear more about me or think that I'll be a good fit for your team, feel free to drop me a message via    email or LinkedIn to get in touch with me. I look forward to hearing from you! "
     }, {
     "id": 2,
     "url": "http://localhost:4000/authors",
