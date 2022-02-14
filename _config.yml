@@ -5,7 +5,7 @@ description: " 👋 Hi! I'm Tessa. \n\n I'm a UX designer, currently based in Si
 logo: 'assets/images/logo-tgsy-black.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
-google_analytics: 'UA-xxxxxxxx-1'
+google_analytics: 'G-EDS1YJZR6R'
 disqus: 'demowebsite'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
