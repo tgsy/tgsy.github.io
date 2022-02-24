@@ -1,7 +1,7 @@
 # Site
-name: "Tessa Goh"
+name: "Tessa Goh - UX/UI Engineer, Singapore"
 title: "Tessa Goh"
-description: " 👋 Hi! I'm Tessa. \n\n I'm a UX designer, currently based in Singapore."
+description: "👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore."
 logo: 'assets/images/logo-tgsy-black.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
@@ -45,7 +45,7 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: none
+highlighter: rouge
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:

@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- favicon -->
-<!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png"> -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/favicon_io/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon_io/favicon-16x16.png">
@@ -14,6 +13,7 @@
 <title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
 <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 
@@ -22,6 +22,16 @@
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 <script src="https://kit.fontawesome.com/e851d6824b.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 </head>
 
@@ -41,42 +51,48 @@
 <body>
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!-- i removed it -->
 	</noscript>
 
 <!-- Begin Sidebar Navigation
 ================================================== -->
 
-<div class="sidebar">    
-</div>   
-<div class="nav-icon">
+<!-- <div class="sidebar">    
+</div>    -->
+<!-- <div class="nav-icon">
     <div class="hamburger-bar"></div>
 </div>
-<div id="blackover-nav" class="blackover"></div>
-<nav id="menu">
-    <ul>
-        <!-- <h3>Navigation</h3> -->
-        <li><a href="{{ site.baseurl }}/">Works</a></li>
-        <li><a href="{{ site.baseurl }}/about">About Me</a></li>
-        <br>
-        <li><hr></li>
-        <br>
-        <li><a href="{{ site.baseurl }}/resume">View Resume</a></li>
-        <!-- <li><a href="{{ site.baseurl }}/authors">Contributors <span class="badge badge-primary">new</span></a></li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>       -->
-        <!-- <li><a href="{{ site.baseurl }}/contact">Contact</a></li>        -->
-    </ul>   
-</nav>
+<div id="blackover-nav" class="blackover"></div> -->
 
+<div class="nav-container sticky-top">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-icon">
+                <div class="hamburger-bar"></div>
+            <span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+
+        <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav ">
+            <!-- <h3>Navigation</h3> -->
+
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ site.baseurl }}/">Works <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+</div>
+
+<!-- Search bar -->
 <!-- {% include search-lunr.html %} -->
-
 
 <!-- End Sidebar Navigation
 ================================================== -->
@@ -88,20 +104,23 @@
     <!-- Site Logo/Name
     ================================================== -->
    
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
+    <!-- <a class="navbar-brand" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>  
+    </a>   -->
    
 
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
     <div class="landingpage-intro">
+        <img src="/assets/images/avatar-tessa_hero.png" width="298px">
+    
         <span>
             <p class="sitetag">
-                👋 Hi! I'm <span class="name-highlight">Tessa.</span><br><br>
-                I'm a <span class="role-highlight">UX Designer</span><br>
-                currently based in Singapore.
+                <!-- 👋 Hey there!<br><br> -->
+                I'm <span class="name-highlight">Tessa Goh.</span><br><br>
+                A <span class="role-highlight">UX/UI designer</span><br>
+                based in Singapore.
                 <!-- <br> -->
             </p>
             </span>
@@ -155,17 +174,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright © {{ site.time | date: "%Y" }} {{ site.title }} 
             </div>
-            <div class="col-md-6 col-sm-12 text-center text-lg-right">
-                <a class="m-2" target="_blank" href="mailto:{{ site.email }}">
+            <div class="col-md-6 col-sm-12 text-center text-lg-right" id="footer-links">
+                <a class="m-2" target="_blank" href="mailto:{{ site.email }}?subject=Let's Connect!">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
     
                 <a class="m-2" target="_blank" href="https://www.linkedin.com/in/tessagoh/" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <!-- <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net -->
             </div>
         </div>
     </div>
@@ -177,6 +195,7 @@
 
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 

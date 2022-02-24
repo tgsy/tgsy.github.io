@@ -69,37 +69,58 @@ setTimeout(function(){
 	document.body.className="";
 },500);
 
-// Open/close navigation when clicked .nav-icon
+
+// Hide navigation bar on scroll
+// $(window).scroll(function(e) {
+
+//     // add/remove class to navbar when scrolling to hide/show
+//     var scroll = $(window).scrollTop();
+//     if (scroll >= 150) {
+//         $('.navbar').addClass("navbar-hide");
+//     } else {
+//         $('.navbar').removeClass("navbar-hide");
+//     }
+
+// });
+
+// // Open/close navigation when clicked .nav-icon
 $(document).ready(function(){
 	$('.nav-icon').click(function(){
 		$('.nav-icon').toggleClass('active');
 	});
-	$(".nav-icon").click(function(){
-		$("#menu").toggleClass('active');
-	});
-	$(".nav-icon").click(function(){
-		$("#blackover-nav").toggleClass('active');
-	});
-	$(".nav-icon").click(function(){
-		$("body").toggleClass('active-side');
-	});
+	// $(".nav-icon").click(function(){
+	// 	$("#menu").toggleClass('active');
+	// });
+	// $(".nav-icon").click(function(){
+	// 	$("#blackover-nav").toggleClass('active');
+	// });
+	// $(".nav-icon").click(function(){
+	// 	$("body").toggleClass('active-side');
+	// });
+});
+
+$(document).ready(function(){
+	$(".nav-item").on("click", function() {
+		$(".nav-item").removeClass("active");
+		$(this).addClass("active");
+	  });
 });
 
 // Close navigation when clicked .blackover (Black background)
-$(document).ready(function(){
-	$("#blackover-nav").click(function(){
-		$(".nav-icon").removeClass('active');
-	});
-	$("#blackover-nav").click(function(){
-		$("#menu").removeClass('active');
-	});
-	$("#blackover-nav").click(function(){
-		$("#blackover-nav").removeClass('active');
-	});
-	$("#blackover-nav").click(function(){
-		$("body").removeClass('active-side');
-	});
-});
+// $(document).ready(function(){
+// 	$("#blackover-nav").click(function(){
+// 		$(".nav-icon").removeClass('active');
+// 	});
+// 	$("#blackover-nav").click(function(){
+// 		$("#menu").removeClass('active');
+// 	});
+// 	$("#blackover-nav").click(function(){
+// 		$("#blackover-nav").removeClass('active');
+// 	});
+// 	$("#blackover-nav").click(function(){
+// 		$("body").removeClass('active-side');
+// 	});
+// });
 
 // Grid selector Inspiration
 $(document).ready(function(){
@@ -114,9 +135,9 @@ $(document).ready(function(){
 $(document).keyup(function(e) {
 	if (e.keyCode == 27) { 
 		$(".nav-icon").removeClass('active');
-		$("#menu").removeClass('active');
-		$("#blackover-nav").removeClass('active');
-		$("body").removeClass('active-side');
+		// $("#menu").removeClass('active');
+		// $("#blackover-nav").removeClass('active');
+		// $("body").removeClass('active-side');
 	}
 });
 
@@ -145,25 +166,43 @@ if (hasTouch()) {
 	} catch (ex) {}
 }
 
+//Scroll to Top Button
+var btn = $('#back-to-top-button');
 
-$(document).ready(function(){
+$(window).scroll(function() {
+	if ($(window).scrollTop() > 150) {
+	  btn.addClass('show');
+	  console.log('working');
+	} else {
+	  btn.removeClass('show');
+	  console.log('working');
+	}
+  });
+  
+  btn.on('click', function(e) {
+	e.preventDefault();
+	$('html, body').animate({scrollTop:0}, 300);
+  });
+  
 
-    //Check to see if the window is top if not then display button
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 300) {
-            $('.scroll-top').addClass('active');
-        } else {
-            $('.scroll-top').removeClass('active');
-        }
-    });
+// $(document).ready(function(){
 
-    //Click event to scroll to top
-    $('.scroll-top').click(function(){
-        $('html, body').animate({scrollTop : 0},300);
-        return false;
-    });
+//     //Check to see if the window is top if not then display button
+//     $(window).scroll(function(){
+//         if ($(this).scrollTop() > 300) {
+//             $('.scroll-top').addClass('active');
+//         } else {
+//             $('.scroll-top').removeClass('active');
+//         }
+//     });
 
-});
+//     //Click event to scroll to top
+//     $('.scroll-top').click(function(){
+//         $('html, body').animate({scrollTop : 0},300);
+//         return false;
+//     });
+
+// });
 
 
 // DOCS
