@@ -48,7 +48,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -80,7 +79,7 @@
             <img src="/assets/images/logo-tgsy-black.png" alt="Tessa Goh - UX/UI Engineer, Singapore">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="nav-icon">
+            <span class="nav-icon" onclick="openNav()">
                 <div class="hamburger-bar"></div>
             <span>
             <!-- <span class="navbar-toggler-icon"></span> -->
@@ -89,8 +88,7 @@
         <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
         <ul class="navbar-nav ">
             <!-- <h3>Navigation</h3> -->
-
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="/">Works <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -149,7 +147,7 @@
 
     <!-- Content
     ================================================== -->
-    <div class="main-content">
+    <div id="Works" class="main-content">
         <div class="entry-header">
     <!-- Post Title -->
     <h1 class="posttitle">That day when we almost missed our flight</h1>
@@ -334,52 +332,58 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/much-more-than-a-desert-trip-to-sahara/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/much-more-than-a-desert-trip-to-sahara/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/16.jpg" alt="Much more than a desert: A trip into the Sahara">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/16.jpg" alt="Much more than a desert: A trip into the Sahara">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/much-more-than-a-desert-trip-to-sahara/">Much more than a desert: A trip into the Sahara</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
-                
-                <!-- Tags -->  
-                
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/much-more-than-a-desert-trip-to-sahara/">Much more than a desert: A trip into the Sahara</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
+                    
+                    <!-- Tags -->  
+                    
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">The Sahara is a desert located on the African continent. It is the largest hot desert in the world, and the third largest desert overall after Antarctica and the Arctic....</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2020</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">The Sahara is a desert located on the African continent. It is the largest hot desert in the world, and the third largest desert overall after Antarctica and the Arctic....</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -400,53 +404,59 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/one-day-just-started-adventure/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/one-day-just-started-adventure/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/15.jpg" alt="One day we just started our adventure">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/15.jpg" alt="One day we just started our adventure">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/one-day-just-started-adventure/">One day we just started our adventure</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
-                
-                <!-- Tags -->  
-                
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/one-day-just-started-adventure/">One day we just started our adventure</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
+                    
+                    <!-- Tags -->  
+                    
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.
+</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2020</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.
-</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -467,57 +477,63 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/external-featured-image/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/external-featured-image/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="Memoirs supports external images as featured">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="Memoirs supports external images as featured">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/external-featured-image/">Memoirs supports external images as featured</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
-                
-                <!-- Tags -->  
-                
-                                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#France">France</a>               
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/external-featured-image/">Memoirs supports external images as featured</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
+                    
+                    <!-- Tags -->  
+                    
+                                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#France">France</a>               
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">Adding images is a very annoying task, I know that, but “Memoirs” theme has external featured images integrated so your publishing task becomes easier now.
+</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2020</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">Adding images is a very annoying task, I know that, but “Memoirs” theme has external featured images integrated so your publishing task becomes easier now.
-</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -552,11 +568,11 @@ https://search.google.com/structured-data/testing-tool/u/0/
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right" id="footer-links">
                 <a class="m-2" target="_blank" href="mailto:tessagsy@gmail.com?subject=Let's Connect!">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-regular fa-envelope"></i>
                 </a>
     
                 <a class="m-2" target="_blank" href="https://www.linkedin.com/in/tessagoh/" rel="noopener noreferrer">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </a>
             </div>
         </div>

@@ -45,7 +45,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -77,7 +76,7 @@
             <img src="/assets/images/logo-tgsy-black.png" alt="Tessa Goh - UX/UI Engineer, Singapore">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="nav-icon">
+            <span class="nav-icon" onclick="openNav()">
                 <div class="hamburger-bar"></div>
             <span>
             <!-- <span class="navbar-toggler-icon"></span> -->
@@ -86,8 +85,7 @@
         <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
         <ul class="navbar-nav ">
             <!-- <h3>Navigation</h3> -->
-
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="/">Works <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -146,7 +144,7 @@
 
     <!-- Content
     ================================================== -->
-    <div class="main-content">
+    <div id="Works" class="main-content">
         <!-- Posts Index
 ================================================== -->
 <div class="blog-grid-container">
@@ -156,54 +154,60 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/that-day-we-almost-missed-flight/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/that-day-we-almost-missed-flight/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/17.jpg" alt="That day when we almost missed our flight">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/17.jpg" alt="That day when we almost missed our flight">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/that-day-we-almost-missed-flight/">That day when we almost missed our flight</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
-                
-                <!-- Tags -->  
-                
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/that-day-we-almost-missed-flight/">That day when we almost missed our flight</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Travel">Travel</a>                
+                    
+                    <!-- Tags -->  
+                    
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the...</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2020</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the...</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -214,23 +218,27 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/review-oscar/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/review-oscar/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/11.jpg" alt="Reviewing the best Oscar movies of all time">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/11.jpg" alt="Reviewing the best Oscar movies of all time">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/review-oscar/">Reviewing the best Oscar movies of all time</a>
-                
-                <div class="mb-2 mt-2 font-weight-normal">
-                <div class="rating-holder">
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/review-oscar/">Reviewing the best Oscar movies of all time</a>
+                    
+                    <div class="mb-2 mt-2 font-weight-normal">
+                    <div class="rating-holder">
 <div class="c-rating c-rating--regular" data-rating-value="4.5">
   <button>1</button>
   <button>2</button>
@@ -239,42 +247,44 @@
   <button>5</button>
 </div>
 </div>
+                    </div>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <!-- Tags -->  
+                    
+                                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#Movies">Movies</a>               
+                    
+                    </div>
                 </div>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <!-- Tags -->  
-                
-                                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#Movies">Movies</a>               
-                
-                </div>
-            </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">Review products, books, movies, restaurant and anything you like on your Jekyll blog with Memoirs! JSON-LD ready for review property.
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">Review products, books, movies, restaurant and anything you like on your Jekyll blog with Memoirs! JSON-LD ready for review property.
 </h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2020</span>
-                </span>
-                <div class="clearfix"></div>
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2020</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -285,54 +295,60 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/french-wine/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/french-wine/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/5.jpg" alt="French Wine has to compete with many new world wines">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/5.jpg" alt="French Wine has to compete with many new world wines">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/french-wine/">French Wine has to compete with many new world wines</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <!-- Tags -->  
-                
-                                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#France">France</a>               
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/french-wine/">French Wine has to compete with many new world wines</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <!-- Tags -->  
+                    
+                                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/tags#France">France</a>               
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">French wine is produced all throughout France, in quantities between 50 and 60 million hectolitres per year, or 7–8 billion bottles. France is one of the largest wine producers in...</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2020</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">French wine is produced all throughout France, in quantities between 50 and 60 million hectolitres per year, or 7–8 billion bottles. France is one of the largest wine producers in...</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -343,52 +359,58 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/the-observer/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/the-observer/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/1.jpg" alt="The Observer - National Gallery of Art, Washington, United States">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/1.jpg" alt="The Observer - National Gallery of Art, Washington, United States">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/the-observer/">The Observer - National Gallery of Art, Washington, United States</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <!-- Tags -->  
-                
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/the-observer/">The Observer - National Gallery of Art, Washington, United States</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <!-- Tags -->  
+                    
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">The National Gallery of Art, and its attached Sculpture Garden, is a national art museum in Washington, D.C., located on the National Mall, between 3rd and 9th Streets, at Constitution...</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2019</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">The National Gallery of Art, and its attached Sculpture Garden, is a national art museum in Washington, D.C., located on the National Mall, between 3rd and 9th Streets, at Constitution...</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2019</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -399,52 +421,58 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/press-and-education/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/press-and-education/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/7.jpg" alt=" Culinary Arts in Europe by Jean Anthelme Brillat-Savarin">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/7.jpg" alt=" Culinary Arts in Europe by Jean Anthelme Brillat-Savarin">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/press-and-education/"> Culinary Arts in Europe by Jean Anthelme Brillat-Savarin</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <!-- Tags -->  
-                
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/press-and-education/"> Culinary Arts in Europe by Jean Anthelme Brillat-Savarin</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <!-- Tags -->  
+                    
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">The origins of culinary began with primitive humans roughly 2 million years ago. There are various theories as to how early humans used fire to cook meat. According to anthropologist...</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2019</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">The origins of culinary began with primitive humans roughly 2 million years ago. There are various theories as to how early humans used fire to cook meat. According to anthropologist...</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2019</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -455,52 +483,58 @@
 
 <div class="blog-grid-item">
     <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/education/">
-                
-
+        <div class = "row">
+            <div class="maxthumb col col-lg-8">
+                <a href="/education/">
                     
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/3.jpg" alt="Education must also train one for quick, resolute and effective thinking.">
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/3.jpg" alt="Education must also train one for quick, resolute and effective thinking.">
+                        
+    
                     
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/education/">Education must also train one for quick, resolute and effective thinking.</a>
-                
-            </h2>
-             <div class=" related-posts ">  
-                <div class="d-flex align-items-bottom justify-content-left">
-                <!-- Categories -->
-                
-                
-                <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
-                
-                <!-- Tags -->  
-                
-                
+                </a>
+            </div>
+            <div class="card-body col col-lg-4">
+                <div class="card-no">
+                    <img src="/assets/images/blog-grid-item-no.svg">
+                    <div class="post-no"></div>
+                </div>
+                <h2 class="card-title">
+                    <a class="text-dark" href="/education/">Education must also train one for quick, resolute and effective thinking.</a>
+                    
+                </h2>
+                 <div class=" related-posts ">  
+                    <div class="d-flex align-items-bottom justify-content-left">
+                    <!-- Categories -->
+                    
+                    
+                    <a class="smoothscroll badge badge-primary text-capitalize" href="/categories#Lifestyle">Lifestyle</a>                
+                    
+                    <!-- Tags -->  
+                    
+                    
+                    </div>
+                </div>
+                <!-- post preview text -->
+                <!-- <h4 class="card-text">Memoirs theme has Prism highlighter integrated. I will show you in this post a few examples of how it looks if you are a developer planning to add pieces of...</h4> -->
+                <div class="card-footer bg-white">
+                    <div class="wrapfooter">
+                        <!-- 
+                        <span class="meta-footer-thumb">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
+                        
+                        </span> -->
+                        <span class="author-meta">
+                        <!-- <span class="post-name font-weight-bold">tgsy</span> 
+                         -->
+                        <span class="post-date">2018</span>
+                        </span>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
-            <!-- post preview text -->
-            <!-- <h4 class="card-text">Memoirs theme has Prism highlighter integrated. I will show you in this post a few examples of how it looks if you are a developer planning to add pieces of...</h4> -->
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <!-- 
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/assets/images/avatar-tessa.jpg" alt="tgsy">
-                
-                </span> -->
-                <span class="author-meta">
-                <!-- <span class="post-name font-weight-bold">tgsy</span> 
-                 -->
-                <span class="post-date">2018</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -556,11 +590,11 @@
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right" id="footer-links">
                 <a class="m-2" target="_blank" href="mailto:tessagsy@gmail.com?subject=Let's Connect!">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-regular fa-envelope"></i>
                 </a>
     
                 <a class="m-2" target="_blank" href="https://www.linkedin.com/in/tessagoh/" rel="noopener noreferrer">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </a>
             </div>
         </div>

@@ -99,12 +99,32 @@ $(document).ready(function(){
 	// });
 });
 
+// $(document).ready(function(){
+// 	$(".nav-item").on("click", function() {
+// 		console.log('clicked');
+// 		$(".nav-item").removeClass("active");
+// 		$(this).addClass("active");
+// 	  });
+// });
+
+
 $(document).ready(function(){
-	$(".nav-item").on("click", function() {
-		$(".nav-item").removeClass("active");
-		$(this).addClass("active");
-	  });
+	$('a').each(function(){
+
+		// let windowUrl = window.location.href;
+		// const windowUrlArray = windowUrl.split("/");
+		// let loc = windowUrlArray[3];
+
+		// var aboutUrl = "about"
+
+		if ($(this).prop('href') == window.location.href) {
+			// if (new String(loc).valueOf() == new String(aboutUrl).valueOf()) {
+				$(this).addClass('active'); $(this).parents('li').addClass('active');
+			//}
+		}
+	});
 });
+
 
 // Close navigation when clicked .blackover (Black background)
 // $(document).ready(function(){
@@ -143,28 +163,28 @@ $(document).keyup(function(e) {
 
 
 // remove all :hover stylesheets on mobile
-function hasTouch() {
-return 'ontouchstart' in document.documentElement
-		|| navigator.maxTouchPoints > 0
-		|| navigator.msMaxTouchPoints > 0;
-}
+// function hasTouch() {
+// return 'ontouchstart' in document.documentElement
+// 		|| navigator.maxTouchPoints > 0
+// 		|| navigator.msMaxTouchPoints > 0;
+// }
 
-if (hasTouch()) { 
-	try {
-		for (var si in document.styleSheets) {
-			var styleSheet = document.styleSheets[si];
-			if (!styleSheet.rules) continue;
+// if (hasTouch()) { 
+// 	try {
+// 		for (var si in document.styleSheets) {
+// 			var styleSheet = document.styleSheets[si];
+// 			if (!styleSheet.rules) continue;
 
-			for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
-				if (!styleSheet.rules[ri].selectorText) continue;
+// 			for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+// 				if (!styleSheet.rules[ri].selectorText) continue;
 
-				if (styleSheet.rules[ri].selectorText.match(':hover')) {
-					styleSheet.deleteRule(ri);
-				}
-			}
-		}
-	} catch (ex) {}
-}
+// 				if (styleSheet.rules[ri].selectorText.match(':hover')) {
+// 					styleSheet.deleteRule(ri);
+// 				}
+// 			}
+// 		}
+// 	} catch (ex) {}
+// }
 
 //Scroll to Top Button
 var btn = $('#back-to-top-button');
