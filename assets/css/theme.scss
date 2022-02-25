@@ -32,10 +32,15 @@ $anim-timing: 3s;
 body, input, button, select, optgroup, textarea {   
     // font-family:Sen;
     // font-family: 'Oxygen', sans-serif;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Bitter', serif;
     // font-family: 'Poppins', sans-serif;
     // font-family: 'Bitter', serif;
 }
+
+button {
+    font-family: 'Overpass', sans-serif;
+}
+
 body {
     line-height:1.7;
     background: #f4f4f4;
@@ -56,6 +61,7 @@ h1 {
 }
 
 h2,h3,h4,h5,h6 {
+    font-family: 'Overpass', sans-serif;
     font-weight:700;
 }
 .site-content {
@@ -544,6 +550,7 @@ img, img:hover {
                 z-index: -1;
             }
             .post-no {
+                font-family: 'Overpass', sans-serif;
                 font-size: 1.75rem;
                 font-weight: 900;
                 text-align: center;
@@ -771,6 +778,7 @@ img, img:hover {
 //back to top fab
 #back-to-top-button {
     display: inline-block;
+    font-family: 'Overpass', sans-serif;
     background-color: $black;
     border-color: rgb(196, 196, 196);
     color: white;
@@ -809,27 +817,46 @@ img, img:hover {
   }
 
 // blog 
-
 .entry-header {
     .posttitle {
-        text-align: center;
+        font-weight: 900 !important;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .post-intro{
+        .post-scope-year {
+            .post-year {
+                margin-bottom:auto;
+            }
+        }
+
+        div{
+            margin-bottom: 36px;
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            color: $quicksilver;
+        }
     }
 }
 .article-post, .entry-header, .comments, .rating, .authorbox {
-    max-width: 740px;
+    //max-width: 740px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .posttitle {
-    font-size:50px;
+    font-size:40px;
     font-weight:700;
     line-height:1.2;
 }
 .entry-featured-image {  
-    // width:940px;  
-    width:700px;  
+    display: block;
+    //width:940px;  
+    //width:700px;  
     max-width: 100%;
     text-align:center;
     margin-left:auto;
@@ -837,6 +864,7 @@ img, img:hover {
     margin-top:50px;
     margin-bottom:50px;
 }
+
 .image-shadow {   
     -webkit-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
     -moz-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
@@ -937,6 +965,7 @@ img, img:hover {
     }
     //margin-top: auto;
     .badge {
+        font-family: 'Overpass', sans-serif !important;
         text-decoration: none !important;
         color: $quicksilver;
         background-color: transparent !important;
@@ -1034,11 +1063,11 @@ body.active-side {
     margin-top:120px;
     padding:30px;
     border-top:1px solid $gray-200;
-    font-size:15px;
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif !important;
     background:#fff;
     color: $quicksilver;
-    font-family: 'Overpass' sans-serif;
-
+    
     #footer-links {
         @media (max-width: 768px) {
             margin-top: 16px;
@@ -1051,6 +1080,13 @@ body.active-side {
             //color: $quicksilver;
             font-size: 18px;
         }
+    }
+}
+
+//related-posts/post nav
+.post-nav {
+    .row {
+        
     }
 }
 

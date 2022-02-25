@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Feb 2022 15:18:12 +0800</pubDate>
-    <lastBuildDate>Fri, 25 Feb 2022 15:18:12 +0800</lastBuildDate>
+    <pubDate>Fri, 25 Feb 2022 16:34:34 +0800</pubDate>
+    <lastBuildDate>Fri, 25 Feb 2022 16:34:34 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -36,8 +36,8 @@
 &lt;p&gt;Until 1959, the sentries at Buckingham Palace were stationed outside the fence. This stopped following an incident involving a female tourist and a Coldstream Guardsman – due to the continued pestering by tourists and sightseers, the guardsman kicked the tourist on the ankle as he marched. The tourist made a complaint to the police and the sentry was confined to barracks for ten days. Not long after, the sentries were moved inside the fence.&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Feb 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/london/</link>
-        <guid isPermaLink="true">http://localhost:4000/london/</guid>
+        <link>http://localhost:4000/dsta/</link>
+        <guid isPermaLink="true">http://localhost:4000/dsta/</guid>
         
         
         <category>UX Experience</category>
@@ -45,7 +45,7 @@
       </item>
     
       <item>
-        <title>Website Redesign</title>
+        <title>Redesigning Google MyMaps</title>
         <description>&lt;p&gt;Within the Hôtel de Crillon, which was built in 1758, Les Ambassadeurs operated as a restaurant since the mid-19th century. It reached its peak of fame as a restaurant and nightclub (a café-concert) in the last three decades of the 19th century.&lt;/p&gt;
 
 &lt;p&gt;Always a center of entertainment for the aristocracy, in the 1870s it also became a regular destination of some of the best known figures of art and the demi-monde. Edgar Degas and Henri de Toulouse-Lautrec portrayed visitors at the night club, and Aristide Bruant performed there.&lt;/p&gt;
@@ -61,13 +61,13 @@
 &lt;p&gt;In 2017 Hache opened a smaller restaurant, L’Écrin, within the renovated hotel; the former space of Les Ambassadeurs became a bar.&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Feb 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/les-ambassadeurs/</link>
-        <guid isPermaLink="true">http://localhost:4000/les-ambassadeurs/</guid>
+        <link>http://localhost:4000/google-mymaps/</link>
+        <guid isPermaLink="true">http://localhost:4000/google-mymaps/</guid>
         
-        <category>Website Redesign</category>
+        <category>Redesign</category>
         
         
-        <category>Website Redesign</category>
+        <category>Web App</category>
         
       </item>
     

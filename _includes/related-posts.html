@@ -1,5 +1,6 @@
 <!-- Related Posts
 ================================================== -->
+<br>
 <div class="{% unless page.categories == empty %} related-posts {% endunless %}">  
     {% unless page.categories == empty %}
     <hr/>
@@ -53,6 +54,20 @@
         {% endfor %}
         {% if sameTagCount == 0 %}
         </div><p class="text-center mb-4">Looks like there are no more related content.</p></div>
+        <div class="post-nav">
+            <div class="d-flex flex-row justify-content-between">
+                <div class="prev-post"><button type="button" class="btn btn-link">
+                    <i class="fa-solid fa-arrow-left-long"></i>    View Previous 
+                </button>
+                </div>
+                <div class="next-post">
+                    <button type="button" class="btn btn-link">
+                        View Next <i class="fa-solid fa-arrow-right-long"></i>
+                    </button> 
+                </div>
+            </div>
+        </div>
+        
         {% break %}
         {% endif %}
         </div>       

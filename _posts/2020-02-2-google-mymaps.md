@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Website Redesign"
+title:  "Redesigning Google MyMaps"
 author: false
-categories: [Website Redesign]
-tags: [Website Redesign]
+categories: [Web App]
+tags: [Redesign]
 image: assets/images/2.jpg
+number: "2"
 share: false
 comments: false
 rating: false
