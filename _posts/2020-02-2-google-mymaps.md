@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  googlemymaps
+title:  Redesigning Google MyMaps
 author: false
 categories: [Web App]
 tags: [Redesign]
 image: assets/images/2.jpg
 number: "2"
+permalink: /google-mymaps
 share: false
 comments: false
 rating: false
