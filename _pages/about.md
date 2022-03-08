@@ -10,8 +10,8 @@ mailchimp-list: false
 <!-- <p>&nbsp;</p> -->
 
 ### 👋 Why hello there, I'm Tessa!
-Born and bred in **Singapore**, I am currently based in the [Defence Science and Technology Agency of Singapore](https://www.dsta.gov.sg/home){:target="_blank"} as a **Senior UX architect**. This is my first job after graduating with a **B.E. (Hons) in Computer Science (with a specialisation track in UX/UI Design)** from the Singapore University of Technology and Design in 2019. 
-  
+Born and bred in **Singapore**, my latest job experience was as a **Senior UX Architect** in the [Defence Science and Technology Agency of Singapore](https://www.dsta.gov.sg/home){:target="_blank"}. It was my first job after graduating with a **B.E. (Hons) in Computer Science (with a specialisation track in UX/UI Design)** from the Singapore University of Technology and Design in 2019.
+
 <hr>
 
 ### 👀 I am currently on an active lookout for opportunities.

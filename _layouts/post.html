@@ -18,36 +18,33 @@ post_class: post-template
             {% else %}
             <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
             {% endif %}
-        </div>            
+        </div>
         <div>
-        Written by {{ author.display_name }} on 
-        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+        Written by {{ author.display_name }} on
+        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>
         {% if page.last_modified_at %}
         (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
         {% endif %}
-        </div>            
+        </div>
     </div>
     {% endif %}
 
     <!-- Summary -->
     <div class = "post-intro">
         <div class="row">
-            <div class="post-scope-year col-md col-lg-6">
+          <div class="post-summary col-md-10">
+              <span>{{ page.summary }}</span>
+          </div>
+            <div class="post-scope-year col-md-2">
                 <div class="post-scope">
                     <h3>Scope</h3>
                     <span>{{ page.categories }}</span>
 
                 </div>
-
                 <div class="post-year">
                     <h3> Year</h3>
                     <span>{{ page.date | date: "%Y" }}</span>
                 </div>
-
-            </div>
-            <div class="post-summary col-md col-lg-6">
-                <h3>Summary</h3>
-                <span>{{ page.summary }}</span>
             </div>
         </div>
     </div>
@@ -90,7 +87,7 @@ post_class: post-template
 <!-- Related Post -->
 {% include related-posts.html %}
 
-<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first:
 https://search.google.com/structured-data/testing-tool/u/0/
 ================================================== -->
 {% if page.rating %}
