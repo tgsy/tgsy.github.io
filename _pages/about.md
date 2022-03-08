@@ -19,5 +19,5 @@ You can view my resumé [here](https://www.dropbox.com/s/lrewuc896kqspsi/cv_tess
 
 <hr>
 
-### ☕️ Let's Connect!
+### ☕️ Let's connect!
 If you will like to hear more about me or think that I'll be a good fit for your team, feel free to drop me a message via [email](mailto: tessagsy@gmail.com?subject=Let's Connect!) or [LinkedIn](https://www.linkedin.com/in/tessagoh/){:target="_blank"} to get in touch with me. I look forward to meeting with you!

@@ -738,6 +738,20 @@ img, img:hover {
 
     .about-content {
         font-family: 'Bitter', serif;
+        
+        .article-post {
+            width: 100% !important;
+        }
+
+        h3 {
+            &:after {
+                background-color: transparent !important;
+            }
+        }
+        p {
+            text-align: center;
+        }
+        
     }
     
 }
@@ -965,6 +979,7 @@ img, img:hover {
         border-radius: 16px;
     }
 }
+
 
 .c-rating button {
     cursor:none;
