@@ -5,31 +5,135 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Mar 2022 17:25:25 +0800</pubDate>
-    <lastBuildDate>Tue, 08 Mar 2022 17:25:25 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Mar 2022 00:54:13 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Mar 2022 00:54:13 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Super C3 System</title>
+        <description>&lt;h3 id=&quot;about-the-project&quot;&gt;About the Project&lt;/h3&gt;
+
+&lt;div class=&quot;additional-notes&quot;&gt;&lt;h4&gt;❓ What is a C3 System?&lt;/h4&gt;The term refers to military systems that incorporate strategic and tactical considerations to &lt;b&gt;facilitate military operations&lt;/b&gt; in real-time.&lt;/div&gt;
+
+&lt;h4 id=&quot;what-the-super-c3-system-is&quot;&gt;What the Super C3 System is&lt;/h4&gt;
+&lt;p&gt;A powerful desktop application, this Super C3 System serves the &lt;strong&gt;planning, monitoring and communication needs&lt;/strong&gt; of army soldiers across various vocations during wartime operations. It follows a modular software architecture and builds on a &lt;strong&gt;Smart Geographical Information System (GIS)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-it-started&quot;&gt;Why it Started&lt;/h4&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/superc3-why.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
+  &lt;figcaption&gt;The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration. Author / copyright holder: Tessa Goh. Copyright terms and license: Created by Ariel Kotzer, P Thanga Vignesh and voneff from Noun Project.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Super C3 System replaces an existing legacy system that has become &lt;strong&gt;increasingly obsolete&lt;/strong&gt;. With the outdated system, &lt;strong&gt;user experience was poor&lt;/strong&gt;, and many mundane and procedural tasks with automation potential still &lt;strong&gt;had to be done manually&lt;/strong&gt;. A new replacement was long overdue to improve work efficiency. Advances in communication technology also mean data integration is now possible to allow &lt;strong&gt;better interoperability across the army forces&lt;/strong&gt;, which was previously impossible with the old technology and poorly integrated modules.&lt;/p&gt;
+
+&lt;h4 id=&quot;primary-design-goals&quot;&gt;Primary Design Goals&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create a user-friendly experience to &lt;strong&gt;reduce resources on user training&lt;/strong&gt; by aligning with commercial design patterns.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Be a great landing pad&lt;/strong&gt;. Many users will be transitioning from the existing legacy system, which should be a fluid experience.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Raise work efficiency&lt;/strong&gt; by harnessing the potential of automation, eliminating the effort required for procedural tasks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;team-structure&quot;&gt;Team Structure&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/superc3-team.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
+  &lt;figcaption&gt;The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh. Copyright terms and license: Tessa Goh.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Managed by two product managers, the project team consists of ~20 software developers and a small design team. The design team grew from a strength of two to four towards the last quarter of 2021.&lt;/p&gt;
+
+&lt;p&gt;The project team splits into 3-5 development teams (depending on the project timeline) and practices the &lt;strong&gt;Scrum methodology, with bi-weekly sprints&lt;/strong&gt; held concurrently. Each development team has a ScrumMaster cum lead developer and couples with at least one or a pair of UX designers.&lt;/p&gt;
+
+&lt;p&gt;I was matched with three development teams and collaborated closely with a fellow UX designer when she joined the team.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-design-process&quot;&gt;The Design Process&lt;/h3&gt;
+&lt;p&gt;For the modules in the system under my charge, I adhered to a consistent design process in my delivery.&lt;/p&gt;
+
+&lt;h4 id=&quot;user-research&quot;&gt;User Research&lt;/h4&gt;
+&lt;p&gt;As a team, I conducted user research sessions through qualitative user interviews and user research workshops to elicit user needs and pain points from the users’ existing work processes.&lt;/p&gt;
+
+&lt;p&gt;We also synthesised design opportunities from ‘How Might We’ statements gathered from these user research sessions.&lt;/p&gt;
+
+&lt;h4 id=&quot;insights&quot;&gt;Insights&lt;/h4&gt;
+&lt;p&gt;I generated UX artefacts to document complex military workflows and align the project team in the existing user flows.&lt;/p&gt;
+
+&lt;h4 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h4&gt;
+&lt;p&gt;I created the information architecture and low-fidelity concepts for primary use cases and workflows. After obtaining the green light from the product managers, developers and stakeholders, these concepts are translated to high-fidelity and interactive digital mock-ups, most times by my teammate or occasionally by myself.&lt;/p&gt;
+
+&lt;h4 id=&quot;usability-testing&quot;&gt;Usability Testing&lt;/h4&gt;
+&lt;p&gt;I led my team to conduct testings of our product to verify designs nearing product release.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Before product releases, we tested our designs with various user groups by simulating mission scenarios to ensure the product was usable and covered all their operational needs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The overall system usability improved from an average System Usability Scale (SUS) score of 50.0 to 63.6 following a revamp of the system’s user experience.&lt;/li&gt;
+  &lt;li&gt;For one of the modules I designed, a user estimated the module to reduce up to 90% of the total time required in their existing workflow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;a-mini-design-system&quot;&gt;A Mini Design System&lt;/h3&gt;
+&lt;p&gt;I co-led the delivery of a mini design system that specifies the system’s design principles and guidelines. This mini design system helps ensure design consistency throughout the Super C3 System and alignment with the C3D Design System.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;project-learnings&quot;&gt;Project Learnings&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Anyone can be a user (but yourself).&lt;/strong&gt; It is easy to fall prey to the false-consensus effect when designing. Always test to verify a design. When time is lacking, anyone can be the user, including our project mates. Sometimes, a fresh new perspective is all that is needed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Test early and continuously.&lt;/strong&gt; Involving stakeholders/users in the process as early as possible can help identify loopholes and unlock precious insights that save precious time and effort later on.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dig deeper.&lt;/strong&gt; A complete understanding of why things are done the way they are can reveal unseen problems solvable by design and create solutions that benefit the user even more.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prioritisation is key.&lt;/strong&gt; Focus on delivering a quality MVP first when rolling out new features/functions and avoid getting distracted by out-of-scope requests (or sometimes, even your own ideas).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;*As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 02 Mar 2022 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/superc3system</link>
+        <guid isPermaLink="true">http://localhost:4000/superc3system</guid>
+        
+        
+        <category>Desktop App</category>
+        
+      </item>
     
       <item>
         <title>UX Architect @ DSTA</title>
         <description>&lt;h3 id=&quot;about-dsta&quot;&gt;About DSTA&lt;/h3&gt;
 
-&lt;p&gt;DSTA is an agency under Singapore’s defence ministry and was formed to deliver innovative solutions to enhance the fighting capabilities of the Singapore Armed Forces (SAF). It is a multidisciplinary organisation that covers the diverse needs of the SAF, and its portfolio ranges from acquisition management, digitised platforms, cyber analytics, software development and more.&lt;/p&gt;
+&lt;p&gt;DSTA is an agency under Singapore’s defence ministry and was formed to deliver innovative solutions to enhance the fighting capabilities of the Singapore Armed Forces (SAF). It is a multidisciplinary organisation that covers the diverse needs of the SAF, and its portfolio ranges from acquisition management, digitised platforms, software development to building defence infrastructure and more.&lt;/p&gt;
 
 &lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/dsta-di.png&quot; alt=&quot;C3D Design Innovation Team&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/dsta-di.png&quot; alt=&quot;C3D Design Innovation Team&quot; /&gt;
+  &lt;figcaption&gt;I joined DSTA's C3D Design Innovation Team as a UX Architect.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;I joined DSTA’s C3 Development (C3D) Programme Centre, as a UX architect in the Design Innovation (DI) Team. As a member of the DI team, I help ensure that DSTA’s products are user-centred and help deliver new or improved defence systems with great user experiences in DSTA’s quest for defence software modernisation. As a team, we rigorously engage the SAF users in our design processes to understand their military workflow and help them streamline these existing processes to save precious time and effort.&lt;/p&gt;
+&lt;p&gt;I joined DSTA’s C3 Development (C3D) Programme Centre, as a &lt;strong&gt;UX architect&lt;/strong&gt; in the Design Innovation (DI) Team. As a member of the DI team, I help ensure that DSTA’s products are user-centred and help deliver new or improved defence systems with great user experiences in DSTA’s quest for defence software modernisation. As a team, we rigorously engage the SAF users in our design processes to understand their &lt;strong&gt;military workflow&lt;/strong&gt; and help them streamline these existing processes to save precious time and effort.&lt;/p&gt;
 
 &lt;h3 id=&quot;my-assignment&quot;&gt;My Assignment&lt;/h3&gt;
 
-&lt;p&gt;I was assigned to co-lead the design of an advanced command and control system, which was in a form of a large scale desktop application. The project team was co-managed by two product managers and consisted of 20 software developers. The design team grew from a strength of two to four towards the last quarter of 2021.&lt;/p&gt;
+&lt;p&gt;I was assigned to co-lead the design of an &lt;strong&gt;advanced command and control system&lt;/strong&gt;, which was in a form of a large scale desktop application. The project team was co-managed by two product managers and consisted of 20 software developers. The design team grew from a strength of two to four towards the last quarter of 2021.&lt;/p&gt;
 
 &lt;p&gt;The project team was split into 3-5 development teams (varying depending on the project timeline), each consisting of a ScrumMaster cum lead developer and a few other developers. In a quest to push for a user-centred product, the project team practices an agile framework, with concurrent bi-weekly sprints for each development team.&lt;/p&gt;
 
 &lt;h3 id=&quot;project-overview&quot;&gt;Project Overview&lt;/h3&gt;
 
-&lt;p&gt;The project aims to deliver a powerful desktop application that is meant to serve the planning and monitoring needs of army soldiers across various vocations during wartime operations. It follows a modular software architecture and is built on a Smart Geographical Infomation System (GIS).&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/dsta-gis.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
+  &lt;figcaption&gt;The project was built on a GIS.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The project aims to deliver a &lt;strong&gt;powerful desktop application&lt;/strong&gt; that is meant to serve the &lt;strong&gt;planning and monitoring needs of army soldiers across various vocations during wartime operations&lt;/strong&gt;. It follows a modular software architecture and is built on a &lt;strong&gt;Smart Geographical Infomation System (GIS)&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-it-started&quot;&gt;Why it Started&lt;/h3&gt;
 
@@ -56,8 +160,7 @@
   &lt;li&gt;Design Tools: Adobe XD, Axure RP9&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;❗️
-&amp;#x203Ca; &amp;#xFE0Fa; Disclaimer&lt;/h4&gt; &lt;em&gt;*As a past employee at DSTA, I am trusted to abide by the Official Secrets Act and to safeguard the confidentiality of the information I have had access to. As such, I am unable to display the works that I have done during my time at the company. However, I am more than happy to talk more in detail about my contributions to the project in an interview (or over a cup of coffee ☕️).&lt;/em&gt;&lt;/div&gt;
+&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;*As a past employee at DSTA, I am trusted to abide by the Official Secrets Act and to safeguard the confidentiality of the information I have had access to. As such, I am unable to display the works that I have done during my time at the company. However, I am more than happy to talk more in detail about my contributions to the project in an interview (or over a cup of coffee ☕️).&lt;/em&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 11 Feb 2022 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/dsta</link>

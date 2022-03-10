@@ -9,6 +9,10 @@
 <lastmod>2022-02-11T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/superc3system</loc>
+<lastmod>2022-03-02T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about</loc>
 </url>
 <url>
@@ -31,5 +35,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/ux-work-experience/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/desktop-app/</loc>
 </url>
 </urlset>

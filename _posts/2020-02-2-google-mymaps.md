@@ -5,7 +5,7 @@ author: false
 categories: [Web App]
 tags: [Redesign]
 image: assets/images/2.jpg
-number: "2"
+number: "3"
 permalink: /google-mymaps
 share: false
 comments: false

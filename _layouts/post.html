@@ -28,19 +28,24 @@ post_class: post-template
         </div>
     </div>
     {% endif %}
+</div>
+
+    <!-- Featured Image -->
+{% include featured-image.html %}
 
     <!-- Summary -->
     <div class = "post-intro">
         <div class="row">
           <div class="post-summary col-md-10">
+            <h3>Overview</h3>
               <span>{{ page.summary }}</span>
           </div>
             <div class="post-scope-year col-md-2">
                 <div class="post-scope">
                     <h3>Scope</h3>
                     <span>{{ page.categories }}</span>
-
                 </div>
+                <hr>
                 <div class="post-year">
                     <h3> Year</h3>
                     <span>{{ page.date | date: "%Y" }}</span>
@@ -48,15 +53,13 @@ post_class: post-template
             </div>
         </div>
     </div>
-</div>
+
+    <hr>
 
 <!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
 {% if site.adsense == "enabled" %}
     {% include adsense-under-header.html %}
 {% endif %}
-
-<!-- Featured Image -->
-{% include featured-image.html %}
 
 <!-- Content -->
 {% include article.html %}
