@@ -2,6 +2,7 @@
 layout: post
 title:  Super C3 System
 categories: [Desktop App]
+author: false
 image: assets/images/superc3.png
 number: "1"
 summary: "I co-led a design team to deliver an <b>advanced Command, Control and Communications (C3) system</b>, which is in the form of a <b>large-scale desktop application</b>, through two product releases. As a team, we conducted user research, went through numerous design iterations and tested our designs before shipping a user-centred defence system that <b>streamlines existing military processes and saves our users precious time and effort.</b>"

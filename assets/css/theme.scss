@@ -547,8 +547,9 @@ img, img:hover {
         //flex-direction: row;
         flex-wrap: nowrap;
         //background-color: transparent !important;
-        border-radius: 4px;
-        padding: 24px;
+        //border-radius: 16px 16px 4px 4px;
+        //border-radius: 4px;
+        //padding: 24px;
         //box-shadow: 4px 4px 16px $quicksilver;
         .card-no {
             img {
@@ -570,10 +571,12 @@ img, img:hover {
             a {
                 img {
                     //border-radius: 136px 8px 136px 8px;
+                    //border-radius: 16px 16px 0px 0px;
                     object-fit: cover;
                     //box-shadow: 4px 4px 16px $quicksilver;
                     border: $mauve;
                     border-width: 2px;
+                
                 }
 
             }          
@@ -588,6 +591,7 @@ img, img:hover {
         display: flex;
         flex-direction: column;
         align-content: space-between;
+        padding: 32px;
     }
 
     .author-thumb {
@@ -809,35 +813,36 @@ img, img:hover {
 
 //back to top fab
 #back-to-top-button {
-    display: inline-block;
-    font-family: 'Overpass', sans-serif;
-    background-color: $black;
-    border-color: rgb(196, 196, 196);
-    color: white;
-    width: 120px;
-    height: 60px;
-    padding: 8px;
-    text-align: center;
-    align-items: center;
-    border-radius: 40px 0px 0px 40px;
+    // display: inline-block;
+    // font-family: 'Overpass', sans-serif;
+    // background-color: $black;
+    // border-color: rgb(196, 196, 196);
+    // color: white;
+    // width: 120px;
+    // height: 60px;
+    // padding: 8px;
+    // text-align: center;
+    // align-items: center;
+    // border-radius: 40px 0px 0px 40px;
     position: fixed;
-    bottom: 96px;
-    right: 0px; 
-    transition: background-color .3s, 
-      opacity .5s, visibility .5s;
+    bottom: 52px;
+    right: 48px; 
+    // transition: background-color .3s, 
+    transition: opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-    line-height: normal;
-    line-break: auto;
+    // line-height: normal;
+    // line-break: auto;
   }
   #back-to-top-button::after {
-    color: #707070;
+    // color: #707070;
   }
   #back-to-top-button:hover {
     cursor: pointer;
-    background-color: $primary;
-    color: black;
+    scale: 1.1;
+    // background-color: $primary;
+    // color: black;
   }
   #back-to-top-button:active {
     background-color: rgb(196, 196, 196);
@@ -1091,6 +1096,8 @@ img, img:hover {
 }
 .related-posts {
     h2 {
+        margin-top: 40px;
+        margin-bottom:  auto!important;
     }
     //margin-top: auto;
     .badge {
@@ -1213,10 +1220,57 @@ body.active-side {
 }
 
 //related-posts/post nav
-.post-nav {
-    .row {
+.post-navigation {
+    
+    .blog-grid-container {
+        grid-gap: 24px;
+        grid-template-columns: 1fr 1fr 1fr;
+        .blog-grid-item {
+            .card-body {
+                padding: 0.75rem;
+            }
+            .card {
+                background-color: transparent !important;
+            }
+            .card-text {
+                display:none;
+            }
+            .card-title {
+                margin-top: 12px;
+                font-size: 1.25rem;
+            }
+            .img-thumb {
+                background-color: $white;
+                object-fit:cover;
+                // height:600px;
+                height:200px;
+                width: 100%;
+                object-position: 50% 50%;
+            }
+        }
+        // .blog-grid-item:nth-child(1) {
+        //     grid-column-start: 1;
+        //     grid-column-end: 2;
+        //     grid-row-start: 1;
+        //     grid-row-end: 2;
+        //     flex-direction: column;  
+        //     align-items: flex-start;
+        //     font-size: 1rem;
+        //     padding:0;
+
+        // }
+        // .blog-grid-item:nth-child(2), .blog-grid-item:nth-child(3) {
         
+        // }
     }
+    
+}
+
+//tag-view
+.badge-primary {
+    background-color: transparent !important;
+    color: $quicksilver !important;
+    font-weight: 600;
 }
 
 //404 error
@@ -1270,7 +1324,17 @@ body.active-side {
     
     }
 
+    .card {
+        .maxthumb {
+            a {
+                img {
+                    //border-radius: 16px 0px 0px 0px !important;
+                }
 
+            }          
+
+        }
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1349,7 +1413,7 @@ body.active-side {
 
     .maxthumb {
         img {
-            margin-bottom: 20px;
+            //margin-bottom: 20px;
         }
     }
 
@@ -1384,9 +1448,50 @@ body.active-side {
     .related-posts {
         h2 {
             font-size: 1.4rem;
+            }
         }
     }
-}
+
+    //related-posts/post nav
+    #more-projects {
+        h2 {
+            position:relative;
+          }
+          
+          .h2:before{
+            content:"";
+            z-index:-1;
+            left:-4px;
+            top:3px;
+            background-color: $primary;
+            position:relative;
+            width:100%;
+            height:1.2em;
+            transform:rotate(-2deg);
+            // opacity:0.5;
+          }
+          
+          .h2:after{
+            content:"";
+            z-index:-1;
+            left:-4px;
+            top:3px;
+            background-color: $primary;
+            position:absolute;
+            width:100%;
+            height:1.2em;
+            transform:rotate(-2deg);
+            // opacity:0.5;
+          }
+    
+    }
+
+    .post-navigation {
+        .blog-grid-container {
+            grid-gap: 16px;
+            grid-template-columns: 1fr 1fr;
+        }
+    }    
 }
 
 @media (min-width: 768px) {
@@ -1466,6 +1571,23 @@ body.active-side {
             }
         }
     }
+
+        //related-posts/post nav
+        .post-navigation {
+            .blog-grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .blog-grid-item {
+                .img-thumb {
+                    height: 240px !important;
+                }
+
+                .maxthumb img {
+                    margin-bottom: 0px;
+                }
+            }
+        }
 }
 
 

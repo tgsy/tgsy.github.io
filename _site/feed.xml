@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Mar 2022 00:54:13 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Mar 2022 00:54:13 +0800</lastBuildDate>
+    <pubDate>Tue, 15 Mar 2022 00:59:30 +0800</pubDate>
+    <lastBuildDate>Tue, 15 Mar 2022 00:59:30 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -106,92 +106,16 @@
       </item>
     
       <item>
-        <title>UX Architect @ DSTA</title>
-        <description>&lt;h3 id=&quot;about-dsta&quot;&gt;About DSTA&lt;/h3&gt;
-
-&lt;p&gt;DSTA is an agency under Singapore’s defence ministry and was formed to deliver innovative solutions to enhance the fighting capabilities of the Singapore Armed Forces (SAF). It is a multidisciplinary organisation that covers the diverse needs of the SAF, and its portfolio ranges from acquisition management, digitised platforms, software development to building defence infrastructure and more.&lt;/p&gt;
-
-&lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/dsta-di.png&quot; alt=&quot;C3D Design Innovation Team&quot; /&gt;
-  &lt;figcaption&gt;I joined DSTA's C3D Design Innovation Team as a UX Architect.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I joined DSTA’s C3 Development (C3D) Programme Centre, as a &lt;strong&gt;UX architect&lt;/strong&gt; in the Design Innovation (DI) Team. As a member of the DI team, I help ensure that DSTA’s products are user-centred and help deliver new or improved defence systems with great user experiences in DSTA’s quest for defence software modernisation. As a team, we rigorously engage the SAF users in our design processes to understand their &lt;strong&gt;military workflow&lt;/strong&gt; and help them streamline these existing processes to save precious time and effort.&lt;/p&gt;
-
-&lt;h3 id=&quot;my-assignment&quot;&gt;My Assignment&lt;/h3&gt;
-
-&lt;p&gt;I was assigned to co-lead the design of an &lt;strong&gt;advanced command and control system&lt;/strong&gt;, which was in a form of a large scale desktop application. The project team was co-managed by two product managers and consisted of 20 software developers. The design team grew from a strength of two to four towards the last quarter of 2021.&lt;/p&gt;
-
-&lt;p&gt;The project team was split into 3-5 development teams (varying depending on the project timeline), each consisting of a ScrumMaster cum lead developer and a few other developers. In a quest to push for a user-centred product, the project team practices an agile framework, with concurrent bi-weekly sprints for each development team.&lt;/p&gt;
-
-&lt;h3 id=&quot;project-overview&quot;&gt;Project Overview&lt;/h3&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/dsta-gis.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
-  &lt;figcaption&gt;The project was built on a GIS.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The project aims to deliver a &lt;strong&gt;powerful desktop application&lt;/strong&gt; that is meant to serve the &lt;strong&gt;planning and monitoring needs of army soldiers across various vocations during wartime operations&lt;/strong&gt;. It follows a modular software architecture and is built on a &lt;strong&gt;Smart Geographical Infomation System (GIS)&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-it-started&quot;&gt;Why it Started&lt;/h3&gt;
-
-&lt;p&gt;The project was started to replace an existing system running on a legacy system and which has become increasingly obsolete in recent years. The outdated system affected user experience and the old technology meant that many mundane and procedural tasks that could be automated were still being done manually. The new system, therefore, harnesses new technology such as automation to raise work efficiency and simultaneously offer a seamless integration of data to improve interoperability across the army, which was not possible in the old system.&lt;/p&gt;
-
-&lt;h3 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h3&gt;
-
-&lt;p&gt;I led the delivery of about 5 modules within the system and saw through two product releases of the system through the design cycle, during which:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I conducted user research through interviews, observations and user workshops to elicit user needs&lt;/li&gt;
-  &lt;li&gt;I did up prototypes, which ranged from paper sketches to high-fidelity and interactive design mock-ups&lt;/li&gt;
-  &lt;li&gt;I provided and solicited critique on my designs and that of my team-mates’ during internal design critique sessions&lt;/li&gt;
-  &lt;li&gt;I led the planning and conducting of usability tests to further improve designs&lt;/li&gt;
-  &lt;li&gt;I oversaw the implementation of designs for product release
-  → For one of the modules I led, a user estimated the module to reduce up to 90% of the total time taken in their existing workflow.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On top of that, I also co-led the delivery of a mini design system with design principles and guidelines to ensure design consistency throughout the system and also its adherence to the C3D Design System.&lt;/p&gt;
-
-&lt;h3 id=&quot;tools-i-used&quot;&gt;Tools I Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Collaboration Tools: Jira, Confluence&lt;/li&gt;
-  &lt;li&gt;Design Tools: Adobe XD, Axure RP9&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;*As a past employee at DSTA, I am trusted to abide by the Official Secrets Act and to safeguard the confidentiality of the information I have had access to. As such, I am unable to display the works that I have done during my time at the company. However, I am more than happy to talk more in detail about my contributions to the project in an interview (or over a cup of coffee ☕️).&lt;/em&gt;&lt;/div&gt;
-</description>
-        <pubDate>Fri, 11 Feb 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/dsta</link>
-        <guid isPermaLink="true">http://localhost:4000/dsta</guid>
-        
-        
-        <category>UX Work Experience</category>
-        
-      </item>
-    
-      <item>
         <title>Redesigning Google MyMaps</title>
-        <description>&lt;p&gt;Within the Hôtel de Crillon, which was built in 1758, Les Ambassadeurs operated as a restaurant since the mid-19th century. It reached its peak of fame as a restaurant and nightclub (a café-concert) in the last three decades of the 19th century.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;about-the-app&quot;&gt;About the App&lt;/h3&gt;
 
-&lt;p&gt;Always a center of entertainment for the aristocracy, in the 1870s it also became a regular destination of some of the best known figures of art and the demi-monde. Edgar Degas and Henri de Toulouse-Lautrec portrayed visitors at the night club, and Aristide Bruant performed there.&lt;/p&gt;
+&lt;p&gt;Google MyMaps is an online mapping tool that allows its users to easily create custom maps (by themselves or with others) that saves custom places for sharing purposes. It is available on both the web and mobile platform. One of the largest user group consists of travellers who use the app for travel planning and navigating on the go.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;It was decorated in an 18th-century rococo style, redesigned by Sybille de Margérie with furnishings by Sonia Rykiel.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Following a renovation of the hotel in 1981–85, the restaurant occupied a former private ballroom with windows looking out on the Place de la Concorde, a few hundred meters from the Palais Garnier.&lt;/p&gt;
-
-&lt;p&gt;Les Ambassadeurs had two Michelin stars. In the last decade of its operation, chef was Dominique Bouchet  followed by Jean-François Piège and finally when the hotel closed in 2013 for an extended renovation, Christopher Hache.&lt;/p&gt;
-
-&lt;p&gt;In 2017 Hache opened a smaller restaurant, L’Écrin, within the renovated hotel; the former space of Les Ambassadeurs became a bar.&lt;/p&gt;
+&lt;p&gt;With rising competitors in the form of online travel planning sites and mobile apps that offers better UX in the industry, a redesign is overdue for it to stay relevant to travellers.&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Feb 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/google-mymaps</link>
         <guid isPermaLink="true">http://localhost:4000/google-mymaps</guid>
-        
-        <category>Redesign</category>
         
         
         <category>Web App</category>
