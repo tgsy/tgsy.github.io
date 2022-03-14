@@ -1032,6 +1032,9 @@ img, img:hover {
         color: $intlorangeeng;
         background:rgba(255,255,255, 0.6);
         border-radius: 16px;
+        h4 {
+            margin: auto !important;
+        }
     }
 
     .additional-notes {
