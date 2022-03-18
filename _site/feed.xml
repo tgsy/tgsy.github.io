@@ -5,24 +5,24 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Mar 2022 01:04:58 +0800</pubDate>
-    <lastBuildDate>Tue, 15 Mar 2022 01:04:58 +0800</lastBuildDate>
+    <pubDate>Wed, 16 Mar 2022 21:35:15 +0800</pubDate>
+    <lastBuildDate>Wed, 16 Mar 2022 21:35:15 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>Super C3 System</title>
+        <title>Building a Super C3 System</title>
         <description>&lt;h3 id=&quot;about-the-project&quot;&gt;About the Project&lt;/h3&gt;
 
-&lt;div class=&quot;additional-notes&quot;&gt;&lt;h4&gt;❓ What is a C3 System?&lt;/h4&gt;The term refers to military systems that incorporate strategic and tactical considerations to &lt;b&gt;facilitate military operations&lt;/b&gt; in real-time.&lt;/div&gt;
+&lt;div class=&quot;additional-notes&quot;&gt;&lt;h4&gt;❓ What are C3 Systems?&lt;/h4&gt;In the military context, C3 Systems are fundamental to operations by delivering the critical information required to &lt;b&gt;plan, coordinate and control forces and operations across defence missions&lt;/b&gt; in real-time.&lt;/div&gt;
 
 &lt;h4 id=&quot;what-the-super-c3-system-is&quot;&gt;What the Super C3 System is&lt;/h4&gt;
-&lt;p&gt;A powerful desktop application, this Super C3 System serves the &lt;strong&gt;planning, monitoring and communication needs&lt;/strong&gt; of army soldiers across various vocations during wartime operations. It follows a modular software architecture and builds on a &lt;strong&gt;Smart Geographical Information System (GIS)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The Super C3 System is a powerful desktop app that serves the &lt;strong&gt;planning, monitoring and execution needs&lt;/strong&gt; of army soldiers across the various vocations during wartime exercises and operations. It follows a modular software architecture and builds on a &lt;strong&gt;Smart Geographical Information System (GIS)&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;why-it-started&quot;&gt;Why it Started&lt;/h4&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/superc3-why.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
-  &lt;figcaption&gt;The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration. Author / copyright holder: Tessa Goh. Copyright terms and license: Created by Ariel Kotzer, P Thanga Vignesh and voneff from Noun Project.&lt;/figcaption&gt;
+  &lt;figcaption&gt;The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration. Author / copyright holder: Text by Tessa Goh / Icons created by Ariel Kotzer, P Thanga Vignesh and voneff respectively from Noun Project.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The Super C3 System replaces an existing legacy system that has become &lt;strong&gt;increasingly obsolete&lt;/strong&gt;. With the outdated system, &lt;strong&gt;user experience was poor&lt;/strong&gt;, and many mundane and procedural tasks with automation potential still &lt;strong&gt;had to be done manually&lt;/strong&gt;. A new replacement was long overdue to improve work efficiency. Advances in communication technology also mean data integration is now possible to allow &lt;strong&gt;better interoperability across the army forces&lt;/strong&gt;, which was previously impossible with the old technology and poorly integrated modules.&lt;/p&gt;
@@ -55,43 +55,53 @@
 &lt;p&gt;For the modules in the system under my charge, I adhered to a consistent design process in my delivery.&lt;/p&gt;
 
 &lt;h4 id=&quot;user-research&quot;&gt;User Research&lt;/h4&gt;
-&lt;p&gt;As a team, I conducted user research sessions through qualitative user interviews and user research workshops to elicit user needs and pain points from the users’ existing work processes.&lt;/p&gt;
+&lt;p&gt;As a team, I conducted user research sessions through &lt;strong&gt;qualitative user interviews&lt;/strong&gt; and &lt;strong&gt;user research workshops&lt;/strong&gt; to &lt;strong&gt;elicit user needs and pain points&lt;/strong&gt; from the users’ existing work processes.&lt;/p&gt;
 
-&lt;p&gt;We also synthesised design opportunities from ‘How Might We’ statements gathered from these user research sessions.&lt;/p&gt;
+&lt;p&gt;We also &lt;strong&gt;synthesised design opportunities&lt;/strong&gt; from ‘How Might We’ statements gathered from these user research sessions.&lt;/p&gt;
 
 &lt;h4 id=&quot;insights&quot;&gt;Insights&lt;/h4&gt;
-&lt;p&gt;I generated UX artefacts to document complex military workflows and align the project team in the existing user flows.&lt;/p&gt;
+&lt;p&gt;I generated &lt;strong&gt;UX artefacts to document complex military workflows&lt;/strong&gt; and align the project team in the existing user flows.&lt;/p&gt;
 
 &lt;h4 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h4&gt;
-&lt;p&gt;I created the information architecture and low-fidelity concepts for primary use cases and workflows. After obtaining the green light from the product managers, developers and stakeholders, these concepts are translated to high-fidelity and interactive digital mock-ups, most times by my teammate or occasionally by myself.&lt;/p&gt;
+&lt;p&gt;I created the &lt;strong&gt;information architecture&lt;/strong&gt; and &lt;strong&gt;low-fidelity concepts&lt;/strong&gt; for primary use cases and workflows. After obtaining the green light from the product managers, developers and stakeholders, these concepts are translated to &lt;strong&gt;high-fidelity and interactive digital mock-ups&lt;/strong&gt;, most times by my teammate or occasionally by myself.&lt;/p&gt;
 
 &lt;h4 id=&quot;usability-testing&quot;&gt;Usability Testing&lt;/h4&gt;
-&lt;p&gt;I led my team to conduct testings of our product to verify designs nearing product release.&lt;/p&gt;
+&lt;p&gt;I &lt;strong&gt;led my team to conduct testings&lt;/strong&gt; of our product to verify designs nearing product release.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Before product releases, we tested our designs with various user groups by simulating mission scenarios to ensure the product was usable and covered all their operational needs.&lt;/li&gt;
+  &lt;li&gt;Before product releases, we tested our designs with various user groups by &lt;strong&gt;simulating mission scenarios&lt;/strong&gt; to ensure the product was usable and covered all their operational needs.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/superc3-results.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
+  &lt;figcaption&gt;The overall system usability improved from 50.0 to 63.6 following a revamp of the system's UX. A module I designed was rated a SUS score of 80.8 (falling into the 'Good' category of the SUS Acceptability Score range) and was estimated by a user to reduce up to 90% of the total time required in their existing workflow. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;The overall system usability improved from an average System Usability Scale (SUS) score of 50.0 to 63.6 following a revamp of the system’s user experience.&lt;/li&gt;
-  &lt;li&gt;For one of the modules I designed, a user estimated the module to reduce up to 90% of the total time required in their existing workflow.&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;overall system usability improved&lt;/strong&gt; from an average System Usability Scale (SUS) score of 50.0 to 63.6 following a revamp of the system’s user experience.&lt;/li&gt;
+  &lt;li&gt;For one of the modules I designed,
+    &lt;ul&gt;
+      &lt;li&gt;The average SUS score was &lt;strong&gt;80.8&lt;/strong&gt;, and&lt;/li&gt;
+      &lt;li&gt;a user estimated the module to &lt;strong&gt;reduce up to 90% of the total time required&lt;/strong&gt; in their existing workflow.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;a-mini-design-system&quot;&gt;A Mini Design System&lt;/h3&gt;
-&lt;p&gt;I co-led the delivery of a mini design system that specifies the system’s design principles and guidelines. This mini design system helps ensure design consistency throughout the Super C3 System and alignment with the C3D Design System.&lt;/p&gt;
+&lt;p&gt;I co-led the delivery of a &lt;strong&gt;mini design system&lt;/strong&gt; that specifies the system’s design principles and guidelines. This mini design system helps ensure design consistency throughout the Super C3 System and alignment with the C3D Design System.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;project-learnings&quot;&gt;Project Learnings&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Anyone can be a user (but yourself).&lt;/strong&gt; It is easy to fall prey to the false-consensus effect when designing. Always test to verify a design. When time is lacking, anyone can be the user, including our project mates. Sometimes, a fresh new perspective is all that is needed.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Test early and continuously.&lt;/strong&gt; Involving stakeholders/users in the process as early as possible can help identify loopholes and unlock precious insights that save precious time and effort later on.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dig deeper.&lt;/strong&gt; A complete understanding of why things are done the way they are can reveal unseen problems solvable by design and create solutions that benefit the user even more.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Test early and continuously.&lt;/strong&gt; Involving stakeholders/users in the process as early as possible can help identify loopholes and unlock insights that save precious time and effort later on.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Prioritisation is key.&lt;/strong&gt; Focus on delivering a quality MVP first when rolling out new features/functions and avoid getting distracted by out-of-scope requests (or sometimes, even your own ideas).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The design ≠ the final product.&lt;/strong&gt; Sometimes we can get carried away with producing pixel-perfect designs, but what matters most is always the final product delivered. When resources are tight, ensuring the product is developed right should be the priority.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;*As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
@@ -106,14 +116,14 @@
       </item>
     
       <item>
-        <title>Redesigning Google MyMaps</title>
-        <description>&lt;h3 id=&quot;about-the-app&quot;&gt;About the App&lt;/h3&gt;
+        <title>Improving Google MyMaps</title>
+        <description>&lt;h3 id=&quot;a-competitive-analysis&quot;&gt;A Competitive Analysis&lt;/h3&gt;
 
 &lt;p&gt;Google MyMaps is an online mapping tool that allows its users to easily create custom maps (by themselves or with others) that saves custom places for sharing purposes. It is available on both the web and mobile platform. One of the largest user group consists of travellers who use the app for travel planning and navigating on the go.&lt;/p&gt;
 
 &lt;p&gt;With rising competitors in the form of online travel planning sites and mobile apps that offers better UX in the industry, a redesign is overdue for it to stay relevant to travellers.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 02 Feb 2020 00:00:00 +0800</pubDate>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/google-mymaps</link>
         <guid isPermaLink="true">http://localhost:4000/google-mymaps</guid>
         

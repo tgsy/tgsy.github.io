@@ -909,6 +909,7 @@ img, img:hover {
 }
 
 .entry-featured-image {  
+    text-align: center;
     display: block;
     max-width: 100%;
     margin-left:auto;
@@ -1246,7 +1247,7 @@ body.active-side {
                 background-color: $white;
                 object-fit:cover;
                 // height:600px;
-                height:200px;
+                height: auto;
                 width: 100%;
                 object-position: 50% 50%;
             }
@@ -1578,12 +1579,13 @@ body.active-side {
         //related-posts/post nav
         .post-navigation {
             .blog-grid-container {
-                grid-template-columns: 1fr;
+                // grid-template-columns: 1fr;
+                grid-gap: auto;
             }
 
             .blog-grid-item {
                 .img-thumb {
-                    height: 240px !important;
+                    height: auto !important;
                 }
 
                 .maxthumb img {
@@ -1636,6 +1638,13 @@ body.active-side {
         }
         .form-control {
             height:35px;
+        }
+    }
+
+    //related-posts/post nav
+    .post-navigation {
+        .blog-grid-container {
+            grid-template-columns: 1fr;
         }
     }
 }
