@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Mar 2022 21:35:15 +0800</pubDate>
-    <lastBuildDate>Wed, 16 Mar 2022 21:35:15 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Mar 2022 16:14:24 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2022 16:14:24 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -117,11 +117,84 @@
     
       <item>
         <title>Improving Google MyMaps</title>
-        <description>&lt;h3 id=&quot;a-competitive-analysis&quot;&gt;A Competitive Analysis&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;the-focus&quot;&gt;The Focus&lt;/h3&gt;
 
-&lt;p&gt;Google MyMaps is an online mapping tool that allows its users to easily create custom maps (by themselves or with others) that saves custom places for sharing purposes. It is available on both the web and mobile platform. One of the largest user group consists of travellers who use the app for travel planning and navigating on the go.&lt;/p&gt;
+&lt;p&gt;Users who use the platform for their travel trips, which generally consists of three stages:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;the &lt;strong&gt;initial brainstorming&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;creation of the trip itinerary&lt;/strong&gt; and&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;navigation&lt;/strong&gt; during travel.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;With rising competitors in the form of online travel planning sites and mobile apps that offers better UX in the industry, a redesign is overdue for it to stay relevant to travellers.&lt;/p&gt;
+&lt;h3 id=&quot;competitive-analysis&quot;&gt;Competitive Analysis&lt;/h3&gt;
+
+&lt;p&gt;I looked into popular travel planning apps to understand what makes a travel planning app great. The three well-received apps I narrowed down in my research were &lt;strong&gt;Sygic Travel&lt;/strong&gt;, &lt;strong&gt;TripAdvisor&lt;/strong&gt; and &lt;strong&gt;TripIt&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Unsurprisingly, each of these apps has a solid feature that sets it apart from other apps on the market:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Sygic Travel&lt;/strong&gt;: Seamless GPS navigation with the travel itinerary&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TripAdvisor&lt;/strong&gt;: Smart suggestions, readily available reviews and forums, ease of booking&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TripIt&lt;/strong&gt;: One-stop depository of the travel itinerary and booking confirmations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-main-getaway&quot;&gt;The Main Getaway&lt;/h4&gt;
+
+&lt;p&gt;These apps are all &lt;strong&gt;itinerary-based&lt;/strong&gt;, contrasting the GoogleMyMaps platform, which is &lt;strong&gt;layer-based&lt;/strong&gt;. Even though allowing users to sort their saved places into different layers offers more customizability, this sorting process can be &lt;strong&gt;manual and tedious&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-research&quot;&gt;User Research&lt;/h3&gt;
+
+&lt;p&gt;To improve the platform, I needed to know why existing users were dissatisfied with Google MyMaps.&lt;/p&gt;
+
+&lt;h4 id=&quot;app-ratings--reviews&quot;&gt;App Ratings &amp;amp; Reviews&lt;/h4&gt;
+
+&lt;p&gt;Looking through the app listing in the Google Play Store, &lt;strong&gt;“the lack of integration with Google Maps”&lt;/strong&gt; was common feedback I spotted (which echoed my brief experience with the platform).&lt;/p&gt;
+
+&lt;h3 id=&quot;qualitative-feedback&quot;&gt;Qualitative Feedback&lt;/h3&gt;
+
+&lt;p&gt;I also conducted a short online survey with 15-20 participants using SurveyMonkey to obtain more feedback on the platform.&lt;/p&gt;
+
+&lt;p&gt;The feedback gathered can be summarised as such:&lt;/p&gt;
+
+&lt;h3 id=&quot;insights&quot;&gt;Insights&lt;/h3&gt;
+
+&lt;p&gt;After conducting the competitive analysis and user research, I summarised the user needs and frustrations in a user persona.
+&amp;lt;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.
+&amp;lt;&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conceptualisation&quot;&gt;Conceptualisation&lt;/h3&gt;
+
+&lt;p&gt;It was clear to me at this point what the focus areas were for improving the platform, and they were to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;better the &lt;strong&gt;integration&lt;/strong&gt; of the platform with &lt;strong&gt;Google Maps&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;optimise&lt;/strong&gt; the platform for &lt;strong&gt;itinerary planning&lt;/strong&gt; and&lt;/li&gt;
+  &lt;li&gt;improve the platform’s &lt;strong&gt;accessibility on mobile&lt;/strong&gt; while travelling on the go&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;wireframing&quot;&gt;Wireframing&lt;/h4&gt;
+&lt;p&gt;I started conceptualising improvements with the creation of low-fi wireframes.
+&amp;lt;&amp;gt;&amp;lt;&amp;gt;&amp;lt;&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-solution&quot;&gt;The Solution&lt;/h3&gt;
+&lt;p&gt;&amp;lt;&amp;gt;&amp;lt;&amp;gt;&amp;lt;&amp;gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;bonus-integration-with-smart-assistants-google-assistant&quot;&gt;Bonus: Integration with Smart Assistants (Google Assistant)&lt;/h4&gt;
+&lt;p&gt;&amp;lt;&amp;gt;
+Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up.&lt;/p&gt;
+
+&lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
+
+&lt;h4 id=&quot;areas-for-improvement&quot;&gt;Areas for Improvement&lt;/h4&gt;
+&lt;p&gt;My solution assumes that mobile access is mainly for referencing the itinerary while navigating on the go during travel. However, this may be a skewed assumption because of typical unpredictability in travel trips. One might want to add a stop to the itinerary or even make a shift in plans.&lt;/p&gt;
+
+&lt;h4 id=&quot;re-evaluating-assumptions&quot;&gt;Re-evaluating Assumptions&lt;/h4&gt;
+&lt;p&gt;&amp;lt;&amp;gt;
+The basis of this case study focuses only on one particular user group on the platform; those who use it for their travel planning. However, Google MyMaps is also often used to present map data. It might not have been fair thus to compare the platform with other travel planning apps since their primary use case does not align.&lt;/p&gt;
+
+&lt;h4 id=&quot;googles-answer&quot;&gt;Google’s Answer&lt;/h4&gt;
+&lt;p&gt;Google Trips (discontinued) mobile app –&amp;gt; web app&lt;/p&gt;
+
 </description>
         <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/google-mymaps</link>

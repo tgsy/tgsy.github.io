@@ -6,7 +6,7 @@ author: false
 # tags: [Redesign]
 image: assets/images/google-mymaps.png
 number: "3"
-summary: "Google MyMaps is an <b>online mapping platform<b/> available on both <b>web and mobile</b>. It allows its users to create <b>custom maps and share them</b> for collaboration. A large user group are <b>travellers who use the app for travel planning and navigating on the go</b>. With a rising number of travel planning sites and apps, a redesign is overdue for the platform to stay competitive in the long run. 
+summary: "Google MyMaps is an <b>online mapping platform</b> available on both <b>web and mobile</b>. It allows its users to create <b>custom maps and share them</b> for collaboration. A large user group are <b>travellers who use the app for travel planning and navigating on the go</b>. With a rising number of travel planning sites and apps, a redesign is overdue for the platform to stay competitive in the long run. 
 
 In this personal project, I derived <b>three potential improvements</b> for the platform. I arrived at these solutions by <b>analysing other existing travel apps</b> and <b>conducting user research</b> to understand how Google MyMaps was lacking compared to its competitors. 
 "
