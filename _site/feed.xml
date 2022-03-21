@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Mar 2022 16:14:24 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Mar 2022 16:14:24 +0800</lastBuildDate>
+    <pubDate>Mon, 21 Mar 2022 18:22:39 +0800</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2022 18:22:39 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -130,6 +130,11 @@
 
 &lt;p&gt;I looked into popular travel planning apps to understand what makes a travel planning app great. The three well-received apps I narrowed down in my research were &lt;strong&gt;Sygic Travel&lt;/strong&gt;, &lt;strong&gt;TripAdvisor&lt;/strong&gt; and &lt;strong&gt;TripIt&lt;/strong&gt;.&lt;/p&gt;
 
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ca1.png&quot; alt=&quot;The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt.&quot; /&gt;
+  &lt;figcaption&gt;The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;Unsurprisingly, each of these apps has a solid feature that sets it apart from other apps on the market:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Sygic Travel&lt;/strong&gt;: Seamless GPS navigation with the travel itinerary&lt;/li&gt;
@@ -147,6 +152,12 @@
 
 &lt;h4 id=&quot;app-ratings--reviews&quot;&gt;App Ratings &amp;amp; Reviews&lt;/h4&gt;
 
+&lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur1.png&quot; alt=&quot;Google MyMaps User Ratings taken from the Google Play Store&quot; /&gt;
+  &lt;figcaption&gt;Screenshoot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;Looking through the app listing in the Google Play Store, &lt;strong&gt;“the lack of integration with Google Maps”&lt;/strong&gt; was common feedback I spotted (which echoed my brief experience with the platform).&lt;/p&gt;
 
 &lt;h3 id=&quot;qualitative-feedback&quot;&gt;Qualitative Feedback&lt;/h3&gt;
@@ -155,13 +166,26 @@
 
 &lt;p&gt;The feedback gathered can be summarised as such:&lt;/p&gt;
 
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur2.png&quot; alt=&quot;Survey responses reflecting usage of Google MyMaps desktop platform&quot; /&gt;
+  &lt;figcaption&gt;Survey responses collected on the Googe MyMaps desktop experience. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;h3 id=&quot;insights&quot;&gt;Insights&lt;/h3&gt;
 
-&lt;p&gt;After conducting the competitive analysis and user research, I summarised the user needs and frustrations in a user persona.
-&amp;lt;&amp;gt;&lt;/p&gt;
+&lt;p&gt;After conducting the competitive analysis and user research, I summarised the user needs and frustrations in a user persona.&lt;/p&gt;
 
-&lt;p&gt;I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.
-&amp;lt;&amp;gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-persona.png&quot; alt=&quot;User Persona summarising user needs and frustrations of a typical user using the platform for travel planning&quot; /&gt;
+  &lt;figcaption&gt;User persona summarising the needs and frustrations of a typical user using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-userjourney.jpg&quot; alt=&quot;User Journey Map detailing the opportunities for improvements for users using the platform for travel planning&quot; /&gt;
+  &lt;figcaption&gt;User journey map detailing the opportunities for improvements for users using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3 id=&quot;conceptualisation&quot;&gt;Conceptualisation&lt;/h3&gt;
 
@@ -191,9 +215,6 @@ Reminders to leave for the airport to catch the flight, start the journey toward
 &lt;h4 id=&quot;re-evaluating-assumptions&quot;&gt;Re-evaluating Assumptions&lt;/h4&gt;
 &lt;p&gt;&amp;lt;&amp;gt;
 The basis of this case study focuses only on one particular user group on the platform; those who use it for their travel planning. However, Google MyMaps is also often used to present map data. It might not have been fair thus to compare the platform with other travel planning apps since their primary use case does not align.&lt;/p&gt;
-
-&lt;h4 id=&quot;googles-answer&quot;&gt;Google’s Answer&lt;/h4&gt;
-&lt;p&gt;Google Trips (discontinued) mobile app –&amp;gt; web app&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
