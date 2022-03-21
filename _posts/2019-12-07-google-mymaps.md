@@ -27,6 +27,11 @@ Users who use the platform for their travel trips, which generally consists of t
 
 I looked into popular travel planning apps to understand what makes a travel planning app great. The three well-received apps I narrowed down in my research were **Sygic Travel**, **TripAdvisor** and **TripIt**.
 
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-ca1.png" alt="The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt."/>
+  <figcaption>The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
 Unsurprisingly, each of these apps has a solid feature that sets it apart from other apps on the market:
 * **Sygic Travel**: Seamless GPS navigation with the travel itinerary
 * **TripAdvisor**: Smart suggestions, readily available reviews and forums, ease of booking
@@ -42,6 +47,12 @@ To improve the platform, I needed to know why existing users were dissatisfied w
 
 #### App Ratings & Reviews
 
+### Seeing Results
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-ur1.png" alt="Google MyMaps User Ratings taken from the Google Play Store"/>
+  <figcaption>Screenshoot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
 Looking through the app listing in the Google Play Store, **"the lack of integration with Google Maps"** was common feedback I spotted (which echoed my brief experience with the platform). 
 
 ### Qualitative Feedback
@@ -50,13 +61,26 @@ I also conducted a short online survey with 15-20 participants using SurveyMonke
 
 The feedback gathered can be summarised as such:
 
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-ur2.png" alt="Survey responses reflecting usage of Google MyMaps desktop platform"/>
+  <figcaption>Survey responses collected on the Googe MyMaps desktop experience. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
 ### Insights
 
 After conducting the competitive analysis and user research, I summarised the user needs and frustrations in a user persona.
-<>
+
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-persona.png" alt="User Persona summarising user needs and frustrations of a typical user using the platform for travel planning"/>
+  <figcaption>User persona summarising the needs and frustrations of a typical user using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
 
 I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.
-<>
+
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-userjourney.jpg" alt="User Journey Map detailing the opportunities for improvements for users using the platform for travel planning"/>
+  <figcaption>User journey map detailing the opportunities for improvements for users using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
 
 ### Conceptualisation
 
@@ -84,9 +108,6 @@ My solution assumes that mobile access is mainly for referencing the itinerary w
 #### Re-evaluating Assumptions
 <>
 The basis of this case study focuses only on one particular user group on the platform; those who use it for their travel planning. However, Google MyMaps is also often used to present map data. It might not have been fair thus to compare the platform with other travel planning apps since their primary use case does not align.
-
-#### Google's Answer
-Google Trips (discontinued) mobile app --> web app
 
 
 
