@@ -78,7 +78,7 @@ After conducting the competitive analysis and user research, I summarised the us
 I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.
 
 <figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-userjourney.jpg" alt="User Journey Map detailing the opportunities for improvements for users using the platform for travel planning"/>
+  <img src="{{site.url}}/assets/images/google-mymaps-userjourney.png" alt="User Journey Map detailing the opportunities for improvements for users using the platform for travel planning"/>
   <figcaption>User journey map detailing the opportunities for improvements for users using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh</figcaption>
 </figure>
 
@@ -91,13 +91,42 @@ It was clear to me at this point what the focus areas were for improving the pla
 
 #### Wireframing
 I started conceptualising improvements with the creation of low-fi wireframes.
-<><><>
+
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_gm-integration.png" alt="Low-fi wireframes I drew to kickstart my solutioning (1/3)"/>
+  <figcaption>Low-fi wireframes I drew to kickstart my solutioning (1/3): Better the integration of Google MyMaps with Google Maps. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_trip.png" alt="Low-fi wireframes I drew to kickstart my solutioning (2/3)"/>
+  <figcaption>Low-fi wireframes I drew to kickstart my solutioning (2/3): Optimise Google MyMaps for trip planning. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_mobile-accessibility.png" alt="Low-fi wireframes I drew to kickstart my solutioning (3/3)"/>
+  <figcaption>Low-fi wireframes I drew to kickstart my solutioning (3/3): Improve Google MyMaps's mobile accessibility. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
 
 ### The Solution
-<><><>
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-solution-1.gif" alt="Solution for Desktop (1/3)"/>
+  <figcaption>Suggested improvement for the desktop (1/3). Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-solution-2.gif" alt="Bonus: Integration with Smart Assistants (Google Assistant)"/>
+  <figcaption>Suggested improvement for the desktop (2/3). Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-solution-3.gif" alt="Bonus: Integration with Smart Assistants (Google Assistant)"/>
+  <figcaption>Suggested improvement for the desktop (3/3). Author / copyright holder: Tessa Goh</figcaption>
+</figure>
 
 #### Bonus: Integration with Smart Assistants (Google Assistant)
-<>
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-assistant.png" alt="Bonus: Integration with Smart Assistants (Google Assistant)"/>
+  <figcaption>Bonus: Integration with Smart Assistants (Google Assistant). Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
 Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up.
 
 ### Evaluation
@@ -106,7 +135,12 @@ Reminders to leave for the airport to catch the flight, start the journey toward
 My solution assumes that mobile access is mainly for referencing the itinerary while navigating on the go during travel. However, this may be a skewed assumption because of typical unpredictability in travel trips. One might want to add a stop to the itinerary or even make a shift in plans.
 
 #### Re-evaluating Assumptions
-<>
+
+<figure>
+  <img src="{{site.url}}/assets/images/google-mymaps-explore.png" alt="Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform"/>
+  <figcaption>Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform. It it also often used to visualise and present map data. Author / copyright holder: Tessa Goh / Google MyMaps</figcaption>
+</figure>
+
 The basis of this case study focuses only on one particular user group on the platform; those who use it for their travel planning. However, Google MyMaps is also often used to present map data. It might not have been fair thus to compare the platform with other travel planning apps since their primary use case does not align.
 
 
