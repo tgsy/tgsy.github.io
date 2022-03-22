@@ -32,4 +32,16 @@
 <url>
 <loc>http://localhost:4000/category/desktop-app/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/bower_components/ideal-image-slider/example/bullet-nav.html</loc>
+<lastmod>2016-02-07T01:34:53+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/ideal-image-slider/example/captions.html</loc>
+<lastmod>2016-02-07T01:34:53+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/bower_components/ideal-image-slider/example/</loc>
+<lastmod>2016-02-07T01:34:53+08:00</lastmod>
+</url>
 </urlset>

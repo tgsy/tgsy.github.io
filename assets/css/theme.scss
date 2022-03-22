@@ -992,6 +992,13 @@ img, img:hover {
         margin-bottom: 2rem;
     }
 
+    iframe {
+        display: block;
+        width: 100%;
+
+        margin: 0 auto;
+    }
+
     figure {
         margin-bottom: 48px;
         img {

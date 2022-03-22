@@ -8,12 +8,14 @@ image: assets/images/google-mymaps.png
 number: "3"
 summary: "Google MyMaps is an <b>online mapping platform</b> available on both <b>web and mobile</b>. It allows its users to create <b>custom maps and share them</b> for collaboration. A large user group are <b>travellers who use the app for travel planning and navigating on the go</b>. With a rising number of travel planning sites and apps, a redesign is overdue for the platform to stay competitive in the long run. 
 
-In this personal project, I derived <b>three potential improvements</b> for the platform. I arrived at these solutions by <b>analysing other existing travel apps</b> and <b>conducting user research</b> to understand how Google MyMaps was lacking compared to its competitors. 
-"
+In this personal project, I derived <b>three potential improvements</b> for the platform. I arrived at these solutions by <b>analysing other existing travel apps</b> and <b>conducting user research</b> to understand how Google MyMaps was lacking compared to its competitors. "
 permalink: /google-mymaps
 share: false
 comments: false
 rating: false
+youtubeId: iIXuqaPvaO8
+image_sliders: 
+  - slider2
 ---
 
 ### The Focus
@@ -92,33 +94,32 @@ It was clear to me at this point what the focus areas were for improving the pla
 #### Wireframing
 I started conceptualising improvements with the creation of low-fi wireframes.
 
-<figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_gm-integration.png" alt="Low-fi wireframes I drew to kickstart my solutioning (1/3)"/>
-  <figcaption>Low-fi wireframes I drew to kickstart my solutioning (1/3): Better the integration of Google MyMaps with Google Maps. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+<div id="slider">
+	
+  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_gm-integration.png" title="Low-fi wireframes I drew to kickstart my solutioning (1/3)" alt="Better the integration of Google MyMaps with Google Maps">
+	
+  <img data-src="{{site.url}}/assets/images/google-mymaps-wireframes_trip.png" title="Low-fi wireframes I drew to kickstart my solutioning (2/3)" src="" alt="Optimise Google MyMaps for trip planning.">
+	
+  <img data-src="{{site.url}}/assets/images/google-mymaps-wireframes_mobile-accessibility.png" data-src-2x="" src="" title="Low-fi wireframes I drew to kickstart my solutioning (3/3)" alt="Improve Google MyMaps's mobile accessibility.">
+  
+</div>
 
-<figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_trip.png" alt="Low-fi wireframes I drew to kickstart my solutioning (2/3)"/>
-  <figcaption>Low-fi wireframes I drew to kickstart my solutioning (2/3): Optimise Google MyMaps for trip planning. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
-
-<figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_mobile-accessibility.png" alt="Low-fi wireframes I drew to kickstart my solutioning (3/3)"/>
-  <figcaption>Low-fi wireframes I drew to kickstart my solutioning (3/3): Improve Google MyMaps's mobile accessibility. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+<script>
+  new IdealImageSlider.Slider('#slider');
+  var slider = new IdealImageSlider.Slider({
+	selector: '#slider',
+	height: 400, // Required but can be set by CSS
+	interval: 4000
+});
+  slider.addCaptions();
+  slider.start();
+</script>
 
 ### The Solution
+
 <figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-solution-1.gif" alt="Solution for Desktop (1/3)"/>
-  <figcaption>Suggested improvement for the desktop (1/3). Author / copyright holder: Tessa Goh</figcaption>
-</figure>
-<figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-solution-2.gif" alt="Bonus: Integration with Smart Assistants (Google Assistant)"/>
-  <figcaption>Suggested improvement for the desktop (2/3). Author / copyright holder: Tessa Goh</figcaption>
-</figure>
-<figure>
-  <img src="{{site.url}}/assets/images/google-mymaps-solution-3.gif" alt="Bonus: Integration with Smart Assistants (Google Assistant)"/>
-  <figcaption>Suggested improvement for the desktop (3/3). Author / copyright holder: Tessa Goh</figcaption>
+  {% include youtubePlayer.html id=page.youtubeId %}
+  <figcaption>Suggested improvement for the Google MyMaps desktop platform. Copyright holder: Tessa Goh</figcaption>
 </figure>
 
 #### Bonus: Integration with Smart Assistants (Google Assistant)
