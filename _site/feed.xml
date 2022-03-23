@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Mar 2022 23:22:58 +0800</pubDate>
-    <lastBuildDate>Tue, 22 Mar 2022 23:22:58 +0800</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2022 17:30:37 +0800</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2022 17:30:37 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -152,19 +152,18 @@
 
 &lt;h4 id=&quot;app-ratings--reviews&quot;&gt;App Ratings &amp;amp; Reviews&lt;/h4&gt;
 
-&lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur1.png&quot; alt=&quot;Google MyMaps User Ratings taken from the Google Play Store&quot; /&gt;
-  &lt;figcaption&gt;Screenshoot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;figcaption&gt;Screenshot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Looking through the app listing in the Google Play Store, &lt;strong&gt;“the lack of integration with Google Maps”&lt;/strong&gt; was common feedback I spotted (which echoed my brief experience with the platform).&lt;/p&gt;
+&lt;p&gt;Google MyMaps’s mobile app was only available for Android. Looking through the app listing in the Google Play Store, &lt;strong&gt;“the lack of integration with Google Maps”&lt;/strong&gt; was common feedback I spotted (which echoed my brief experience with the platform).&lt;/p&gt;
 
 &lt;h3 id=&quot;qualitative-feedback&quot;&gt;Qualitative Feedback&lt;/h3&gt;
 
 &lt;p&gt;I also conducted a short online survey with 15-20 participants using SurveyMonkey to obtain more feedback on the platform.&lt;/p&gt;
 
-&lt;p&gt;The feedback gathered can be summarised as such:&lt;/p&gt;
+&lt;p&gt;The feedback gathered could be summarised as such:&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur2.png&quot; alt=&quot;Survey responses reflecting usage of Google MyMaps desktop platform&quot; /&gt;
@@ -184,7 +183,7 @@
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-userjourney.png&quot; alt=&quot;User Journey Map detailing the opportunities for improvements for users using the platform for travel planning&quot; /&gt;
-  &lt;figcaption&gt;User journey map detailing the opportunities for improvements for users using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;figcaption&gt;User journey map detailing potential opportunities for improvements when using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;conceptualisation&quot;&gt;Conceptualisation&lt;/h3&gt;
@@ -197,7 +196,7 @@
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;wireframing&quot;&gt;Wireframing&lt;/h4&gt;
-&lt;p&gt;I started conceptualising improvements with the creation of low-fi wireframes.&lt;/p&gt;
+&lt;p&gt;I started conceptualising improvements by first creating low-fi wireframes on pen and paper.&lt;/p&gt;
 
 &lt;div id=&quot;slider&quot;&gt;
 	
@@ -221,37 +220,60 @@
 &lt;/script&gt;
 
 &lt;h3 id=&quot;the-solution&quot;&gt;The Solution&lt;/h3&gt;
+&lt;p&gt;My suggested improvements adhere to the approach outlined from my former analysis and apply to both the desktop and mobile platforms.&lt;/p&gt;
+
+&lt;h4 id=&quot;desktop&quot;&gt;Desktop&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Ease of adding locations&lt;/strong&gt; directly to custom maps created in Google MyMaps from location listings in Google Maps.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Addition of trip-oriented data fields&lt;/strong&gt; to alleviate other aspects of trip planning (e.g. Budgeting)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Offering an alternate day itinerary view&lt;/strong&gt; (on top of the existing layer view) of pinned locations in custom maps for travel planning&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;figure&gt;
   &lt;div class=&quot;embed-container&quot;&gt;
   &lt;iframe src=&quot;https://www.youtube.com/embed/iIXuqaPvaO8&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; autoplay=&quot;yes&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
-  &lt;figcaption&gt;Suggested improvement for the Google MyMaps desktop platform. Copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;figcaption&gt;Suggested improvements for the Google MyMaps desktop platform. Copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h4 id=&quot;bonus-integration-with-smart-assistants-google-assistant&quot;&gt;Bonus: Integration with Smart Assistants (Google Assistant)&lt;/h4&gt;
+&lt;h4 id=&quot;mobile&quot;&gt;Mobile&lt;/h4&gt;
+&lt;p&gt;For mobile, I propose to &lt;strong&gt;build Google MyMaps as a feature in the existing Google Maps mobile app&lt;/strong&gt;. Users can then have full access to data available on Google Maps while referring to their itinerary when travelling on the go.&lt;/p&gt;
+
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-assistant.png&quot; alt=&quot;Bonus: Integration with Smart Assistants (Google Assistant)&quot; /&gt;
+  &lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/Zk6WJHvrs4c&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; autoplay=&quot;yes&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+  &lt;figcaption&gt;Suggested improvement for Google MyMaps on mobile: integrate it directly with the Google Maps mobile app. Copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- #### Bonus: Integration with Smart Assistants (Google Assistant)
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-assistant.png&quot; alt=&quot;Bonus: Integration with Smart Assistants (Google Assistant)&quot;/&gt;
   &lt;figcaption&gt;Bonus: Integration with Smart Assistants (Google Assistant). Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up.&lt;/p&gt;
+Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up. --&gt;
 
 &lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
 
 &lt;h4 id=&quot;areas-for-improvement&quot;&gt;Areas for Improvement&lt;/h4&gt;
-&lt;p&gt;My solution assumes that mobile access is mainly for referencing the itinerary while navigating on the go during travel. However, this may be a skewed assumption because of typical unpredictability in travel trips. One might want to add a stop to the itinerary or even make a shift in plans.&lt;/p&gt;
+&lt;p&gt;My mobile solution &lt;strong&gt;assumes that mobile access is mainly for referencing the itinerary while navigating on the go during travel.&lt;/strong&gt; However, this may be a skewed assumption since &lt;strong&gt;unpredictability is part and parcel of travel&lt;/strong&gt;. One might have to adjust the itinerary by adding stops or even shift plans when needed. A more polished solution, therefore, would be required.&lt;/p&gt;
 
 &lt;h4 id=&quot;re-evaluating-assumptions&quot;&gt;Re-evaluating Assumptions&lt;/h4&gt;
 
+&lt;p&gt;The basis of this case study &lt;strong&gt;focuses only on one particular user group on the platform&lt;/strong&gt;; those who use it for their travel planning. However, &lt;strong&gt;Google MyMaps is also often used to present map data&lt;/strong&gt;. It might not have been fair thus to only compare the platform with other travel planning apps since they &lt;strong&gt;do not share the same primary use case.&lt;/strong&gt;&lt;/p&gt;
+
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-explore.png&quot; alt=&quot;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform&quot; /&gt;
-  &lt;figcaption&gt;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform. It it also often used to visualise and present map data. Author / copyright holder: Tessa Goh / Google MyMaps&lt;/figcaption&gt;
+  &lt;figcaption&gt;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform. It is also often used to visualise and present map data. Author / copyright holder: Tessa Goh / Google MyMaps&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The basis of this case study focuses only on one particular user group on the platform; those who use it for their travel planning. However, Google MyMaps is also often used to present map data. It might not have been fair thus to compare the platform with other travel planning apps since their primary use case does not align.&lt;/p&gt;
-
+&lt;div class=&quot;additional-notes&quot;&gt;
+&lt;h4&gt;ℹ️ Updates on Google MyMaps&lt;/h4&gt;
+&lt;em&gt;As of October 15, 2021, the My Maps app for Android devices has been shut down and removed from the Play Store. Only the web app is supported presently.&lt;/em&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/google-mymaps</link>
