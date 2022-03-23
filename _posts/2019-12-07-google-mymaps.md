@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Improving Google MyMaps
-categories: [Web App]
+categories: [Personal Project]
 author: false
 # tags: [Redesign]
 image: assets/images/google-mymaps.png

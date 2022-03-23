@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Building a Super C3 System
-categories: [Desktop App]
+categories: [Design Lead and Research]
 author: false
 image: assets/images/superc3system.png
 number: "1"
