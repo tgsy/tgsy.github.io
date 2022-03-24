@@ -4,13 +4,23 @@
 
 $brown: #B59F62;
 $mauve: #D5B3FF;
+$mediumpurple: #AE6BFF;
 $purple: #5400BA;
 $teal: #40FFDC;
 $black: #111;
 $quicksilver: #9DA3A6;
+$nickel: #667070;
+$jet: #292C30;
 $intlorangeeng: #BA0006;
+
 $primary: $mauve;
-$dark:    $black;
+$primary700: $mediumpurple;
+$primary800: $purple;
+$warning: $intlorangeeng;
+$neutral: $quicksilver;
+$neutral500: $nickel;
+$neutral700: $jet;
+$neutral800: $black;
 $enable-rounded: false;
 
 // variables for scrolling animation
@@ -47,9 +57,9 @@ body {
     background: #f4f4f4;
 }
 a {
-    color: $purple;
+    color: $primary800;
     text-decoration: underline;
-    //color: darken($primary, 24%);
+    //color: neutral800en($primary, 24%);
     // font-size: larger;
 }
 img {
@@ -125,122 +135,93 @@ h2,h3,h4,h5,h6 {
     align-items: center;
 
     img {
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
 
-    .button-scrolldown {
-        margin: 16px;
-        font-size: 36px;
-        color: $quicksilver;
-    }
+    // .button-scrolldown {
+    //     margin: 16px;
+    //     font-size: 36px;
+    //     color: $neutral;
+    // }
 
     .mouse_scroll {
         display: block;
         margin: 0 auto;
         width: 24px;
         height: 100px;
-        margin-top: 64px;
-        margin-bottom: 40px;
-    }
-    
-    .m_scroll_arrows
-    {
-      display: block;
-      width: 8px;
-      height: 8px;
-      -ms-transform: rotate(45deg); /* IE 9 */
-      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-      transform: rotate(45deg);
-       
-      border-right: 4px solid $black;
-      border-bottom: 4px solid $black;
-    //   border-radius: 5px;
-      margin: 0 0 3px 4px;
-      
-      width: 32px;
-      height: 32px;
-    }
-    
-    
-    .unu
-    {
-      margin-top: 1px;
-    }
-    
-    .unu, .doi, .trei
-    {
-        -webkit-animation: mouse-scroll 1s infinite;
-        -moz-animation: mouse-scroll 1s infinite;
-        animation: mouse-scroll 1s infinite;
-      
-    }
-    
-    .unu
-    {
-      -webkit-animation-delay: .1s;
-      -moz-animation-delay: .1s;
-      -webkit-animation-direction: alternate;
-      
-      animation-direction: alternate;
-      animation-delay: alternate;
-    }
-    
-    .doi
-    {
-      -webkit-animation-delay: .2s;
-      -moz-animation-delay: .2s;
-      -webkit-animation-direction: alternate;
-      
-      animation-delay: .2s;
-      animation-direction: alternate;
-      
-      margin-top: -4px;
-    }
-    
-    .trei
-    {
-      -webkit-animation-delay: .3s;
-      -moz-animation-delay: .3s;
-      -webkit-animation-direction: alternate;
-      
-      animation-delay: .3s;
-      animation-direction: alternate;
-      
-      
-      margin-top: -4px;
-    }
-    
-    @-webkit-keyframes mouse-scroll {
-    
-      0%   { opacity: 0;}
-      50%  { opacity: .5;}
-      100% { opacity: 1;}
-    }
-    @-moz-keyframes mouse-scroll {
-    
-      0%   { opacity: 0; }
-      50%  { opacity: .5; }
-      100% { opacity: 1; }
-    }
-    @-o-keyframes mouse-scroll {
-    
-      0%   { opacity: 0; }
-      50%  { opacity: .5; }
-      100% { opacity: 1; }
-    }
-    @keyframes mouse-scroll {
-    
-      0%   { opacity: 0; }
-      50%  { opacity: .5; }
-      100% { opacity: 1; }
-    }
+        margin-top: 36px;
+        //margin-bottom: 24px;
 
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // width: 100%;
+        // height: 100vh;
+    }
+    
+    $mouse_scroll-base: 0.6rem;
 
+    .chevron {
+      position: absolute;
+      width: $mouse_scroll-base * 5;
+      height: $mouse_scroll-base * 0.3;
+            opacity: 0;
+      transform: scale(0.2);
+      animation: move-chevron 3s ease-out infinite;
+    }
+    
+    .chevron:first-child {
+      animation: move-chevron 3s ease-out 1s infinite;
+    }
+    
+    .chevron:nth-child(2) {
+      animation: move-chevron 3s ease-out 2s infinite;
+    }
+    
+    .chevron:before,
+    .chevron:after {
+     content: '';
+     position: absolute;
+     top: 0;
+     height: 100%;
+     width: 55.5%;
+        border-radius: 20px;
+     background: $neutral;
+    }
+    
+    .chevron:before {
+     left: 0;
+     transform: rotate(30deg);
+    }
+    
+    .chevron:after {
+     right: 0;
+     width: 55.5%;
+     transform: rotate(-30deg);
+    }
+    
+    @keyframes move-chevron {
+     25% {
+      opacity: 1;
+        }
+     33.3% {
+      opacity: 1;
+      transform: translateY($mouse_scroll-base * 3);
+     }
+     66.6% {
+      opacity: 1;
+      transform: translateY($mouse_scroll-base * 5);
+     }
+     100% {
+      opacity: 0;
+      transform: translateY($mouse_scroll-base * 8) scale(0.5);
+     }
+    }
 
 }
 
 hr.solid {
-    border-color: $quicksilver;
+    border-color: $neutral;
 }
 
 .bigradius {
@@ -259,7 +240,7 @@ blockquote {
     font-style: italic;
     font-size: 20px;
     position:relative;
-    border-left:4px solid $dark;
+    border-left:4px solid $neutral800;
     margin-left:30px;
     padding-left:15px;
     cite {
@@ -343,7 +324,7 @@ img, img:hover {
 }
 
 .navbar-brand img {
-    max-height: 128px;
+    max-height: 96px;
     margin: 0 0 0 12px;
 }
 
@@ -380,7 +361,7 @@ img, img:hover {
     z-index: 1026;
     .hamburger-bar {
         width: 18px;
-        height: 2px;
+        height: 3px;
         //position: absolute;
         // top: 50%;
         // left: 50%;
@@ -389,9 +370,9 @@ img, img:hover {
         &:before, &:after {
             content: '';
             position: absolute;
-            width: 18px;
+            width: 20px;
             height: 2px;
-            background: #292C30;
+            background: $neutral700;
             border-radius: 1px;
         }
         &:before {
@@ -481,7 +462,7 @@ img, img:hover {
                 line-height: 20px;
                 //line-height: 1.4;
                 text-decoration: none;
-                color: $quicksilver;
+                color: $neutral500;
                 font-weight: 400;
                 font-size: 24px;
                 position: relative;
@@ -574,7 +555,7 @@ img, img:hover {
                     //border-radius: 16px 16px 0px 0px;
                     object-fit: cover;
                     //box-shadow: 4px 4px 16px $quicksilver;
-                    border: $mauve;
+                    border: $primary;
                     border-width: 2px;
                 
                 }
@@ -609,7 +590,7 @@ img, img:hover {
     }
     .card-title {
         font-weight:500;
-        font-size:28px;
+        font-size:1.5rem;
         line-height:1.4;
         a { 
             text-decoration: none !important;
@@ -633,7 +614,7 @@ img, img:hover {
         background-color: transparent !important;
         margin-top: auto;
         margin-left: auto;
-        color: $primary;
+        color: $primary700;
         font-size: 14px;
         border-top:0;
         padding: 1rem 1.25rem;
@@ -666,9 +647,6 @@ img, img:hover {
         .card-text {
             display:none;
         }
-        .card-title {
-            font-size: 28px;
-        }
         .img-thumb {
             object-fit:cover;
             // height:600px;
@@ -690,7 +668,6 @@ img, img:hover {
             object-position:50% 50%;
         }
         .card-title {
-            font-size: 28px;
             line-height:1.5;
         }      
     }
@@ -728,9 +705,9 @@ img, img:hover {
     .about-img {
         display: flex;
         flex-direction: column;
-    
+
         .entry-header {
-            align-self: flex-start;     
+
             .pagetitle {
                 font-family: 'Overpass', sans-serif;
                 font-size: 2 rem;
@@ -738,7 +715,6 @@ img, img:hover {
                 text-align: center;
             }
         }
-
         img {
             display: block;
             margin-left: auto;
@@ -863,7 +839,7 @@ img, img:hover {
 }
 
 .post-intro{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     .post-scope-year {
         //padding-left: 20px;
         display: flex;
@@ -889,7 +865,7 @@ img, img:hover {
     h3 {
         font-size: 1.25rem;
         font-weight: 400;
-        color: $mauve;
+        color: $primary700;
     }
     
 }
@@ -903,7 +879,7 @@ img, img:hover {
 }
 
 .posttitle {
-    font-size:40px;
+    font-size:2.25rem;
     font-weight:700;
     line-height:1.2;
 }
@@ -932,7 +908,7 @@ img, img:hover {
         width:50px;
         border-radius:50%;
         margin-right:10px;
-        border:2px solid darken($primary,20%);
+        border:2px solid neutral800en($primary,20%);
         padding:2px;
     }
 }
@@ -945,12 +921,12 @@ img, img:hover {
     .author-thumb {
         width:70px;
         border-radius:50%;
-        border:2px solid darken($primary,20%);
+        border:2px solid neutral800en($primary,20%);
         padding:2px;
     }
 }
 .article-post {   
-    font-size:1.2rem;
+    font-size:1rem;
     p {
         margin-top:12px;
     }
@@ -963,7 +939,7 @@ img, img:hover {
         margin-bottom: 20px;
         text-decoration: underline;
         text-decoration-thickness: 4px;
-        text-decoration-color: $mauve;
+        text-decoration-color: $primary;
         text-underline-offset: 4px;
         //margin: 32px auto 12px auto;
         
@@ -1011,7 +987,7 @@ img, img:hover {
         }
         figcaption {
             margin-top: 4px;
-            color: $quicksilver;
+            color: $neutral500;
             font-style: italic;
             font-size: 1rem;
         }
@@ -1037,7 +1013,7 @@ img, img:hover {
         margin-top: 32px;
         padding: 28px;
         margin-bottom: 24px;
-        color: $intlorangeeng;
+        color: $warning;
         background:rgba(255,255,255, 0.6);
         border-radius: 16px;
         h4 {
@@ -1114,7 +1090,7 @@ img, img:hover {
     .badge {
         font-family: 'Overpass', sans-serif !important;
         text-decoration: none !important;
-        color: $quicksilver;
+        color: $neutral;
         background-color: transparent !important;
         font-weight: 400;
         font-size: 16px;
@@ -1124,7 +1100,7 @@ img, img:hover {
         //border-radius: 8px;
 
         &:hover {
-             color: $purple;
+             color: $primary800;
         }
     }
 }
@@ -1139,7 +1115,7 @@ img, img:hover {
         li {
             margin:15px 0;
             a {
-                color:$dark;
+                color:$neutral800;
             }
         }
     }
@@ -1149,7 +1125,7 @@ img, img:hover {
 .show-search {
     cursor:pointer;
     &:hover {
-        color: darken($primary,20%);
+        color: neutral800en($primary,20%);
     }
 }
 .bd-search {
@@ -1180,7 +1156,7 @@ img, img:hover {
         font-size: 20px;
         margin-bottom:5px;
         &:hover {
-            color: darken($primary,20%);
+            color: neutral800en($primary,20%);
         }
     }
     span.body {
@@ -1213,7 +1189,7 @@ body.active-side {
     font-size: 1rem;
     font-family: 'Overpass', sans-serif !important;
     background:#fff;
-    color: $quicksilver;
+    color: $neutral500;
     
     #footer-links {
         @media (max-width: 768px) {
@@ -1280,7 +1256,7 @@ body.active-side {
 //tag-view
 .badge-primary {
     background-color: transparent !important;
-    color: $quicksilver !important;
+    color: $neutral500 !important;
     font-weight: 600;
 }
 
@@ -1291,7 +1267,7 @@ body.active-side {
     }
     .error-message-body {
         font-size: 1rem;
-        color: $quicksilver;
+        color: $neutral500;
         line-height: 180%;
     }
 }
@@ -1381,7 +1357,7 @@ body.active-side {
     }
 
     #menu {
-        margin: 48px 0 48px 0;
+        //margin: 48px 0 48px 0;
         padding: 0%;
         ul {
             li {
@@ -1515,7 +1491,7 @@ body.active-side {
 @media (max-width: 768px) {
 
     #menu {
-        margin: 48px 0 48px 0;
+        //margin: 48px 0 48px 0;
         padding:0%;
     }
 
@@ -1523,7 +1499,7 @@ body.active-side {
         max-width: 80%;
     }
     .posttitle {
-        font-size:35px;
+        font-size:2.1rem;
     }
 
     .card-no {
@@ -1606,7 +1582,7 @@ body.active-side {
 @media (max-width: 480px) {
 
     #menu {
-        margin: 48px 0 48px 0;
+        //margin: 48px 0 48px 0;
         padding:0%;
     }
 
@@ -1632,13 +1608,17 @@ body.active-side {
         padding-left:0;
         padding-right:0;
     }
+
+    .article-post, .post-intro {
+        font-size: 1rem;
+
+    }
+
     blockquote {
         margin-left:15px;
         font-size:18px;
     }
-    .article-post {
-        font-size:15px;
-    }
+   
     .wrap-search {
         .fa-search {
             display:none;

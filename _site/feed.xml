@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Mar 2022 17:30:37 +0800</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2022 17:30:37 +0800</lastBuildDate>
+    <pubDate>Thu, 24 Mar 2022 15:50:05 +0800</pubDate>
+    <lastBuildDate>Thu, 24 Mar 2022 15:50:05 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -40,7 +40,7 @@
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/superc3-team.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
-  &lt;figcaption&gt;The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh. Copyright terms and license: Tessa Goh.&lt;/figcaption&gt;
+  &lt;figcaption&gt;The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Managed by two product managers, the project team consists of ~20 software developers and a small design team. The design team grew from a strength of two to four towards the last quarter of 2021.&lt;/p&gt;
@@ -111,7 +111,7 @@
         <guid isPermaLink="true">http://localhost:4000/superc3system</guid>
         
         
-        <category>Desktop App</category>
+        <category>Design Lead and Research</category>
         
       </item>
     
@@ -280,7 +280,7 @@ Reminders to leave for the airport to catch the flight, start the journey toward
         <guid isPermaLink="true">http://localhost:4000/google-mymaps</guid>
         
         
-        <category>Web App</category>
+        <category>Personal Project</category>
         
       </item>
     

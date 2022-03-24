@@ -39,7 +39,7 @@ The Super C3 System replaces an existing legacy system that has become **increas
 
 <figure>
   <img src="{{site.url}}/assets/images/superc3-team.png" alt="Desktop application built on a GIS"/>
-  <figcaption>The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh. Copyright terms and license: Tessa Goh.</figcaption>
+  <figcaption>The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh.</figcaption>
 </figure>
 
 Managed by two product managers, the project team consists of ~20 software developers and a small design team. The design team grew from a strength of two to four towards the last quarter of 2021. 
