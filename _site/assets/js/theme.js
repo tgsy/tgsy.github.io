@@ -84,19 +84,26 @@ setTimeout(function(){
 // });
 
 // // Open/close navigation when clicked .nav-icon
-$(document).ready(function(){
-	$('.nav-icon').click(function(){
-		$('.nav-icon').toggleClass('active');
-	});
-	// $(".nav-icon").click(function(){
-	// 	$("#menu").toggleClass('active');
-	// });
-	// $(".nav-icon").click(function(){
-	// 	$("#blackover-nav").toggleClass('active');
-	// });
-	// $(".nav-icon").click(function(){
-	// 	$("body").toggleClass('active-side');
-	// });
+// $(document).ready(function(){
+// 	$('.nav-icon').click(function(){
+// 		$('.nav-icon').toggleClass('active');
+// 	});
+// 	//ignore this section
+// 	// $(".nav-icon").click(function(){
+// 	// 	$("#menu").toggleClass('active');
+// 	// });
+// 	// $(".nav-icon").click(function(){
+// 	// 	$("#blackover-nav").toggleClass('active');
+// 	// });
+// 	// $(".nav-icon").click(function(){
+// 	// 	$("body").toggleClass('active-side');
+// 	// });
+// });
+
+var navicon = $('.nav-icon');
+
+navicon.on('click', function(e) {
+	navicon.toggleClass('active');
 });
 
 // $(document).ready(function(){
@@ -199,10 +206,10 @@ $(window).scroll(function() {
 	}
   });
   
-  btn.on('click', function(e) {
+btn.on('click', function(e) {
 	e.preventDefault();
 	$('html, body').animate({scrollTop:0}, 300);
-  });
+});
   
 
 // $(document).ready(function(){
