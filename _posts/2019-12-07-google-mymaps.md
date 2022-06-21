@@ -16,7 +16,7 @@ rating: false
 youtubeId1: iIXuqaPvaO8
 youtubeId2: Zk6WJHvrs4c
 image_sliders: 
-  - slider2
+  - slider
 ---
 
 ### The Focus
@@ -96,7 +96,7 @@ I started conceptualising improvements by first creating low-fi wireframes on pe
 
 <div id="slider">
 	
-  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_gm-integration.png" title="Low-fi wireframes I drew to kickstart my solutioning (1/3)" alt="Better the integration of Google MyMaps with Google Maps">
+  <img src="{{site.url}}/assets/images/google-mymaps-wireframes_gm-integration.png" title="Low-fi wireframes I drew to kickstart my solutioning (1/3)" alt="Better the integration of Google MyMaps with Google Maps.">
 	
   <img data-src="{{site.url}}/assets/images/google-mymaps-wireframes_trip.png" title="Low-fi wireframes I drew to kickstart my solutioning (2/3)" src="" alt="Optimise Google MyMaps for trip planning.">
 	
@@ -104,13 +104,18 @@ I started conceptualising improvements by first creating low-fi wireframes on pe
   
 </div>
 
+<script src="{{ site.baseurl }}/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+<script src="{{ site.baseurl }}/bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js"></script>
+<script src="{{ site.baseurl }}/bower_components/ideal-image-slider/extensions/captions/iis-captions.js"></script>
+
 <script>
-  new IdealImageSlider.Slider('#slider');
+//new IdealImageSlider.Slider('#slider');
   var slider = new IdealImageSlider.Slider({
 	selector: '#slider',
-	height: 400, // Required but can be set by CSS
+	//height: 400, // Required but can be set by CSS
 	interval: 4000
 });
+  slider.addBulletNav();
   slider.addCaptions();
   slider.start();
 </script>
