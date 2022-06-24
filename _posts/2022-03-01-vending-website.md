@@ -36,7 +36,7 @@ The main reasons behind the re-design were as such:
 To **identify the main types of users** visiting the company's website, I **scouted past contact form submissions** to understand why users visited the site.
 
 <figure>
-  <img src="{{site.url}}/assets/images/av-redesign-formsubmissions.png" alt="Home and What We Offer page of the old site."/>
+  <img src="{{site.url}}/assets/images/av-redesign-formsubmissions.png" alt="Form submissions from the old website."/>
   <figcaption>Past contact form submissions (User's names has been edited). Author / copyright holder: Tessa Goh</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ The site's colour scheme builds upon the colours existing in the company's logo 
 I made the hi-fi prototypes with **Sketch**, the visual graphics with **Adobe Illustrator and Photoshop**.
 
 <figure>
-  <img src="{{site.url}}/assets/images/av-redesign-hifi.png" alt="Website header image"/>
+  <img src="{{site.url}}/assets/images/av-redesign-hifi.png" alt="Website hifi prototypes"/>
   <figcaption>Hi-fi mockups created on Sketch. Author / copyright holder: Tessa Goh</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ I made the hi-fi prototypes with **Sketch**, the visual graphics with **Adobe Il
 </figure>
 
 <figure>
-  <img src="{{site.url}}/assets/images/av-redesign-visuals.png" alt="Vending Illustrations"/>
+  <img src="{{site.url}}/assets/images/av-redesign-visuals.png" alt="Website's vending illustrations"/>
   <figcaption>Vending Machine illustrations created for the Home page. Author / copyright holder: Tessa Goh</figcaption>
 </figure>
 
