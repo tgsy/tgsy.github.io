@@ -165,6 +165,7 @@ The site was **implemented and published with Weebly**. I built the site on top 
 2. **Always make sure you fully understand your constraints prior to designing.** I began re-designing certain micro-interactions without first verifying if it was feasible to implement those designs on the site builder. I later had to tweak my design to fit within the constraints of Weebly's site-building tools.
 3. **Business considerations are prime.** As much as UX is important to me as a UX practitioner, paying more monthly to deploy a website that offers a better UX to the site visitors but has little add-on value to the business is deemed unnecessary by the business owners. As such, the improved website still builds upon the Weebly website builder, instead of other website builders available in the market that offers greater flexibility in design.
 
+
 <div class="additional-notes">
 👉  Click <a href="http://www.achievavending.com.sg/" target="_blank">here</a> to view the final product.
 </div>
