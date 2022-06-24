@@ -23,7 +23,7 @@ var documents = [{
     "id": 4,
     "url": "http://localhost:4000/contact",
     "title": "Contact",
-    "body": "  Please send your message to Tessa Goh - UX/UI Engineer, Singapore. We will reply as soon as possible!   "
+    "body": "  Please send your message to Tessa Goh - UX/UI Designer, Singapore. We will reply as soon as possible!   "
     }, {
     "id": 5,
     "url": "http://localhost:4000/",
