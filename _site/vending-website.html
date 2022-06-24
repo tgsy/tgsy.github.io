@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon_io/site.webmanifest">
+
+<title>Re-designing a Vending Provider's Website | Tessa Goh - UX/UI Engineer, Singapore</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Re-designing a Vending Provider’s Website | Tessa Goh</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Re-designing a Vending Provider’s Website" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Problem" />
+<meta property="og:description" content="The Problem" />
+<link rel="canonical" href="http://localhost:4000/vending-website" />
+<meta property="og:url" content="http://localhost:4000/vending-website" />
+<meta property="og:site_name" content="Tessa Goh" />
+<meta property="og:image" content="http://localhost:4000/assets/images/av-redesign.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-01T00:00:00+08:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/av-redesign.png" />
+<meta property="twitter:title" content="Re-designing a Vending Provider’s Website" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-01T00:00:00+08:00","datePublished":"2022-03-01T00:00:00+08:00","description":"The Problem","headline":"Re-designing a Vending Provider’s Website","image":"http://localhost:4000/assets/images/av-redesign.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/vending-website"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo-tgsy-black.png"}},"url":"http://localhost:4000/vending-website"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+<link href="/assets/css/prism.css" rel="stylesheet">
+
+<link href="/assets/css/theme.css" rel="stylesheet">
+
+<!-- image slider (1) -->
+<!-- <link rel="stylesheet" href="/bower_components/ideal-image-slider/css/normalize.css"> -->
+<link rel="stylesheet" href="/bower_components/ideal-image-slider/ideal-image-slider.css">
+<link rel="stylesheet" href="/bower_components/ideal-image-slider/themes/default/default.css">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/e851d6824b.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<!-- image-slider (2) -->
+<script src="/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+<script src="/bower_components/ideal-image-slider/extensions/captions/iis-captions.js"></script>
+
+
+
+
+<body>
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+        <!-- i removed it -->
+	</noscript>
+
+<!-- Begin Navigation
+================================================== -->
+<div class="nav-container sticky-top">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="/">
+            <img src="/assets/images/logo-tgsy-black.png" alt="Tessa Goh - UX/UI Engineer, Singapore">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-icon" onclick="openNav()">
+                <div class="hamburger-bar"></div>
+            <span>
+        </button>
+
+        <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Works <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+</div>
+
+<!-- Search bar -->
+<!-- <script src="/assets/js/lunr.js"></script>
+
+<style>
+    
+</style>
+
+<div class="wrap-search">
+    <div class="d-flex align-items-center ml-auto">
+        <i class="fas fa-search show-search"></i>
+        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+        </form>
+    </div>
+</div>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script> -->
+
+<!-- End Sidebar Navigation
+================================================== -->
+
+<div class="site-content ">
+
+<div class="container">
+
+    <!-- Site Logo/Name
+    ================================================== -->
+   
+    <!-- <a class="navbar-brand" href="/">
+        <img src="/assets/images/logo-tgsy-black.png" alt="Tessa Goh - UX/UI Engineer, Singapore">
+    </a>   -->
+   
+
+    <!-- Site Tag
+    ================================================== -->
+    
+
+<!-- 
+    <p class="sitetag">
+        👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.
+    </p> -->
+
+    <!-- Content
+    ================================================== -->
+    <div id="Works" class="main-content">
+        <div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">Re-designing a Vending Provider's Website</h1>
+    <!-- Author & Date  Box -->
+    
+    
+</div>
+
+    <!-- Featured Image -->
+
+<div class="entry-featured-image">
+    
+    <img class="featured-image lazyimg " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/av-redesign.png" alt="Re-designing a Vending Provider's Website">
+    
+</div>
+
+
+    <!-- Summary -->
+    <div class = "post-intro">
+        <div class="row">
+          <div class="post-summary col-md-10">
+            <h3>Overview</h3>
+              <span>Achieva Vending Pte Ltd is an SME (Small and Medium-sized Enterprise) in Singapore that <b>provides vending services for food and beverages.</b> The design of its company website looks increasingly <b>outdated</b> compared to its competitors, and the <b>accessibility of information on the website fell short</b> of users' expectations. An overhaul feels long overdue and will help ensure the company can remain competitive in the industry.
+I enhanced the overall site experience by improving the site's <b>visual design</b> and <b>information architecture</b> for better clarity on the business's solutions available. I also worked with the business owners and sales personnel to <b>revamp the UX writing</b> of the pages. The site was built using Weebly.</span>
+          </div>
+            <div class="post-scope-year col-md-2">
+                <div class="post-scope">
+                    <h3>Scope</h3>
+                    <span>Web Design</span>
+                </div>
+                <hr>
+                <div class="post-year">
+                    <h3> Year</h3>
+                    <span>2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+
+
+<!-- Content -->
+<!-- Post, Page Content
+================================================== -->
+<div class="article-post">
+    <!-- Toc if any -->
+    
+    <!-- End Toc -->
+    <h3 id="the-problem">The Problem</h3>
+
+<p>The main reasons behind the re-design were as such:</p>
+<ol>
+  <li>The site looked <strong>outdated</strong> and contained visuals of poor resolution.</li>
+  <li>It <strong>did not offer a seamless experience across all devices</strong>.</li>
+  <li>It neither met <strong>new business needs</strong> nor reflected the <strong>business’s values</strong> well.</li>
+</ol>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-old.png" alt="Home and What We Offer page of the old site." />
+  <figcaption>Screenshots of the old site. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<h3 id="research">Research</h3>
+
+<h4 id="target-audience">Target audience</h4>
+
+<p>To <strong>identify the main types of users</strong> visiting the company’s website, I <strong>scouted past contact form submissions</strong> to understand why users visited the site.</p>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-formsubmissions.png" alt="Home and What We Offer page of the old site." />
+  <figcaption>Past contact form submissions (User's names has been edited). Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<p>The main types of users identified were:</p>
+<ol>
+  <li><strong>Potential customers looking for vending solutions</strong>,</li>
+  <li>Existing customers in need of <strong>service support</strong> or wishing to <strong>provide feedback</strong> and</li>
+  <li>Food and beverage <strong>suppliers looking for collaboration</strong>.</li>
+</ol>
+
+<h4 id="content-strategy">Content Strategy</h4>
+
+<p>I spoke to the founder and sales team to understand the <strong>company’s strategy in standing out from its competitors</strong>.</p>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-values.png" alt="What the company strives towards in its vending services, collated during my discussion with the founder and sales team." />
+  <figcaption>What the company strives towards in its vending services, collated during my discussion with the founder and sales team. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<h4 id="voice-and-tone">Voice and Tone</h4>
+
+<p>What sets the company apart, as an SME, is also the cordialness it offers to its customers. With this and the above list in mind, the improved website should, therefore, adopt a <strong>clean</strong> look and adopt a <strong>friendly tone of writing</strong>.</p>
+
+<h3 id="ideation">Ideation</h3>
+
+<h4 id="competitive-analysis">Competitive Analysis</h4>
+
+<p>For the initial brainstorming, I sourced inspiration from the websites of other vending providers, both local and abroad and identified the good attributes that I could learn from, such as <strong>understanding common industry terms to help in clarity in communication for the new website</strong>.</p>
+
+<h4 id="information-architecture">Information Architecture</h4>
+
+<p>After a preliminary sharing and discussion with the business owners, some sections in the proposed IA were removed due to business considerations and eventually looked like this:</p>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-ia.png" alt="Final Information Architecture" />
+  <figcaption>IA for the new site. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<p>The new website adds a new ‘Careers’ page to help raise the visibility of the vacancies available in the company given the business’s manpower shortage needs.</p>
+
+<h4 id="wireframing">Wireframing</h4>
+
+<p>I started conceptualising by first creating low-fi wireframes on a note-taking app.</p>
+
+<div id="slider1">
+	
+  <img src="http://localhost:4000/assets/images/av-redesign-wireframes1.png" title="Low-fi wireframes (1/4)" alt="Home Page" />
+	
+  <img data-src="http://localhost:4000/assets/images/av-redesign-wireframes2.png" title="Low-fi wireframes (2/4)" src="" alt="What We Offer page" />
+	
+  <img data-src="http://localhost:4000/assets/images/av-redesign-wireframes3.png" data-src-2x="" src="" title="Low-fi wireframes (3/4)" alt="Careers page" />
+
+  <img data-src="http://localhost:4000/assets/images/av-redesign-wireframes4.png" data-src-2x="" src="" title="Low-fi wireframes (4/4)" alt="Contact Us page/Contact form" />
+  
+</div>
+
+<script src="/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+
+<script src="/bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js"></script>
+
+<script src="/bower_components/ideal-image-slider/extensions/captions/iis-captions.js"></script>
+
+<script>
+  // new IdealImageSlider.Slider('#slider');
+  var slider1 = new IdealImageSlider.Slider({
+	selector: '#slider1',
+	//height: 400, // Required but can be set by CSS
+	interval: 4000
+});
+  // var slider = new IdealImageSlider.Slider('#slider');
+  slider1.addBulletNav();
+  slider1.addCaptions();
+  slider1.start();
+</script>
+
+<h3 id="prototyping">Prototyping</h3>
+
+<h4 id="color-scheme">Color Scheme</h4>
+
+<p>The site’s colour scheme builds upon the colours existing in the company’s logo by adding a colour (Trypan Blue #3D14B8) that is complementary to the Apple Green (#8fb914) present in the logo.</p>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-color-scheme.png" alt="Color scheme adopted for the new site, built upon the company's logo" />
+  <figcaption>Color scheme adopted for the new site, built upon the company's logo. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<h4 id="high-fidelity-prototypes">High-fidelity prototypes</h4>
+
+<p>I made the hi-fi prototypes with <strong>Sketch</strong>, the visual graphics with <strong>Adobe Illustrator and Photoshop</strong>.</p>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-hifi.png" alt="Website header image" />
+  <figcaption>Hi-fi mockups created on Sketch. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-header.png" alt="Website header image" />
+  <figcaption>Header image in the Home page. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-visuals.png" alt="Vending Illustrations" />
+  <figcaption>Vending Machine illustrations created for the Home page. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<h3 id="the-final-product">The Final Product</h3>
+
+<h4 id="implementation">Implementation</h4>
+<p>The site was <strong>implemented and published with Weebly</strong>. I built the site on top of an existing theme available and then modified it to match my designs using the HTML editor. Below are screenshots of the improved website.</p>
+
+<figure>
+  <img src="http://localhost:4000/assets/images/av-redesign-final-product1.png" alt="Screenshots of the improved website" />
+  <figcaption>Screenshots of the improved site: 'Home' page and 'What We Offer' page. Author / copyright holder: Tessa Goh</figcaption>
+</figure>
+
+<h3 id="evaluation">Evaluation</h3>
+
+<h4 id="constraints">Constraints</h4>
+<p><strong>Budget considerations</strong> and <strong>limited functionalities</strong> of the Weebly website builder meant that many design decisions had to be tweaked due to a lack of <strong>feasibility in implementation</strong>, or else to ensure a seamlessly <strong>responsive experience</strong> across mobile devices.</p>
+
+<h4 id="areas-for-improvement">Areas for Improvement</h4>
+<p><strong>Vending Machine specifications</strong> such as the machines’ dimensions and power input are required to allow potential customers to <strong>gauge the feasibility of employing the company’s services</strong> before reaching out. This information was included in the initial planning during ideation but has been omitted later due to the lack of data available.</p>
+
+<h3 id="project-learningstakeaways">Project Learnings/Takeaways</h3>
+
+<ol>
+  <li><strong>Focus on building an MVP first.</strong> In an SME, there is only so much time and effort that its staff can invest for you, so it’s important to focus on building an MVP and then improving from there (e.g. including vending machine specifications)</li>
+  <li><strong>Always make sure you fully understand your constraints prior to designing.</strong> I began re-designing certain micro-interactions without first verifying if it was feasible to implement those designs on the site builder. I later had to tweak my design to fit within the constraints of Weebly’s site-building tools.</li>
+  <li><strong>Business considerations are prime.</strong> As much as UX is important to me as a UX practitioner, paying more monthly to deploy a website that offers a better UX to the site visitors but has little add-on value to the business is deemed unnecessary by the business owners. As such, the improved website still builds upon the Weebly website builder, instead of other website builders available in the market that offers greater flexibility in design.</li>
+</ol>
+
+<div class="additional-notes">
+👉  Click <a href="http://www.achievavending.com.sg/" target="_blank">here</a> to view the final product.
+</div>
+
+</div>
+
+<!-- Back to Top FAB
+================================================== -->
+<a id="back-to-top-button">
+    <!-- <span>
+    <i class="fa-solid fa-arrow-up-long"></i>
+    <p>Back to top</p>
+    </span>  -->
+    <svg width="39px" height="16px" viewBox="0 0 39 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>back-to-top</title>
+        <g id="Page-1" stroke="none" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="back-to-top-container" transform="translate(-1300.000000, -2420.000000)" stroke="#292C30" stroke-width="2">
+                <g id="back-to-top" transform="translate(1301.670524, 2421.752238)">
+                    <line x1="17.6594759" y1="1.36424205e-12" x2="35.6589519" y2="12.2373737" id="Line"></line>
+                    <line x1="2.45067187e-16" y1="12.2373737" x2="17.6589519" y2="0" id="Line-Copy"></line>
+                </g>
+            </g>
+        </g>
+    </svg>
+</a>
+
+<!-- Rating -->
+
+
+<!-- Author Box if enabled from _config.yml -->
+<!-- Author Box -->
+
+
+<!-- Comments if not disabled with comments: false -->
+<!-- Comments
+================================================== -->
+
+
+<!-- Share -->
+
+
+<!-- Related Post -->
+<!-- Post Navigation
+================================================== -->
+<br>
+<hr>
+<br>
+<h2 class="text-center mb-4">More Projects</h2>
+
+
+
+
+<div class="post-navigation">
+    <div class="blog-grid-container">  
+        
+        
+            
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class = "row">
+            <div class="maxthumb col">
+                <a href="/superc3system">
+                    
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/superc3system.png" alt="Building a Super C3 System">
+                        
+    
+                    
+                </a>
+            </div>
+            <div class="card-body col">
+                <h2 class="card-title">
+                    <a class="text-dark" href="/superc3system">Building a Super C3 System</a>
+                    
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+            
+        
+        
+            
+            
+        
+        
+            
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class = "row">
+            <div class="maxthumb col">
+                <a href="/google-mymaps">
+                    
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/google-mymaps.png" alt="Improving Google MyMaps">
+                        
+    
+                    
+                </a>
+            </div>
+            <div class="card-body col">
+                <h2 class="card-title">
+                    <a class="text-dark" href="/google-mymaps">Improving Google MyMaps</a>
+                    
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+            
+        
+</div>
+</div>
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first:
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+    </div>
+
+    
+    
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                Copyright © 2022 Tessa Goh 
+            </div>
+            <div class="col-md-6 col-sm-12 text-center text-lg-right" id="footer-links">
+                <a class="m-2" target="_blank" href="mailto:tessagsy@gmail.com?subject=Let's Connect!">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+    
+                <a class="m-2" target="_blank" href="https://www.linkedin.com/in/tessagoh/" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a class="m-2" target="_blank" href="https://www.behance.net/tgsy" rel="noopener noreferrer">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+                
+                <a class="m-2" target="_blank" href="https://instagram.com/snappytoons?igshid=YmMyMTA2M2Y=" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+================================================== -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="/assets/js/prism.js"></script>
+
+<script src="/assets/js/theme.js"></script>
+
+
+<script src="/assets/js/lazyload.js"></script>
+
+
+
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
+
+
+</body>
+</html>

@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Jun 2022 16:15:22 +0800</pubDate>
-    <lastBuildDate>Tue, 21 Jun 2022 16:15:22 +0800</lastBuildDate>
+    <pubDate>Fri, 24 Jun 2022 16:35:18 +0800</pubDate>
+    <lastBuildDate>Fri, 24 Jun 2022 16:35:18 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -126,66 +126,72 @@
   &lt;li&gt;It neither met &lt;strong&gt;new business needs&lt;/strong&gt; nor reflected the &lt;strong&gt;business’s values&lt;/strong&gt; well.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;user-research&quot;&gt;User Research&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-old.png&quot; alt=&quot;Home and What We Offer page of the old site.&quot; /&gt;
+  &lt;figcaption&gt;Screenshots of the old site. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;h4 id=&quot;the-users&quot;&gt;The Users&lt;/h4&gt;
+&lt;h3 id=&quot;research&quot;&gt;Research&lt;/h3&gt;
 
-&lt;p&gt;To identify common user types, I scouted the contact form submissions from the old website to understand why users visited the site.&lt;/p&gt;
+&lt;h4 id=&quot;target-audience&quot;&gt;Target audience&lt;/h4&gt;
 
-&lt;p&gt;The four main types of isers identified were:&lt;/p&gt;
+&lt;p&gt;To &lt;strong&gt;identify the main types of users&lt;/strong&gt; visiting the company’s website, I &lt;strong&gt;scouted past contact form submissions&lt;/strong&gt; to understand why users visited the site.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-formsubmissions.png&quot; alt=&quot;Home and What We Offer page of the old site.&quot; /&gt;
+  &lt;figcaption&gt;Past contact form submissions (User's names has been edited). Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The main types of users identified were:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Potential customers looking for vending solutions&lt;/strong&gt;,&lt;/li&gt;
-  &lt;li&gt;Existing customers in need of &lt;strong&gt;service support&lt;/strong&gt; or wishing to &lt;strong&gt;provide feedback&lt;/strong&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Employment&lt;/strong&gt; seekers and&lt;/li&gt;
+  &lt;li&gt;Existing customers in need of &lt;strong&gt;service support&lt;/strong&gt; or wishing to &lt;strong&gt;provide feedback&lt;/strong&gt; and&lt;/li&gt;
   &lt;li&gt;Food and beverage &lt;strong&gt;suppliers looking for collaboration&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&quot;expected-mood-statements&quot;&gt;Expected Mood Statements&lt;/h4&gt;
+&lt;h4 id=&quot;content-strategy&quot;&gt;Content Strategy&lt;/h4&gt;
 
-&lt;p&gt;I spoke to the founder to understand the &lt;strong&gt;key characteristics of what constitutes great vending services&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I spoke to the founder and sales team to understand the &lt;strong&gt;company’s strategy in standing out from its competitors&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ca1.png&quot; alt=&quot;The list of adjectives that describes great vending services, collated during my discussion with the founder and sales team.&quot; /&gt;
-  &lt;figcaption&gt;The list of adjectives that describes great vending services, collated during my discussion with the founder and sales team. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-values.png&quot; alt=&quot;What the company strives towards in its vending services, collated during my discussion with the founder and sales team.&quot; /&gt;
+  &lt;figcaption&gt;What the company strives towards in its vending services, collated during my discussion with the founder and sales team. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;As an SME, what sets the company apart from many competitors in the market, is its friendliness.&lt;/p&gt;
+&lt;h4 id=&quot;voice-and-tone&quot;&gt;Voice and Tone&lt;/h4&gt;
 
-&lt;p&gt;The mood statements of the new website were, therefore:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Clean&lt;/strong&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Minimalist&lt;/strong&gt; and&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Friendly&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;What sets the company apart, as an SME, is also the cordialness it offers to its customers. With this and the above list in mind, the improved website should, therefore, adopt a &lt;strong&gt;clean&lt;/strong&gt; look and adopt a &lt;strong&gt;friendly tone of writing&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;ideation&quot;&gt;Ideation&lt;/h3&gt;
 
 &lt;h4 id=&quot;competitive-analysis&quot;&gt;Competitive Analysis&lt;/h4&gt;
 
-&lt;p&gt;For the initial brainstorming, I sourced inspiration from the websites of other vending providers, both local and abroad and identified the good attributes that I could learn from; clarity in delivery, common industry terms and call-to-actions for the new website.&lt;/p&gt;
+&lt;p&gt;For the initial brainstorming, I sourced inspiration from the websites of other vending providers, both local and abroad and identified the good attributes that I could learn from, such as &lt;strong&gt;understanding common industry terms to help in clarity in communication for the new website&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;information-architecture&quot;&gt;Information Architecture&lt;/h4&gt;
 
 &lt;p&gt;After a preliminary sharing and discussion with the business owners, some sections in the proposed IA were removed due to business considerations and eventually looked like this:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur1.png&quot; alt=&quot;Google MyMaps User Ratings taken from the Google Play Store&quot; /&gt;
-  &lt;figcaption&gt;Proposed IA for the new site. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-ia.png&quot; alt=&quot;Final Information Architecture&quot; /&gt;
+  &lt;figcaption&gt;IA for the new site. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The new website adds a new ‘Careers’ page to help raise the visibility of the vacancies available in the company given the business’s manpower shortage needs.&lt;/p&gt;
 
 &lt;h4 id=&quot;wireframing&quot;&gt;Wireframing&lt;/h4&gt;
 
-&lt;p&gt;I started conceptualising improvements by first creating low-fi wireframes on pen and paper.&lt;/p&gt;
+&lt;p&gt;I started conceptualising by first creating low-fi wireframes on a note-taking app.&lt;/p&gt;
 
-&lt;div id=&quot;slider&quot;&gt;
+&lt;div id=&quot;slider1&quot;&gt;
 	
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-wireframes_gm-integration.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (1/3)&quot; alt=&quot;Better the integration of Google MyMaps with Google Maps&quot; /&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes1.png&quot; title=&quot;Low-fi wireframes (1/4)&quot; alt=&quot;Home Page&quot; /&gt;
 	
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/google-mymaps-wireframes_trip.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (2/3)&quot; src=&quot;&quot; alt=&quot;Optimise Google MyMaps for trip planning.&quot; /&gt;
+  &lt;img data-src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes2.png&quot; title=&quot;Low-fi wireframes (2/4)&quot; src=&quot;&quot; alt=&quot;What We Offer page&quot; /&gt;
 	
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/google-mymaps-wireframes_mobile-accessibility.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (3/3)&quot; alt=&quot;Improve Google MyMaps's mobile accessibility.&quot; /&gt;
+  &lt;img data-src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes3.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes (3/4)&quot; alt=&quot;Careers page&quot; /&gt;
+
+  &lt;img data-src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes4.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes (4/4)&quot; alt=&quot;Contact Us page/Contact form&quot; /&gt;
   
 &lt;/div&gt;
 
@@ -197,66 +203,75 @@
 
 &lt;script&gt;
   // new IdealImageSlider.Slider('#slider');
-  var slider = new IdealImageSlider.Slider({
-	selector: '#slider',
+  var slider1 = new IdealImageSlider.Slider({
+	selector: '#slider1',
 	//height: 400, // Required but can be set by CSS
 	interval: 4000
 });
   // var slider = new IdealImageSlider.Slider('#slider');
-  slider.addBulletNav();
-  slider.addCaptions();
-  slider.start();
+  slider1.addBulletNav();
+  slider1.addCaptions();
+  slider1.start();
 &lt;/script&gt;
 
 &lt;h3 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h3&gt;
 
-&lt;h4 id=&quot;color-scheme--type&quot;&gt;Color Scheme &amp;amp; Type&lt;/h4&gt;
+&lt;h4 id=&quot;color-scheme&quot;&gt;Color Scheme&lt;/h4&gt;
 
-&lt;p&gt;The site’s colour scheme builds upon the company’s existing logo.&lt;/p&gt;
+&lt;p&gt;The site’s colour scheme builds upon the colours existing in the company’s logo by adding a colour (Trypan Blue #3D14B8) that is complementary to the Apple Green (#8fb914) present in the logo.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur2.png&quot; alt=&quot;Survey responses reflecting usage of Google MyMaps desktop platform&quot; /&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-color-scheme.png&quot; alt=&quot;Color scheme adopted for the new site, built upon the company's logo&quot; /&gt;
   &lt;figcaption&gt;Color scheme adopted for the new site, built upon the company's logo. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;high-fidelity-prototypes&quot;&gt;High-fidelity prototypes&lt;/h4&gt;
 
-&lt;p&gt;The hi-fi prototypes were done on Sketch, whereas the visuals and graphics were created using Adobe Illustrator and Adobe Photoshop.&lt;/p&gt;
+&lt;p&gt;I made the hi-fi prototypes with &lt;strong&gt;Sketch&lt;/strong&gt;, the visual graphics with &lt;strong&gt;Adobe Illustrator and Photoshop&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur2.png&quot; alt=&quot;Survey responses reflecting usage of Google MyMaps desktop platform&quot; /&gt;
-  &lt;figcaption&gt;Survey responses collected on the Googe MyMaps desktop experience. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-hifi.png&quot; alt=&quot;Website header image&quot; /&gt;
+  &lt;figcaption&gt;Hi-fi mockups created on Sketch. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-header.png&quot; alt=&quot;Website header image&quot; /&gt;
+  &lt;figcaption&gt;Header image in the Home page. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-visuals.png&quot; alt=&quot;Vending Illustrations&quot; /&gt;
+  &lt;figcaption&gt;Vending Machine illustrations created for the Home page. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;the-final-product&quot;&gt;The Final Product&lt;/h3&gt;
 
 &lt;h4 id=&quot;implementation&quot;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;The site was implemented and published with Weebly. I built the site on top of an existing theme available and then modified it to match my designs using the HTML editor. Below are screenshots of the improved website.&lt;/p&gt;
+&lt;p&gt;The site was &lt;strong&gt;implemented and published with Weebly&lt;/strong&gt;. I built the site on top of an existing theme available and then modified it to match my designs using the HTML editor. Below are screenshots of the improved website.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-persona.png&quot; alt=&quot;User Persona summarising user needs and frustrations of a typical user using the platform for travel planning&quot; /&gt;
-  &lt;figcaption&gt;Screenshots of the improved site. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-final-product1.png&quot; alt=&quot;Screenshots of the improved website&quot; /&gt;
+  &lt;figcaption&gt;Screenshots of the improved site: 'Home' page and 'What We Offer' page. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
 
 &lt;h4 id=&quot;constraints&quot;&gt;Constraints&lt;/h4&gt;
-&lt;p&gt;Budget considerations and limited functionalities of the Weebly website builder meant that many design decisions had to be tweaked due to a lack of feasibility in implementation, or else to ensure a seamlessly responsive experience across mobile devices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Budget considerations&lt;/strong&gt; and &lt;strong&gt;limited functionalities&lt;/strong&gt; of the Weebly website builder meant that many design decisions had to be tweaked due to a lack of &lt;strong&gt;feasibility in implementation&lt;/strong&gt;, or else to ensure a seamlessly &lt;strong&gt;responsive experience&lt;/strong&gt; across mobile devices.&lt;/p&gt;
 
 &lt;h4 id=&quot;areas-for-improvement&quot;&gt;Areas for Improvement&lt;/h4&gt;
-&lt;p&gt;Vending Machine specifications such as the machines’ dimensions and power input are required to allow potential customers to gauge the feasibility of employing the company’s services before reaching out. This information was included in the initial planning during ideation but has been omitted later due to the lack of data available.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vending Machine specifications&lt;/strong&gt; such as the machines’ dimensions and power input are required to allow potential customers to &lt;strong&gt;gauge the feasibility of employing the company’s services&lt;/strong&gt; before reaching out. This information was included in the initial planning during ideation but has been omitted later due to the lack of data available.&lt;/p&gt;
 
 &lt;h3 id=&quot;project-learningstakeaways&quot;&gt;Project Learnings/Takeaways&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Focus on building an MVP first.&lt;/strong&gt; In an SME, there is only so much time and effort that its staff can invest for you, so it’s important to focus on building an MVP and then improving from there (The vending machine specifications)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Always make sure you fully understand your constraints prior to designing.&lt;/strong&gt; I began re-designing certain micro-interactions without first verifying if it was feasible to implement those designs on the site builder within the given budget. I later had to tweak my design to fit within the constraints of Weebly’s site-building tools.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Business considerations are prime.&lt;/strong&gt; As much as UX is important to me as a UX practitioner, paying more monthly to deploy a website that offers a better UX to the site visitors but has little add-on value to the business is deemed unnecessary by the business owners. As such, the improved website still builds upon the Weebly website builder, instead of  other website builders available in the market that offers greater flexibility in design.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Focus on building an MVP first.&lt;/strong&gt; In an SME, there is only so much time and effort that its staff can invest for you, so it’s important to focus on building an MVP and then improving from there (e.g. including vending machine specifications)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Always make sure you fully understand your constraints prior to designing.&lt;/strong&gt; I began re-designing certain micro-interactions without first verifying if it was feasible to implement those designs on the site builder. I later had to tweak my design to fit within the constraints of Weebly’s site-building tools.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Business considerations are prime.&lt;/strong&gt; As much as UX is important to me as a UX practitioner, paying more monthly to deploy a website that offers a better UX to the site visitors but has little add-on value to the business is deemed unnecessary by the business owners. As such, the improved website still builds upon the Weebly website builder, instead of other website builders available in the market that offers greater flexibility in design.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;div class=&quot;additional-notes&quot;&gt;
-&lt;h4&gt;ℹ️ View website&lt;/h4&gt;
-&lt;em&gt;👉 Click here to view the site.&lt;/em&gt;
+👉  Click &lt;a href=&quot;http://www.achievavending.com.sg/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; to view the final product.
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Mar 2022 00:00:00 +0800</pubDate>

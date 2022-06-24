@@ -64,7 +64,8 @@
 		 -o-transition: 0.3s ease-out;
 			transition: 0.3s ease-out;
 }
-.iis-has-captions .iis-bullet-nav { max-width: 42%; }
+.iis-has-captions .iis-bullet-nav { max-width: 18%; }
+/* .iis-has-captions .iis-bullet-nav { max-width: 42%; } */
 .iis-bullet-nav a {
 	display: inline-block;
 	width: 10px;
@@ -89,23 +90,31 @@
 .iis-has-captions .iis-slide { text-indent: 0; }
 .iis-caption {
 	position: absolute;
-	left: 5%;
-	bottom: 5%;
-	max-width: 90%;
+	left: 0%;
+	bottom: 0%;
+	max-width: 100%;
 	z-index: 10;
 	background: #000;
 	background: rgba(0,0,0,0.5);
-	padding: 5px 15px;
-	border-radius: 10px;
+	padding: 4px 16px;
+	/* border-radius: 10px; */
+	/* font: 14px/1.6em; */
 	font: 14px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.iis-has-bullet-nav .iis-caption { max-width: 42%; }
-.iis-caption .iis-caption-title { font-weight: bold; }
+.iis-has-bullet-nav .iis-caption { max-width: 66%; }
+/* .iis-has-bullet-nav .iis-caption { max-width: 42%; } */
+.iis-caption .iis-caption-title { 
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 2px;
+ }
 .iis-caption .iis-caption-content {
+	padding-top: 2px;
+	padding-bottom: 4px;
 	font-size: 13px;
 	line-height: 1.6em;
 	color: #eee;
