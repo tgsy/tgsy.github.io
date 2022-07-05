@@ -124,8 +124,9 @@ h2,h3,h4,h5,h6 {
     .role-highlight{
         text-decoration: underline;
         text-decoration-color: $primary;
-        text-decoration-thickness: 4px;
-        text-underline-offset: 0.15em;
+        text-underline-offset: -0.32em;
+        text-decoration-thickness: 12px;
+        text-decoration-skip-ink: none;
       }
 }
 
@@ -446,19 +447,22 @@ img, img:hover {
             a:hover {
                 text-decoration: underline;
                 text-decoration-color: $primary;
-                text-decoration-thickness: 4px;
                 text-underline-position: under;
+                text-underline-offset: -0.36em;
+                text-decoration-thickness: 6px;
+                text-decoration-skip-ink: none;
             }
 
         }
 
         .active {
             a {
-
                 text-decoration: underline;
                 text-decoration-color: $primary;
-                text-decoration-thickness: 4px;
+                text-decoration-thickness: 6px;
                 text-underline-position: under;
+                text-underline-offset: -0.36em;
+                text-decoration-skip-ink: none;
 
             }
 
@@ -555,7 +559,7 @@ img, img:hover {
         line-height:1.4;
         a { 
             text-decoration: none !important;
-            background-image: linear-gradient(180deg, transparent 89%, $primary 0);
+            background-image: linear-gradient(180deg, transparent 72%, $primary 0);
             background-repeat: no-repeat;
             background-size: 0 100%;
             transition: background-size .6s ease;
@@ -899,9 +903,11 @@ img, img:hover {
         margin-top: 40px;
         margin-bottom: 20px;
         text-decoration: underline;
-        text-decoration-thickness: 4px;
         text-decoration-color: $primary;
-        text-underline-offset: 4px;
+        text-decoration-thickness: 6px;
+        text-underline-position: under;
+        text-underline-offset: -0.36em;
+        text-decoration-skip-ink: none;
         //margin: 32px auto 12px auto;
         
       }
