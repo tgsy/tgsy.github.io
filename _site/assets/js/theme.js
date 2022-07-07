@@ -199,10 +199,8 @@ var btn = $('#back-to-top-button');
 $(window).scroll(function() {
 	if ($(window).scrollTop() > 150) {
 	  btn.addClass('show');
-	  console.log('working');
 	} else {
 	  btn.removeClass('show');
-	  console.log('working');
 	}
   });
   
@@ -210,6 +208,18 @@ btn.on('click', function(e) {
 	e.preventDefault();
 	$('html, body').animate({scrollTop:0}, 300);
 });
+
+
+//Scroll to Works hero arrow
+const arrow = document.getElementById('mouse-scroll-arrow');
+arrow.addEventListener("click", scrollToFunction);
+
+function scrollToFunction() {
+	var element = document.getElementById("works");
+	element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
+}
+
+
   
 
 // $(document).ready(function(){
