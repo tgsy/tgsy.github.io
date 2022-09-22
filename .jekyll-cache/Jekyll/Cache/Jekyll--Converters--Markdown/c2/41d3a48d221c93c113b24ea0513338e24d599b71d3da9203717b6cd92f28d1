@@ -1,0 +1,165 @@
+I"�$<h3 id="the-focus">The Focus</h3>
+
+<p>Users who use the platform for their travel trips, which generally consists of three stages:</p>
+<ol>
+  <li>the <strong>initial brainstorming</strong>,</li>
+  <li><strong>creation of the trip itinerary</strong> and</li>
+  <li><strong>navigation</strong> during travel.</li>
+</ol>
+
+<h3 id="competitive-analysis">Competitive Analysis</h3>
+
+<p>I looked into popular travel planning apps to understand what makes a travel planning app great. The three well-received apps I narrowed down in my research were <strong>Sygic Travel</strong>, <strong>TripAdvisor</strong> and <strong>TripIt</strong>.</p>
+
+<figure>
+<p><img src="assets/images/google-mymaps-ca1.png" alt="Sygic Travel, TripAdvisor, Tripit." /></p>
+  <figcaption>The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt</figcaption>
+</figure>
+
+<p>Unsurprisingly, each of these apps has a solid feature that sets it apart from other apps on the market:</p>
+<ul>
+  <li><strong>Sygic Travel</strong>: Seamless GPS navigation with the travel itinerary</li>
+  <li><strong>TripAdvisor</strong>: Smart suggestions, readily available reviews and forums, ease of booking</li>
+  <li><strong>TripIt</strong>: One-stop depository of the travel itinerary and booking confirmations</li>
+</ul>
+
+<h4 id="the-main-getaway">The Main Getaway</h4>
+
+<p>These apps are all <strong>itinerary-based</strong>, contrasting the GoogleMyMaps platform, which is <strong>layer-based</strong>. Even though allowing users to sort their saved places into different layers offers more customizability, this sorting process can be <strong>manual and tedious</strong>.</p>
+
+<h3 id="user-research">User Research</h3>
+
+<p>To improve the platform, I needed to know why existing users were dissatisfied with Google MyMaps.</p>
+
+<h4 id="app-ratings--reviews">App Ratings &amp; Reviews</h4>
+
+<figure>
+<p><img src="assets/images/google-mymaps-ur1.png" alt="Google MyMaps User Ratings taken from the Google Play Store" /></p>
+  <figcaption>Screenshot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store</figcaption>
+</figure>
+
+<p>Google MyMaps’s mobile app was only available for Android. Looking through the app listing in the Google Play Store, <strong>“the lack of integration with Google Maps”</strong> was common feedback I spotted (which echoed my brief experience with the platform).</p>
+
+<h3 id="qualitative-feedback">Qualitative Feedback</h3>
+
+<p>I also conducted a short online survey with 15-20 participants using SurveyMonkey to obtain more feedback on the platform.</p>
+
+<p>The feedback gathered could be summarised as such:</p>
+
+<figure>
+<p><img src="assets/images/google-mymaps-ur2.png" alt="Survey responses reflecting usage of Google MyMaps desktop platform" /></p>
+  <figcaption>Survey responses collected on the Googe MyMaps desktop experience</figcaption>
+</figure>
+
+<h3 id="insights">Insights</h3>
+
+<p>After conducting the competitive analysis and user research, I summarised the user needs and frustrations in a user persona.</p>
+
+<figure>
+<p><img src="assets/images/google-mymaps-persona.png" alt="User Persona summarising user needs and frustrations of a typical user using the platform for travel planning" /></p>
+  <figcaption>User persona summarising the needs and frustrations of a typical user using Google MyMaps for travel planning</figcaption>
+</figure>
+
+<p>I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.</p>
+
+<figure>
+<p><img src="assets/images/google-mymaps-userjourney.png" alt="User Journey Map detailing the opportunities for improvements for users using the platform for travel planning" /></p>
+  <figcaption>User journey map detailing potential opportunities for improvements when using Google MyMaps for travel planning</figcaption>
+</figure>
+
+<h3 id="conceptualisation">Conceptualisation</h3>
+
+<p>It was clear to me at this point what the focus areas were for improving the platform, and they were to:</p>
+<ol>
+  <li>better the <strong>integration</strong> of the platform with <strong>Google Maps</strong>,</li>
+  <li><strong>optimise</strong> the platform for <strong>itinerary planning</strong> and</li>
+  <li>improve the platform’s <strong>accessibility on mobile</strong> while travelling on the go</li>
+</ol>
+
+<h4 id="wireframing">Wireframing</h4>
+<p>I started conceptualising improvements by first creating low-fi wireframes on pen and paper.</p>
+
+<div id="slider">
+	
+  <img src="http://localhost:4000/assets/images/google-mymaps-wireframes_gm-integration.png" title="Low-fi wireframes I drew to kickstart my solutioning (1/3)" alt="Better the integration of Google MyMaps with Google Maps." />
+	
+  <img data-src="http://localhost:4000/assets/images/google-mymaps-wireframes_trip.png" title="Low-fi wireframes I drew to kickstart my solutioning (2/3)" src="" alt="Optimise Google MyMaps for trip planning." />
+	
+  <img data-src="http://localhost:4000/assets/images/google-mymaps-wireframes_mobile-accessibility.png" data-src-2x="" src="" title="Low-fi wireframes I drew to kickstart my solutioning (3/3)" alt="Improve Google MyMaps's mobile accessibility." />
+  
+</div>
+
+<script src="/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+
+<script src="/bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js"></script>
+
+<script src="/bower_components/ideal-image-slider/extensions/captions/iis-captions.js"></script>
+
+<script>
+//new IdealImageSlider.Slider('#slider');
+  var slider = new IdealImageSlider.Slider({
+	selector: '#slider',
+	//height: 400, // Required but can be set by CSS
+	interval: 4000
+});
+  slider.addBulletNav();
+  slider.addCaptions();
+  slider.start();
+</script>
+
+<h3 id="the-solution">The Solution</h3>
+<p>My suggested improvements adhere to the approach outlined from my former analysis and apply to both the desktop and mobile platforms.</p>
+
+<h4 id="desktop">Desktop</h4>
+<ol>
+  <li><strong>Ease of adding locations</strong> directly to custom maps created in Google MyMaps from location listings in Google Maps.</li>
+  <li><strong>Addition of trip-oriented data fields</strong> to alleviate other aspects of trip planning (e.g. Budgeting)</li>
+  <li><strong>Offering an alternate day itinerary view</strong> (on top of the existing layer view) of pinned locations in custom maps for travel planning</li>
+</ol>
+
+<figure>
+  <div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/iIXuqaPvaO8" width="700" height="480" frameborder="0" allowfullscreen="true" scrolling="no" autoplay="yes">
+  </iframe>
+</div>
+  <figcaption>Suggested improvements for the Google MyMaps desktop platform. </figcaption>
+</figure>
+
+<h4 id="mobile">Mobile</h4>
+<p>For mobile, I propose to <strong>build Google MyMaps as a feature in the existing Google Maps mobile app</strong>. Users can then have full access to data available on Google Maps while referring to their itinerary when travelling on the go.</p>
+
+<figure>
+  <div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/Zk6WJHvrs4c" width="700" height="480" frameborder="0" allowfullscreen="true" scrolling="no" autoplay="yes">
+  </iframe>
+</div>
+  <figcaption>Suggested improvement for Google MyMaps on mobile: integrate it directly with the Google Maps mobile app. </figcaption>
+</figure>
+
+<!-- #### Bonus: Integration with Smart Assistants (Google Assistant)
+<figure>
+  <img src="http://localhost:4000/assets/images/google-mymaps-assistant.png" alt="Bonus: Integration with Smart Assistants (Google Assistant)"/>
+  <figcaption>Bonus: Integration with Smart Assistants (Google Assistant).  </figcaption>
+</figure>
+
+Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up. -->
+
+<h3 id="evaluation">Evaluation</h3>
+
+<h4 id="areas-for-improvement">Areas for Improvement</h4>
+<p>My mobile solution <strong>assumes that mobile access is mainly for referencing the itinerary while navigating on the go during travel.</strong> However, this may be a skewed assumption since <strong>unpredictability is part and parcel of travel</strong>. One might have to adjust the itinerary by adding stops or even shift plans when needed. A more polished solution, therefore, would be required.</p>
+
+<h4 id="re-evaluating-assumptions">Re-evaluating Assumptions</h4>
+
+<p>The basis of this case study <strong>focuses only on one particular user group on the platform</strong>; those who use it for their travel planning. However, <strong>Google MyMaps is also often used to present map data</strong>. It might not have been fair thus to only compare the platform with other travel planning apps since they <strong>do not share the same primary use case.</strong></p>
+
+<figure>
+<p><img src="assets/images/google-mymaps-explore.png" alt="Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform" /></p>
+  <figcaption>Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform, but also a means to visualise and present map data</figcaption>
+</figure>
+
+<div class="additional-notes">
+<h4>ℹ️ Updates on Google MyMaps</h4>
+<em>As of October 15, 2021, the My Maps app for Android devices has been shut down and removed from the Play Store. Only the web app is supported presently.</em>
+</div>
+:ET

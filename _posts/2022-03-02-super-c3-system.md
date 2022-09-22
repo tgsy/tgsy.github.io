@@ -21,10 +21,9 @@ The Super C3 System is a powerful desktop app that serves the **planning, monito
 
 #### Why it Started
 
-<figure>
-  <img src="{{site.url}}/assets/images/superc3-why.png" alt="Desktop application built on a GIS"/>
-  <figcaption>The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration. Author / copyright holder: Text by Tessa Goh / Icons created by Ariel Kotzer, P Thanga Vignesh and voneff respectively from Noun Project.</figcaption>
-</figure>
+{% figure [caption:"The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration"] %}
+![Desktop application built on a GIS](assets/images/superc3-why.png)
+{% endfigure %}
 
 The Super C3 System replaces an existing legacy system that has become **increasingly obsolete**. With the outdated system, **user experience was poor**, and many mundane and procedural tasks with automation potential still **had to be done manually**. A new replacement was long overdue to improve work efficiency. Advances in communication technology also mean data integration is now possible to allow **better interoperability across the army forces**, which was previously impossible with the old technology and poorly integrated modules.
 

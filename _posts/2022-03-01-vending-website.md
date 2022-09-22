@@ -5,7 +5,7 @@ categories: [Web Design]
 author: false
 # tags: [Redesign]
 image: assets/images/av-redesign.png
-number: "2"
+number: "3"
 summary: "Achieva Vending Pte Ltd is an SME (Small and Medium-sized Enterprise) in Singapore that <b>provides vending services for food and beverages.</b> The design of its company website looks increasingly <b>outdated</b> compared to its competitors, and the <b>accessibility of information on the website fell short</b> of users' expectations. An overhaul feels long overdue and will help ensure the company can remain competitive in the industry.
 
 I enhanced the overall site experience by improving the site's <b>visual design</b> and <b>information architecture</b> for better clarity on the business's solutions available. I also worked with the business owners and sales personnel to <b>revamp the UX writing</b> of the pages. The site was built using Weebly."
@@ -24,10 +24,9 @@ The main reasons behind the re-design were as such:
 2. It **did not offer a seamless experience across all devices**.
 3. It neither met **new business needs** nor reflected the **business's values** well.
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-old.png" alt="Home and What We Offer page of the old site."/>
-  <figcaption>Screenshots of the old site. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Screengrabs of the old site"] %}
+![Home and What We Offer page of Achieva Vending Pte Ltd's old website](assets/images/av-redesign-old.png)
+{% endfigure %}
 
 ### Research
 
@@ -35,11 +34,9 @@ The main reasons behind the re-design were as such:
 
 To **identify the main types of users** visiting the company's website, I **scouted past contact form submissions** to understand why users visited the site.
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-formsubmissions.png" alt="Form submissions from the old website."/>
-  <figcaption>Past contact form submissions (User's names has been edited). Author / copyright holder: Tessa Goh</figcaption>
-</figure>
-
+{% figure [caption:"Past contact form submissions"] %}
+![Form submissions taken from Achieva Vending Pte Ltd's website](assets/images/av-redesign-formsubmissions.png)
+{% endfigure %}
 
 The main types of users identified were:
 1. **Potential customers looking for vending solutions**, 
@@ -50,11 +47,9 @@ The main types of users identified were:
 
 I spoke to the founder and sales team to understand the **company's strategy in standing out from its competitors**.
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-values.png" alt="What the company strives towards in its vending services, collated during my discussion with the founder and sales team."/>
-  <figcaption>What the company strives towards in its vending services, collated during my discussion with the founder and sales team. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
-
+{% figure [caption:"What the company strives towards in its vending services, collated during my discussion with the founder and sales team"] %}
+![What Achieva Vending Pte Ltd strives towards in its services](assets/images/av-redesign-values.png)
+{% endfigure %}
 
 #### Voice and Tone
 
@@ -70,10 +65,9 @@ For the initial brainstorming, I sourced inspiration from the websites of other 
 
 After a preliminary sharing and discussion with the business owners, some sections in the proposed IA were removed due to business considerations and eventually looked like this:
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-ia.png" alt="Final Information Architecture"/>
-  <figcaption>IA for the new site. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Site map for the improved website"] %}
+![Improved site map for Achieva Vending's website](assets/images/av-redesign-ia.png)
+{% endfigure %}
 
 The new website adds a new 'Careers' page to help raise the visibility of the vacancies available in the company given the business's manpower shortage needs.
 
@@ -116,39 +110,34 @@ I started conceptualising by first creating low-fi wireframes on a note-taking a
 
 The site's colour scheme builds upon the colours existing in the company's logo by adding a colour (Trypan Blue #3D14B8) that is complementary to the Apple Green (#8fb914) present in the logo. 
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-color-scheme.png" alt="Color scheme adopted for the new site, built upon the company's logo"/>
-  <figcaption>Color scheme adopted for the new site, built upon the company's logo. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Color scheme adopted for the new site, built upon the company's logo"] %}
+![Colour palette used for Achieva Vending's new website](assets/images/av-redesign-color-scheme.png)
+{% endfigure %}
 
 #### High-fidelity prototypes
 
 I made the hi-fi prototypes with **Sketch**, the visual graphics with **Adobe Illustrator and Photoshop**.
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-hifi.png" alt="Website hifi prototypes"/>
-  <figcaption>Hi-fi mockups created on Sketch. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Hi-fi mockups created on Sketch"] %}
+![Achieva Vending's hi-fi prototypes](assets/images/av-redesign-hifi.png)
+{% endfigure %}
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-header.png" alt="Website header image"/>
-  <figcaption>Header image in the Home page. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Header image in the Home page"] %}
+![Achieva Vending's website header image](assets/images/av-redesign-header.png)
+{% endfigure %}
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-visuals.png" alt="Website's vending illustrations"/>
-  <figcaption>Vending Machine illustrations created for the Home page. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Vending Machine illustrations created for the Home page"] %}
+![Achieva Vending's website illustrations](assets/images/av-redesign-visuals.png)
+{% endfigure %}
 
 ### The Final Product
 
 #### Implementation
 The site was **implemented and published with Weebly**. I built the site on top of an existing theme available and then modified it to match my designs using the HTML editor. Below are screenshots of the improved website.
 
-<figure>
-  <img src="{{site.url}}/assets/images/av-redesign-final-product1.png" alt="Screenshots of the improved website"/>
-  <figcaption>Screenshots of the improved site: 'Home' page and 'What We Offer' page. Author / copyright holder: Tessa Goh</figcaption>
-</figure>
+{% figure [caption:"Screenshots of the improved site: 'Home' page and 'What We Offer' page"] %}
+![Screengrabs of Achieva Vending's new website](assets/images/av-redesign-final-product1.png)
+{% endfigure %}
 
 ### Evaluation
 

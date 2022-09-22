@@ -216,7 +216,10 @@ arrow.addEventListener("click", scrollToFunction);
 
 function scrollToFunction() {
 	var element = document.getElementById("works");
-	element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
+	var navHeight = document.getElementById('navbar-div');
+	const y = element.getBoundingClientRect().top - navHeight.offsetHeight - 24;
+	window.scrollTo({top: y, behavior: 'smooth'});
+	//element.scrollIntoView({behavior: "smooth", block: "nearest", inline: "nearest"});
 }
 
 

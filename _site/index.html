@@ -26,7 +26,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"👋 Hi! I’m Tessa. I’m a UX designer, currently based in Singapore.","headline":"Home","name":"Tessa Goh","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo-tgsy-black.png"}},"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"👋 Hi! I’m Tessa. I’m a UX designer, currently based in Singapore.","headline":"Home","name":"Tessa Goh","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo-tgsy-gradient.png"}},"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -61,10 +61,10 @@
 
 <!-- Begin Navigation
 ================================================== -->
-<div class="nav-container sticky-top">
+<div id="navbar-div" class="nav-container sticky-top">
     <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light" >
         <a class="navbar-brand" href="/">
-            <img src="/assets/images/logo-tgsy-black.png" alt="Tessa Goh - UX/UI Designer, Singapore">
+            <img src="/assets/images/logo-tgsy-gradient.png" alt="Tessa Goh - UX/UI Designer, Singapore">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="nav-icon" onclick="openNav()">
@@ -118,7 +118,7 @@
     ================================================== -->
    
     <!-- <a class="navbar-brand" href="/">
-        <img src="/assets/images/logo-tgsy-black.png" alt="Tessa Goh - UX/UI Designer, Singapore">
+        <img src="/assets/images/logo-tgsy-gradient.png" alt="Tessa Goh - UX/UI Designer, Singapore">
     </a>   -->
    
 
@@ -126,21 +126,42 @@
     ================================================== -->
     
     <div class="landingpage-intro">
-        <img src="/assets/images/avatar-tessa_hero.png" width="298px">
-        <span>
+        <div class="row" id="hero-contents">
+            <img src="/assets/images/avatar-tessa_hero2.png" class="d-none d-xl-block">
+        <span class="sitetag-span">
             <p class="sitetag">
-                <!-- 👋 Hey there!<br><br> -->
-                I'm <span class="name-highlight">Tessa Goh.</span><br><br>
-                A <span class="role-highlight">UX/UI designer,</span><br>
-                based in Singapore.
-                <!-- <br> -->
+                <span class="name-intro-highlight">
+                    Hi, I'm</span>
+                <br>
+                <span class="name-highlight">
+                    Tessa Goh</span>
+                <span class="name-period-highlight">.</span>
+                <br><br>
+                <span class="role-intro-highlight">
+                    A
+                </span>
+                <span class="role-highlight">
+                    UX/UI designer,</span>
+                <br>
+                <span class="role-intro-highlight">
+                    based in
+                </span>
+                <span class="place-highlight">
+                    Singapore</span>
+                <span class="place-period-highlight">.</span>
+                <br><br>
+                <span class="role-details">
+                    I specialise in the design of <b>digital interfaces</b>. 
+                    I have experience with complex systems and worked with support professionals to deliver products that
+                    translate elaborate workflows into simpler processes. I believe great products are <b>intuitive, 
+                    engaging, aesthetic</b> and <b>sustainable</b>, and I aspire to craft such products.
+                </span>
             </p>
             </span>
-            <!-- scroll down animation -->
-            <div id="mouse-scroll-arrow" class="mouse_scroll">
-                <div class="chevron"></div>
-                <div class="chevron"></div>
-                <div class="chevron"></div>
+        </div>
+
+            <div id="mouse-scroll-arrow" class="mouse-scroll bounce">
+              <img width="17" height="12.87" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxMyAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuNTcwNjYgMTdDNi44NDY2NiAxNyA3LjEwNTY2IDE2Ljg5NSA3LjMwNzY2IDE2LjY5NEwxMi43MzA3IDExLjI3QzEyLjgxNiAxMS4xODQ3IDEyLjg4MzggMTEuMDgzMyAxMi45MyAxMC45NzE4QzEyLjk3NjIgMTAuODYwMyAxMyAxMC43NDA3IDEzIDEwLjYyQzEzIDEwLjQ5OTMgMTIuOTc2MiAxMC4zNzk3IDEyLjkzIDEwLjI2ODJDMTIuODgzOCAxMC4xNTY3IDEyLjgxNiAxMC4wNTUzIDEyLjczMDcgOS45N0wxMi40MDU3IDkuNjQ2QzEyLjMyMDMgOS41NjA2MSAxMi4yMTkgOS40OTI4OCAxMi4xMDc1IDkuNDQ2NjZDMTEuOTk1OSA5LjQwMDQ1IDExLjg3NjQgOS4zNzY2NiAxMS43NTU3IDkuMzc2NjZDMTEuNjM0OSA5LjM3NjY2IDExLjUxNTQgOS40MDA0NSAxMS40MDM5IDkuNDQ2NjZDMTEuMjkyMyA5LjQ5Mjg4IDExLjE5MSA5LjU2MDYxIDExLjEwNTcgOS42NDZMNy43MTA2NiAxMy4wNEw3LjcxMDY2IDAuOTJDNy43MTA3OSAwLjc5OTIzMSA3LjY4NzEyIDAuNjc5NjIgNy42NDEgMC41NjgwMDdDNy41OTQ4NyAwLjQ1NjM5MyA3LjUyNzIgMC4zNTQ5NjUgNy40NDE4NSAwLjI2OTUyMkM3LjM1NjUgMC4xODQwNzkgNy4yNTUxNCAwLjExNjI5NyA3LjE0MzU4IDAuMDcwMDVDNy4wMzIwMiAwLjAyMzgwMzQgNi45MTI0MyAtMy4zNzU5NGUtMDcgNi43OTE2NiAtMi43MTM3NWUtMDdMNi4zMzE2NiAtMi45MTQ4MmUtMDdDNS44MjQ2NiAtMy4xMzY0NGUtMDcgNS40MTM2NiAwLjQxMSA1LjQxMzY2IDAuOTJMNS40MTM2NiAxMy4wNEwyLjAxOTY2IDkuNjQ2QzEuOTM0MzIgOS41NjA2MSAxLjgzMjk5IDkuNDkyODggMS43MjE0NiA5LjQ0NjY2QzEuNjA5OTMgOS40MDA0NSAxLjQ5MDM5IDkuMzc2NjYgMS4zNjk2NiA5LjM3NjY2QzEuMjQ4OTQgOS4zNzY2NiAxLjEyOTQgOS40MDA0NSAxLjAxNzg3IDkuNDQ2NjZDMC45MDYzMzYgOS40OTI4OCAwLjgwNTAwNSA5LjU2MDYxIDAuNzE5NjYxIDkuNjQ2TDAuMzk0NjYyIDkuOTcxQzAuMDM1NjYyMiAxMC4zMyAwLjAzNTY2MjIgMTAuOTExIDAuMzk0NjYyIDExLjI3MUw1LjgxNjY2IDE2LjY5NEM2LjAyMTY2IDE2Ljg5OCA2LjI5MzY2IDE3IDYuNTcwNjYgMTdaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4=" />
             </div>
         
     </div>
@@ -227,7 +248,7 @@
             <div class="card-body col col-lg-4">
                 <!-- <div class="card-no">
                     <img src="/assets/images/blog-grid-item-no.svg">
-                    <div class="post-no">2</div>
+                    <div class="post-no">3</div>
                 </div> -->
                 <h2 class="card-title">
                     <a class="text-dark" href="/vending-website">Re-designing a Vending Provider's Website</a>
@@ -282,7 +303,7 @@
             <div class="card-body col col-lg-4">
                 <!-- <div class="card-no">
                     <img src="/assets/images/blog-grid-item-no.svg">
-                    <div class="post-no">3</div>
+                    <div class="post-no">4</div>
                 </div> -->
                 <h2 class="card-title">
                     <a class="text-dark" href="/google-mymaps">Improving Google MyMaps</a>

@@ -2,12 +2,10 @@
 name: "Tessa Goh - UX/UI Designer, Singapore"
 title: "Tessa Goh"
 description: "👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore."
-logo: 'assets/images/logo-tgsy-black.png'
+logo: 'assets/images/logo-tgsy-gradient.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
 google_analytics: 'G-EDS1YJZR6R'
-disqus: 'demowebsite'
-# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 email: tessagsy@gmail.com
@@ -19,8 +17,6 @@ authors:
     display_name: tgsy
     avatar: 'assets/images/avatar-tessa.jpg'
     email: tessagsy@gmail.com
-    # web: https://www.wowthemes.net/donate/
-    # twitter: https://twitter.com/wowthemesnet
     description: "UX Designer, based in Singapore."
 
 # Plugins
@@ -31,6 +27,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+
+
+# Figures
+# jekyll-figure:
+#   paragraphs: false
     
 # Archives
 jekyll-archives:

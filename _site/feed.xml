@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Jul 2022 00:24:02 +0800</pubDate>
-    <lastBuildDate>Fri, 08 Jul 2022 00:24:02 +0800</lastBuildDate>
+    <pubDate>Fri, 23 Sep 2022 00:29:03 +0800</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2022 00:29:03 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -21,8 +21,8 @@
 &lt;h4 id=&quot;why-it-started&quot;&gt;Why it Started&lt;/h4&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/superc3-why.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
-  &lt;figcaption&gt;The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration. Author / copyright holder: Text by Tessa Goh / Icons created by Ariel Kotzer, P Thanga Vignesh and voneff respectively from Noun Project.&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/superc3-why.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The legacy system that the Super C3 System replaces has poor UX, requires tasks to be completed manually and has poor data integration&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The Super C3 System replaces an existing legacy system that has become &lt;strong&gt;increasingly obsolete&lt;/strong&gt;. With the outdated system, &lt;strong&gt;user experience was poor&lt;/strong&gt;, and many mundane and procedural tasks with automation potential still &lt;strong&gt;had to be done manually&lt;/strong&gt;. A new replacement was long overdue to improve work efficiency. Advances in communication technology also mean data integration is now possible to allow &lt;strong&gt;better interoperability across the army forces&lt;/strong&gt;, which was previously impossible with the old technology and poorly integrated modules.&lt;/p&gt;
@@ -127,8 +127,8 @@
 &lt;/ol&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-old.png&quot; alt=&quot;Home and What We Offer page of the old site.&quot; /&gt;
-  &lt;figcaption&gt;Screenshots of the old site. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-old.png&quot; alt=&quot;Home and What We Offer page of Achieva Vending Pte Ltd's old website&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Screengrabs of the old site&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;research&quot;&gt;Research&lt;/h3&gt;
@@ -138,8 +138,8 @@
 &lt;p&gt;To &lt;strong&gt;identify the main types of users&lt;/strong&gt; visiting the company’s website, I &lt;strong&gt;scouted past contact form submissions&lt;/strong&gt; to understand why users visited the site.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-formsubmissions.png&quot; alt=&quot;Form submissions from the old website.&quot; /&gt;
-  &lt;figcaption&gt;Past contact form submissions (User's names has been edited). Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-formsubmissions.png&quot; alt=&quot;Form submissions taken from Achieva Vending Pte Ltd's website&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Past contact form submissions&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The main types of users identified were:&lt;/p&gt;
@@ -154,8 +154,8 @@
 &lt;p&gt;I spoke to the founder and sales team to understand the &lt;strong&gt;company’s strategy in standing out from its competitors&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-values.png&quot; alt=&quot;What the company strives towards in its vending services, collated during my discussion with the founder and sales team.&quot; /&gt;
-  &lt;figcaption&gt;What the company strives towards in its vending services, collated during my discussion with the founder and sales team. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-values.png&quot; alt=&quot;What Achieva Vending Pte Ltd strives towards in its services&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;What the company strives towards in its vending services, collated during my discussion with the founder and sales team&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;voice-and-tone&quot;&gt;Voice and Tone&lt;/h4&gt;
@@ -173,8 +173,8 @@
 &lt;p&gt;After a preliminary sharing and discussion with the business owners, some sections in the proposed IA were removed due to business considerations and eventually looked like this:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-ia.png&quot; alt=&quot;Final Information Architecture&quot; /&gt;
-  &lt;figcaption&gt;IA for the new site. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-ia.png&quot; alt=&quot;Improved site map for Achieva Vending's website&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Site map for the improved website&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The new website adds a new ‘Careers’ page to help raise the visibility of the vacancies available in the company given the business’s manpower shortage needs.&lt;/p&gt;
@@ -221,8 +221,8 @@
 &lt;p&gt;The site’s colour scheme builds upon the colours existing in the company’s logo by adding a colour (Trypan Blue #3D14B8) that is complementary to the Apple Green (#8fb914) present in the logo.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-color-scheme.png&quot; alt=&quot;Color scheme adopted for the new site, built upon the company's logo&quot; /&gt;
-  &lt;figcaption&gt;Color scheme adopted for the new site, built upon the company's logo. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-color-scheme.png&quot; alt=&quot;Colour palette used for Achieva Vending's new website&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Color scheme adopted for the new site, built upon the company’s logo&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;high-fidelity-prototypes&quot;&gt;High-fidelity prototypes&lt;/h4&gt;
@@ -230,18 +230,18 @@
 &lt;p&gt;I made the hi-fi prototypes with &lt;strong&gt;Sketch&lt;/strong&gt;, the visual graphics with &lt;strong&gt;Adobe Illustrator and Photoshop&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-hifi.png&quot; alt=&quot;Website hifi prototypes&quot; /&gt;
-  &lt;figcaption&gt;Hi-fi mockups created on Sketch. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-hifi.png&quot; alt=&quot;Achieva Vending's hi-fi prototypes&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Hi-fi mockups created on Sketch&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-header.png&quot; alt=&quot;Website header image&quot; /&gt;
-  &lt;figcaption&gt;Header image in the Home page. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-header.png&quot; alt=&quot;Achieva Vending's website header image&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Header image in the Home page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-visuals.png&quot; alt=&quot;Website's vending illustrations&quot; /&gt;
-  &lt;figcaption&gt;Vending Machine illustrations created for the Home page. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-visuals.png&quot; alt=&quot;Achieva Vending's website illustrations&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Vending Machine illustrations created for the Home page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;the-final-product&quot;&gt;The Final Product&lt;/h3&gt;
@@ -250,8 +250,8 @@
 &lt;p&gt;The site was &lt;strong&gt;implemented and published with Weebly&lt;/strong&gt;. I built the site on top of an existing theme available and then modified it to match my designs using the HTML editor. Below are screenshots of the improved website.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-final-product1.png&quot; alt=&quot;Screenshots of the improved website&quot; /&gt;
-  &lt;figcaption&gt;Screenshots of the improved site: 'Home' page and 'What We Offer' page. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-final-product1.png&quot; alt=&quot;Screengrabs of Achieva Vending's new website&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Screenshots of the improved site: ‘Home’ page and ‘What We Offer’ page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
@@ -299,8 +299,8 @@
 &lt;p&gt;I looked into popular travel planning apps to understand what makes a travel planning app great. The three well-received apps I narrowed down in my research were &lt;strong&gt;Sygic Travel&lt;/strong&gt;, &lt;strong&gt;TripAdvisor&lt;/strong&gt; and &lt;strong&gt;TripIt&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ca1.png&quot; alt=&quot;The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt.&quot; /&gt;
-  &lt;figcaption&gt;The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/google-mymaps-ca1.png&quot; alt=&quot;Sygic Travel, TripAdvisor, Tripit.&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The three popular travel planning apps I narrowed down in my research were Sygic Travel, TripAdvisor and TripIt&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Unsurprisingly, each of these apps has a solid feature that sets it apart from other apps on the market:&lt;/p&gt;
@@ -321,8 +321,8 @@
 &lt;h4 id=&quot;app-ratings--reviews&quot;&gt;App Ratings &amp;amp; Reviews&lt;/h4&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur1.png&quot; alt=&quot;Google MyMaps User Ratings taken from the Google Play Store&quot; /&gt;
-  &lt;figcaption&gt;Screenshot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/google-mymaps-ur1.png&quot; alt=&quot;Google MyMaps User Ratings taken from the Google Play Store&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Screenshot of user reviews and ratings taken from the Google MyMaps app listing in the Google Play Store&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Google MyMaps’s mobile app was only available for Android. Looking through the app listing in the Google Play Store, &lt;strong&gt;“the lack of integration with Google Maps”&lt;/strong&gt; was common feedback I spotted (which echoed my brief experience with the platform).&lt;/p&gt;
@@ -334,8 +334,8 @@
 &lt;p&gt;The feedback gathered could be summarised as such:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-ur2.png&quot; alt=&quot;Survey responses reflecting usage of Google MyMaps desktop platform&quot; /&gt;
-  &lt;figcaption&gt;Survey responses collected on the Googe MyMaps desktop experience. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/google-mymaps-ur2.png&quot; alt=&quot;Survey responses reflecting usage of Google MyMaps desktop platform&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Survey responses collected on the Googe MyMaps desktop experience&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;insights&quot;&gt;Insights&lt;/h3&gt;
@@ -343,15 +343,15 @@
 &lt;p&gt;After conducting the competitive analysis and user research, I summarised the user needs and frustrations in a user persona.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-persona.png&quot; alt=&quot;User Persona summarising user needs and frustrations of a typical user using the platform for travel planning&quot; /&gt;
-  &lt;figcaption&gt;User persona summarising the needs and frustrations of a typical user using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/google-mymaps-persona.png&quot; alt=&quot;User Persona summarising user needs and frustrations of a typical user using the platform for travel planning&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;User persona summarising the needs and frustrations of a typical user using Google MyMaps for travel planning&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also mapped out the user journey, splitting it into the three stages identified prior, and listed the opportunities for improvements accordingly for each.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-userjourney.png&quot; alt=&quot;User Journey Map detailing the opportunities for improvements for users using the platform for travel planning&quot; /&gt;
-  &lt;figcaption&gt;User journey map detailing potential opportunities for improvements when using Google MyMaps for travel planning. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/google-mymaps-userjourney.png&quot; alt=&quot;User Journey Map detailing the opportunities for improvements for users using the platform for travel planning&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;User journey map detailing potential opportunities for improvements when using Google MyMaps for travel planning&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;conceptualisation&quot;&gt;Conceptualisation&lt;/h3&gt;
@@ -409,7 +409,7 @@
   &lt;iframe src=&quot;https://www.youtube.com/embed/iIXuqaPvaO8&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; autoplay=&quot;yes&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
-  &lt;figcaption&gt;Suggested improvements for the Google MyMaps desktop platform. Copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;figcaption&gt;Suggested improvements for the Google MyMaps desktop platform. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;mobile&quot;&gt;Mobile&lt;/h4&gt;
@@ -420,13 +420,13 @@
   &lt;iframe src=&quot;https://www.youtube.com/embed/Zk6WJHvrs4c&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; autoplay=&quot;yes&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
-  &lt;figcaption&gt;Suggested improvement for Google MyMaps on mobile: integrate it directly with the Google Maps mobile app. Copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;figcaption&gt;Suggested improvement for Google MyMaps on mobile: integrate it directly with the Google Maps mobile app. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;!-- #### Bonus: Integration with Smart Assistants (Google Assistant)
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-assistant.png&quot; alt=&quot;Bonus: Integration with Smart Assistants (Google Assistant)&quot;/&gt;
-  &lt;figcaption&gt;Bonus: Integration with Smart Assistants (Google Assistant). Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+  &lt;figcaption&gt;Bonus: Integration with Smart Assistants (Google Assistant).  &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up. --&gt;
@@ -441,8 +441,8 @@ Reminders to leave for the airport to catch the flight, start the journey toward
 &lt;p&gt;The basis of this case study &lt;strong&gt;focuses only on one particular user group on the platform&lt;/strong&gt;; those who use it for their travel planning. However, &lt;strong&gt;Google MyMaps is also often used to present map data&lt;/strong&gt;. It might not have been fair thus to only compare the platform with other travel planning apps since they &lt;strong&gt;do not share the same primary use case.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-explore.png&quot; alt=&quot;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform&quot; /&gt;
-  &lt;figcaption&gt;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform. It is also often used to visualise and present map data. Author / copyright holder: Tessa Goh / Google MyMaps&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/google-mymaps-explore.png&quot; alt=&quot;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Re-evaluating Assumptions: Google MyMaps is not merely a travel planning platform, but also a means to visualise and present map data&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;div class=&quot;additional-notes&quot;&gt;
