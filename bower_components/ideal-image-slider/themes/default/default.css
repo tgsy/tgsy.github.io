@@ -99,7 +99,8 @@
 	padding: 4px 16px;
 	/* border-radius: 10px; */
 	/* font: 14px/1.6em; */
-	font: 14px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/* font: 14px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	font: 14px/1.6em "Source Sans Pro", sans-serif;
 	color: #fff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

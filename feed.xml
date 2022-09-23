@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Sep 2022 22:36:54 +0800</pubDate>
-    <lastBuildDate>Fri, 23 Sep 2022 22:36:54 +0800</lastBuildDate>
+    <pubDate>Fri, 23 Sep 2022 22:54:19 +0800</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2022 22:54:19 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -39,7 +39,7 @@
 &lt;h3 id=&quot;team-structure&quot;&gt;Team Structure&lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/superc3-team.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
+  &lt;img src=&quot;assets/images/superc3-team.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
   &lt;figcaption&gt;The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -75,7 +75,7 @@
 
 &lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/superc3-results.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
+  &lt;img src=&quot;assets/images/superc3-results.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
   &lt;figcaption&gt;The overall system usability improved from 50.0 to 63.6 following a revamp of the system's UX. A module I designed was rated a SUS score of 80.8 (falling into the 'Good' category of the SUS Acceptability Score range) and was estimated by a user to reduce up to 90% of the total time required in their existing workflow. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -185,21 +185,21 @@
 
 &lt;div id=&quot;slider1&quot;&gt;
 	
-  &lt;img src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes1.png&quot; title=&quot;Low-fi wireframes (1/4)&quot; alt=&quot;Home Page&quot; /&gt;
+  &lt;img src=&quot;assets/images/av-redesign-wireframes1.png&quot; title=&quot;Low-fi wireframes (1/4)&quot; alt=&quot;Home Page&quot; /&gt;
 	
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes2.png&quot; title=&quot;Low-fi wireframes (2/4)&quot; src=&quot;&quot; alt=&quot;What We Offer page&quot; /&gt;
+  &lt;img data-src=&quot;assets/images/av-redesign-wireframes2.png&quot; title=&quot;Low-fi wireframes (2/4)&quot; src=&quot;&quot; alt=&quot;What We Offer page&quot; /&gt;
 	
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes3.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes (3/4)&quot; alt=&quot;Careers page&quot; /&gt;
+  &lt;img data-src=&quot;assets/images/av-redesign-wireframes3.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes (3/4)&quot; alt=&quot;Careers page&quot; /&gt;
 
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/av-redesign-wireframes4.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes (4/4)&quot; alt=&quot;Contact Us page/Contact form&quot; /&gt;
+  &lt;img data-src=&quot;assets/images/av-redesign-wireframes4.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes (4/4)&quot; alt=&quot;Contact Us page/Contact form&quot; /&gt;
   
 &lt;/div&gt;
 
-&lt;script src=&quot;/bower_components/ideal-image-slider/ideal-image-slider.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;bower_components/ideal-image-slider/ideal-image-slider.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;/bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;/bower_components/ideal-image-slider/extensions/captions/iis-captions.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;bower_components/ideal-image-slider/extensions/captions/iis-captions.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
   // new IdealImageSlider.Slider('#slider');
@@ -368,19 +368,19 @@
 
 &lt;div id=&quot;slider&quot;&gt;
 	
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-wireframes_gm-integration.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (1/3)&quot; alt=&quot;Better the integration of Google MyMaps with Google Maps.&quot; /&gt;
+  &lt;img src=&quot;assets/images/google-mymaps-wireframes_gm-integration.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (1/3)&quot; alt=&quot;Better the integration of Google MyMaps with Google Maps.&quot; /&gt;
 	
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/google-mymaps-wireframes_trip.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (2/3)&quot; src=&quot;&quot; alt=&quot;Optimise Google MyMaps for trip planning.&quot; /&gt;
+  &lt;img data-src=&quot;assets/images/google-mymaps-wireframes_trip.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (2/3)&quot; src=&quot;&quot; alt=&quot;Optimise Google MyMaps for trip planning.&quot; /&gt;
 	
-  &lt;img data-src=&quot;http://localhost:4000/assets/images/google-mymaps-wireframes_mobile-accessibility.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (3/3)&quot; alt=&quot;Improve Google MyMaps's mobile accessibility.&quot; /&gt;
+  &lt;img data-src=&quot;assets/images/google-mymaps-wireframes_mobile-accessibility.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (3/3)&quot; alt=&quot;Improve Google MyMaps's mobile accessibility.&quot; /&gt;
   
 &lt;/div&gt;
 
-&lt;script src=&quot;/bower_components/ideal-image-slider/ideal-image-slider.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;bower_components/ideal-image-slider/ideal-image-slider.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;/bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;bower_components/ideal-image-slider/extensions/bullet-nav/iis-bullet-nav.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;/bower_components/ideal-image-slider/extensions/captions/iis-captions.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;bower_components/ideal-image-slider/extensions/captions/iis-captions.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
 //new IdealImageSlider.Slider('#slider');
@@ -425,7 +425,7 @@
 
 &lt;!-- #### Bonus: Integration with Smart Assistants (Google Assistant)
 &lt;figure&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/google-mymaps-assistant.png&quot; alt=&quot;Bonus: Integration with Smart Assistants (Google Assistant)&quot;/&gt;
+  &lt;img src=&quot;assets/images/google-mymaps-assistant.png&quot; alt=&quot;Bonus: Integration with Smart Assistants (Google Assistant)&quot;/&gt;
   &lt;figcaption&gt;Bonus: Integration with Smart Assistants (Google Assistant).  &lt;/figcaption&gt;
 &lt;/figure&gt;
 
