@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Sep 2022 22:54:19 +0800</pubDate>
-    <lastBuildDate>Fri, 23 Sep 2022 22:54:19 +0800</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2022 16:35:49 +0800</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2022 16:35:49 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -39,8 +39,8 @@
 &lt;h3 id=&quot;team-structure&quot;&gt;Team Structure&lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;assets/images/superc3-team.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
-  &lt;figcaption&gt;The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers. Author / copyright holder: Tessa Goh.&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/superc3-team.png&quot; alt=&quot;Team structure&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The project team splits into smaller development teams consisting a lead developer and couple with one or a pair of UX designers&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Managed by two product managers, the project team consists of ~20 software developers and a small design team. The design team grew from a strength of two to four towards the last quarter of 2021.&lt;/p&gt;
@@ -74,9 +74,10 @@
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
+
 &lt;figure&gt;
-  &lt;img src=&quot;assets/images/superc3-results.png&quot; alt=&quot;Desktop application built on a GIS&quot; /&gt;
-  &lt;figcaption&gt;The overall system usability improved from 50.0 to 63.6 following a revamp of the system's UX. A module I designed was rated a SUS score of 80.8 (falling into the 'Good' category of the SUS Acceptability Score range) and was estimated by a user to reduce up to 90% of the total time required in their existing workflow. Author / copyright holder: Tessa Goh&lt;/figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/superc3-results.png&quot; alt=&quot;Impact on the project's UX in quantitative terms&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The overall system usability improved from 50.0 to 63.6 following a revamp of the system’s UX. A module I designed was rated a SUS score of 80.8 (falling into the ‘Good’ category of the SUS Acceptability Score range) and was estimated by a user to reduce up to 90% of the total time required in their existing workflow.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;ul&gt;
@@ -104,7 +105,7 @@
   &lt;li&gt;&lt;strong&gt;The design ≠ the final product.&lt;/strong&gt; Sometimes we can get carried away with producing pixel-perfect designs, but what matters most is always the final product delivered. When resources are tight, ensuring the product is developed right should be the priority.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;*As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
+&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 02 Mar 2022 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/superc3system</link>
@@ -422,14 +423,6 @@
 &lt;/div&gt;
   &lt;figcaption&gt;Suggested improvement for Google MyMaps on mobile: integrate it directly with the Google Maps mobile app. &lt;/figcaption&gt;
 &lt;/figure&gt;
-
-&lt;!-- #### Bonus: Integration with Smart Assistants (Google Assistant)
-&lt;figure&gt;
-  &lt;img src=&quot;assets/images/google-mymaps-assistant.png&quot; alt=&quot;Bonus: Integration with Smart Assistants (Google Assistant)&quot;/&gt;
-  &lt;figcaption&gt;Bonus: Integration with Smart Assistants (Google Assistant).  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-Reminders to leave for the airport to catch the flight, start the journey towards the next stop on the itinerary list and offer suggestions when something crops up. --&gt;
 
 &lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
 
