@@ -5,8 +5,8 @@
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2022 17:40:12 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2022 17:40:12 +0800</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2022 18:17:51 +0800</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2022 18:17:51 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -185,7 +185,7 @@ I am not affiliated with YouTrip and this redesign was done completely of my own
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;col-md&quot; id=&quot;solution-description&quot;&gt;
-    &lt;h4&gt;In app Real-Time Exchange Rate Table and Converter&lt;/h4&gt;
+    &lt;h4&gt;Real-Time Exchange Rate Table and Converter&lt;/h4&gt;
       &lt;p&gt; A new feature addition that
         &lt;ul&gt;
           &lt;li&gt;&lt;b&gt;streamlines price checking&lt;/b&gt; and decision-making process during travel or while making online purchases&lt;/li&gt;
@@ -273,6 +273,12 @@ Visibility of payment status for transactions could be improved to raise trust i
 Internal issues that are beyond my control without more information but are critical to the overall YouTrip experience.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;additional-notes&quot;&gt;
+&lt;h4&gt;Thanks for reading!&lt;/h4&gt;
+👉 Feel free to &lt;a href=&quot;mailto:tessagsy@gmail.com?subject=YouTrip Improvement Prototypes&quot; target=&quot;_blank&quot;&gt;reach out&lt;/a&gt; if you would like to access the hi-fidelity prototypes made with Figma.
+&lt;/div&gt;
 </description>
         <pubDate>Thu, 01 Sep 2022 00:00:00 +0800</pubDate>
         <link>/youtrip-redesign</link>
