@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon_io/site.webmanifest">
+
+<title>Improving a Multi-Currency Wallet | Tessa Goh - UX/UI Designer, Singapore</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Improving a Multi-Currency Wallet | Tessa Goh</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Improving a Multi-Currency Wallet" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem The YouTrip app has been stagnating, with few improvements to the app since it started four years ago. With a business model that mainly profits through cross-border transactions, it is likely the business suffered a heavy blow with the travel ban during the COVID-19 pandemic." />
+<meta property="og:description" content="Problem The YouTrip app has been stagnating, with few improvements to the app since it started four years ago. With a business model that mainly profits through cross-border transactions, it is likely the business suffered a heavy blow with the travel ban during the COVID-19 pandemic." />
+<meta property="og:site_name" content="Tessa Goh" />
+<meta property="og:image" content="/assets/images/youtrip.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-01T00:00:00+08:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/assets/images/youtrip.png" />
+<meta property="twitter:title" content="Improving a Multi-Currency Wallet" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-01T00:00:00+08:00","datePublished":"2022-09-01T00:00:00+08:00","description":"Problem The YouTrip app has been stagnating, with few improvements to the app since it started four years ago. With a business model that mainly profits through cross-border transactions, it is likely the business suffered a heavy blow with the travel ban during the COVID-19 pandemic.","headline":"Improving a Multi-Currency Wallet","image":"/assets/images/youtrip.png","mainEntityOfPage":{"@type":"WebPage","@id":"/youtrip-redesign"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo-tgsy-gradient.png"}},"url":"/youtrip-redesign"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+<link href="/assets/css/prism.css" rel="stylesheet">
+
+<link href="/assets/css/theme.css" rel="stylesheet">
+
+<!-- image slider (1) -->
+<!-- <link rel="stylesheet" href="/bower_components/ideal-image-slider/css/normalize.css"> -->
+<link rel="stylesheet" href="/bower_components/ideal-image-slider/ideal-image-slider.css">
+<link rel="stylesheet" href="/bower_components/ideal-image-slider/themes/default/default.css">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/e851d6824b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<!-- image-slider (2) -->
+<script src="/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+<script src="/bower_components/ideal-image-slider/extensions/captions/iis-captions.js"></script>
+
+
+
+
+<body>
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+        <!-- i removed it -->
+	</noscript>
+
+<!-- Begin Navigation
+================================================== -->
+<div id="navbar-div" class="nav-container sticky-top">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="/">
+            <img src="/assets/images/logo-tgsy-gradient.png" alt="Tessa Goh - UX/UI Designer, Singapore">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-icon" onclick="openNav()">
+                <div class="hamburger-bar"></div>
+            <span>
+        </button>
+
+        <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Works <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+</div>
+
+<!-- Search bar -->
+<!-- <script src="/assets/js/lunr.js"></script>
+
+<style>
+    
+</style>
+
+<div class="wrap-search">
+    <div class="d-flex align-items-center ml-auto">
+        <i class="fas fa-search show-search"></i>
+        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+        </form>
+    </div>
+</div>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script> -->
+
+<!-- End Sidebar Navigation
+================================================== -->
+
+<div class="site-content ">
+
+<div class="container">
+
+    <!-- Site Logo/Name
+    ================================================== -->
+   
+    <!-- <a class="navbar-brand" href="/">
+        <img src="/assets/images/logo-tgsy-gradient.png" alt="Tessa Goh - UX/UI Designer, Singapore">
+    </a>   -->
+   
+
+    <!-- Site Tag
+    ================================================== -->
+    
+
+    <!-- Content
+    ================================================== -->
+    <div id="works" class="main-content">
+        <div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">Improving a Multi-Currency Wallet</h1>
+    <!-- Author & Date  Box -->
+    
+    
+</div>
+
+    <!-- Featured Image -->
+
+<div class="entry-featured-image">
+    
+    <img class="featured-image lazyimg " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/youtrip.png" alt="Improving a Multi-Currency Wallet">
+    
+</div>
+
+
+    <!-- Summary -->
+    <div class = "post-intro">
+        <div class="row">
+          <div class="post-summary col-md-10">
+            <h3>Overview</h3>
+              <span>YouTrip is Singapore's first <b>multi-currency wallet</b> that allows its cardholders to pay in more than 150 currencies, <b>without worrying about any hidden fees</b>. It promotes itself as a means for its users to <b>lock in competitive forex rates conveniently</b> and eliminates the need to perform money exchange at money changers as it allows easy cash withdrawal overseas. <br><br>The YouTrip app has been <b>stagnating</b>, with few improvements to the app since it started in 2018. For this personal project, I did research on how the YouTrip experience might be lacking compared to its competitors and <b>added new features</b> to the mobile platform to <b>improve its competitiveness</b> in the booming digital multi-currency account industry.</span>
+          </div>
+            <div class="post-scope-year col-md-2">
+                <div class="post-scope">
+                    <h3>Scope</h3>
+                    <span>Personal Project</span>
+                </div>
+                <hr>
+                <div class="post-year">
+                    <h3> Year</h3>
+                    <span>2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+
+
+<!-- Content -->
+<!-- Post, Page Content
+================================================== -->
+<div class="article-post">
+    <!-- Toc if any -->
+    
+    <!-- End Toc -->
+    <h3 id="problem">Problem</h3>
+<p>The YouTrip app has been stagnating, with few improvements to the app since it started four years ago. With a business model that mainly profits through cross-border transactions, it is likely the business suffered a heavy blow with the travel ban during the COVID-19 pandemic.</p>
+
+<p>It is little surprise, therefore, that YouTrip introduced Perks - exclusive privileges in the form of discounts and rebates with partner merchants for its cardholders to encourage transactions using their Mastercard. More recently, they have also partnered with HL Assurance, a local insurance company, to offer discounted insurance plans for YouTrip travellers.</p>
+
+<p>However, even as an avid YouTrip user myself, I find these newly introduced features difficult to use due to their poor usability.</p>
+
+<p>From word of mouth, I understand the company places significant investments in their marketing efforts. YouTrip has a blog and Telegram channel that the marketing team updates frequently. However, they offer their customers only disjointed access to this marketing content.</p>
+
+<p>There has also been an increasing number of competitors that have entered the Singapore market since, which begs an improvement in the YouTrip app to ensure it stays competitive and retains its market share in the long run.</p>
+
+<div class="additional-notes"><h4>💜 Disclaimer</h4>
+I am not affiliated with YouTrip and this redesign was done completely of my own volition.</div>
+
+<hr />
+
+<h4 id="online-reviews">Online Reviews</h4>
+<p>To verify that I was not the only user who thought YouTrip experience could be further improved, I looked at user reviews available online for data.</p>
+
+<figure>
+<p><img src="assets/images/youtrip-review-scores.png" alt="YouTrip Online Review Scoreboards" /></p>
+  <figcaption>YouTrip has a review score of 4.6 on Seedly (a personal finance community) forum. <br /> It also sits relatively high with scores of 4.3 and 4.0 on the Apple Store and Google Play Store respectively</figcaption>
+</figure>
+
+<p>YouTrip has a relatively high review score on the various review boards. However, inspection reveals recent reviews are not doing as well.</p>
+
+<figure>
+<p><img src="assets/images/youtrip-review-screengrabs.png" alt="YouTrip Online Review Screengrabs" /></p>
+  <figcaption>While the overall review scores fare relatively well, recent reviews are dropping.</figcaption>
+</figure>
+
+<p>Common feedback observed can be summarised as such:</p>
+<figure>
+<p><img src="assets/images/youtrip-review-summary.png" alt="YouTrip Online Review Summary Points" /></p>
+  <figcaption>Summary of common feedback retrieved from online reviews</figcaption>
+</figure>
+
+<hr />
+
+<h3 id="competitive-analysis">Competitive Analysis</h3>
+<p>To understand the competitors that YouTrip was up against, I did a simple competitive analysis of other multi-currency accounts available in the market:</p>
+<figure>
+<p><img src="assets/images/youtrip-ca.jpeg" alt="YouTrip compared to other popular multi-currency accounts available in the market." /></p>
+  <figcaption>YouTrip compared to other popular multi-currency accounts available in the market.</figcaption>
+</figure>
+
+<p>It is clear from this simple feature comparison that YouTrip mainly appeals to potential customers as a free multi-currency wallet for convenient travel payments during travel.</p>
+
+<hr />
+
+<h3 id="heuristics-evaluation">Heuristics Evaluation</h3>
+<p>To identify issues with the existing app, I assessed its information architecture and did a round of heuristics evaluation on the user interface.</p>
+<figure>
+<p><img src="assets/images/youtrip-heuristics-eval.png" alt="YouTrip User Persona" /></p>
+  <figcaption>A screenshot and site map of the existing YouTrip iOS mobile app</figcaption>
+</figure>
+
+<p>The YouTrip app consists of five tabs in the navbar and a settings page that allows the configuration of account information and app settings. It has an interface that is straightforward to navigate and simple to use. However,</p>
+
+<ul>
+  <li>it <strong>offers little convenience</strong> to its users.
+    <ul>
+      <li>As a product that allows its user to ‘Lock in competitive exchange rates, it does not offer a glossary view of forex rates. Rather, a user would have to swipe to each of the 10 supported currencies to view the current exchange rate. This is highly inconvenient for users (like myself) who do not have the habit (and thus use any existing tools) of keeping a lookout for favourable currency rates.</li>
+      <li>In addition, when using the app for making purchases in other currencies apart from the 10 in-app exchange currencies supported, there is no convenient way to check the current exchange rate in-app. As usual, Google is the best companion.</li>
+    </ul>
+  </li>
+  <li>it <strong>lacks customisability</strong>
+    <ul>
+      <li>The app arranges all wallets from left to right by most recent to least recently accessed. It does not allow users to customise their wallet view so the user can easily access currency wallets that matter more quickly.</li>
+    </ul>
+  </li>
+  <li>its <strong>information architecture could be improved</strong>
+    <ul>
+      <li>The information architecture of the app could also be re-organised. For instance, the Card tab takes up precious space in the navbar but provides little additional useful information and control to users. The discounted insurance plan offered occupies a separate tab on its own in the navbar, even though it is also a Perk offered to the users, in partnership with HL Insurance.</li>
+    </ul>
+  </li>
+  <li>some of its functions have <strong>poor discoverability</strong>
+    <ul>
+      <li>Certain functions like Search for transactions also have poor discoverability. There are also instances of poor contrast resulting in poor legibility due to the adherence to branding colours.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="user-research">User Research</h3>
+<p>To validate these issues identified, I conducted an online survey with 16 YouTrip users using Typeform.</p>
+
+<figure>
+<p><img src="assets/images/youtrip-survey.png" alt="Survey Screengrab on YouTrip experience with Typeform" /></p>
+  <figcaption>As I was scouting for participants for my research that it was difficult to find YouTrip users, even among my peers, who are generally tech-savvy</figcaption>
+</figure>
+
+<figure>
+<p><img src="assets/images/youtrip-survey-results.png" alt="Survey Results on YouTrip experience with Typeform" /></p>
+  <figcaption>Selected survey results on the YouTrip experience</figcaption>
+</figure>
+
+<p>What I found was as follows:</p>
+<ul>
+  <li>As expected, <strong>users mainly used YouTrip during travel</strong>, only a small percentage for online shopping.</li>
+  <li><strong>Most users did not have a habit of keeping a lookout for favourable currency rates</strong> and thus were unlikely to use YouTrip to ‘lock’ in on favourable exchange rates.</li>
+  <li>Before making purchases with YouTrip, users generally head to <strong>Google to check and convert prices to SGD</strong>.</li>
+  <li>The <strong>onboarding and findability of Perks can be improved to encourage usage</strong>.</li>
+  <li>Despite their strong marketing efforts, <strong>72.7% of users did not know that YouTrip has a blog</strong>.</li>
+</ul>
+
+<h4 id="user-persona-and-journey-mapping">User Persona and Journey Mapping</h4>
+<p>I summarised all my research findings in the form of a user persona and mapped out the experience of using YouTrip as the main mode of payment for a travel trip to better identify opportunities for improvement.</p>
+
+<figure>
+<p><img src="assets/images/youtrip-persona.png" alt="YouTrip User Persona" /></p>
+  <figcaption>User Persona capturing the needs and frustrations of a typical user who intends to use YouTrip as her mode source of payment for a travel trip to Japan</figcaption>
+</figure>
+
+<figure>
+<p><img src="assets/images/youtrip-userjourney.png" alt="YouTrip User Journey Map" /></p>
+  <figcaption>User Journey Map detailing the potential opportunities for design improvements</figcaption>
+</figure>
+
+<hr />
+
+<h3 id="ideation">Ideation</h3>
+<p>As always, ideation began on pen and paper, before moving on to a digital prototyping tool.</p>
+<figure>
+<p><img src="assets/images/youtrip-ideation.png" alt="YouTrip User Journey Map" /></p>
+  <figcaption>Figma was used as the main prototyping tool for the whole of this project</figcaption>
+</figure>
+
+<hr />
+
+<h3 id="usability-testing">Usability Testing</h3>
+<p>I began testing my low-fi designs by using Maze as the platform for unmoderated remote usability testing, making sure to use convincing placeholder data in my wireframes. I got about five users to test my preliminary design.</p>
+
+<figure>
+<p><img src="assets/images/youtrip-ut1.png" alt="Screenshot of Usability Testing done on Maze" /></p>
+  <figcaption>The pre-requisite for participants was to be existing YouTrip users</figcaption>
+</figure>
+
+<h4 id="findings--insights">Findings &amp; Insights</h4>
+<ol>
+  <li>The <strong>discoverability of new tabs</strong> in the navbar could be improved.
+    <ul>
+      <li>User onboarding in the form of overlays can potentially alleviate this.</li>
+      <li>The term ‘Marketplace’ was also not intuitive to the users.</li>
+    </ul>
+  </li>
+  <li>Users tend to skip ahead of reading ‘How to’ when redeeming their perks.
+    <ul>
+      <li>Dialogue prompts for first-time perk users can help.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>With these findings &amp; insights in mind, I improved upon my designs as I worked on the hi-fidelity prototypes.</p>
+<figure>
+<p><img src="assets/images/youtrip-prototyping.png" alt="Screenshot of YouTrip hi-fi prototyping done on Figma" /></p>
+  <figcaption>Hi-fidelity prototypes done on Figma</figcaption>
+</figure>
+
+<hr />
+
+<h3 id="the-solution">The Solution</h3>
+<p>Several feature additions and improvements been added to improve the overall experience of the app, with the following highlights:</p>
+
+<div class="hifi-solution">
+  <div class="row">
+    <div class="col-md">
+    <div class="video-center">
+      <video width="72%" type="video/mp4" controlsList="nodownload" controls="" autoplay="" loop="" muted="">
+        <source src="assets/images/youtrip-solution-01-ertable-converter.m4v" />
+        Your browser does not support the video.
+      </video>
+      </div>
+    </div>
+    <div class="col-md" id="solution-description">
+    <h4>In app Real-Time Exchange Rate Table and Converter</h4>
+      <p> A new feature addition that
+        <ul>
+          <li><b>streamlines price checking</b> and decision-making process during travel or while making online purchases</li>
+          <li>helps <b>differentiate</b> between in-app exchange currencies and other supported currencies</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="hifi-solution-2">
+  <div class="row">
+    <div class="col-md">
+    <div class="video-center">
+      <video width="72%" type="video/mp4" controlsList="nodownload" controls="" autoplay="" loop="" muted="">
+        <source src="assets/images/youtrip-solution-06-calculator.m4v" />
+        Your browser does not support the video.
+      </video>
+      </div>
+    </div>
+    <div class="col-md" id="solution-description">
+    <h4>Calculator</h4>
+      <p> Another new feature addition complementing the in-app real-time exchange rate table and converter above that
+        <ul>
+          <li>also <b>streamlines price checking</b> and decision-making process during travel</li>
+          <li>help in <b>expense tabulation</b> and <b>encourage ATM withdrawal</b></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="hifi-solution">
+  <div class="row">
+    <div class="col-md">
+    <div class="video-center">
+      <video width="72%" type="video/mp4" controlsList="nodownload" controls="" autoplay="" loop="" muted="">
+        <source src="assets/images/youtrip-solution-04-perks.m4v" />
+        Your browser does not support the video.
+      </video>
+      </div>
+    </div>
+    <div class="col-md" id="solution-description">
+    <h4>Improved Perks</h4>
+      <p> Proposed improvements to existing YouTrip Perks that
+        <ul>
+          <li>makes it easier to search for perks by <b>categorising priviledges available and offering a search function</b></li>
+          <li>offers <b>visibility on cashback status</b> through 'Accumulated Perks'</li>
+          <li><b>improves onboarding</b> to encourage usage</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<h3 id="takeaways">Takeaways</h3>
+
+<h4 id="project-learnings">Project Learnings</h4>
+<ul>
+  <li><strong>Always set the expectations of participants in a usability test if you can do so yourself</strong>:
+It was my first time conducting a usability test in an unmoderated, remote environment. Even when using an established tool for the usability test, one should always stage the environment and set the expectations when you can do it personally.</li>
+</ul>
+
+<h4 id="what-could-be-done-better">What could be done better</h4>
+<ul>
+  <li><strong>Limited access to YouTrip users</strong>: &lt;20 users involved in the survey, and are mostly tech-savvy working adults; in the same target group</li>
+  <li><strong>Usability Testing</strong>
+    <ul>
+      <li>Maze is on desktop and YouTrip is a mobile app</li>
+      <li>Unmoderated usability testing has its drawbacks as you are not personally with the participant as they work through their tasks.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="areas-for-further-development">Areas for further development</h4>
+<ul>
+  <li>
+    <p><strong>Reliability of payments</strong>:
+Visibility of payment status for transactions could be improved to raise trust in the service. However, more in-depth information would be necessary to build on the solution.</p>
+  </li>
+  <li>
+    <p><strong>Security Issues and Customer support</strong>: 
+Internal issues that are beyond my control without more information but are critical to the overall YouTrip experience.</p>
+  </li>
+</ul>
+
+</div>
+
+<!-- Back to Top FAB
+================================================== -->
+<a id="back-to-top-button">
+    <!-- <span>
+    <i class="fa-solid fa-arrow-up-long"></i>
+    <p>Back to top</p>
+    </span>  -->
+    <svg width="39px" height="16px" viewBox="0 0 39 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>back-to-top</title>
+        <g id="Page-1" stroke="none" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="back-to-top-container" transform="translate(-1300.000000, -2420.000000)" stroke="#292C30" stroke-width="2">
+                <g id="back-to-top" transform="translate(1301.670524, 2421.752238)">
+                    <line x1="17.6594759" y1="1.36424205e-12" x2="35.6589519" y2="12.2373737" id="Line"></line>
+                    <line x1="2.45067187e-16" y1="12.2373737" x2="17.6589519" y2="0" id="Line-Copy"></line>
+                </g>
+            </g>
+        </g>
+    </svg>
+</a>
+
+<!-- Rating -->
+
+
+<!-- Author Box if enabled from _config.yml -->
+<!-- Author Box -->
+
+
+<!-- Comments if not disabled with comments: false -->
+<!-- Comments
+================================================== -->
+
+
+<!-- Share -->
+
+
+<!-- Related Post -->
+<!-- Post Navigation
+================================================== -->
+<br>
+<hr>
+<br>
+<h2 class="text-center mb-4">More Projects</h2>
+
+
+
+
+<div class="post-navigation">
+    <div class="blog-grid-container">  
+        
+        
+            
+            
+        
+        
+            
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class = "row">
+            <div class="maxthumb col">
+                <a href="/superc3system">
+                    
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/superc3system.png" alt="Building a Super C3 System">
+                        
+    
+                    
+                </a>
+            </div>
+            <div class="card-body col">
+                <h2 class="card-title">
+                    <a class="text-dark" href="/superc3system">Building a Super C3 System</a>
+                    
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+            
+        
+        
+            
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class = "row">
+            <div class="maxthumb col">
+                <a href="/vending-website">
+                    
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/av-redesign.png" alt="Re-designing a Vending Provider's Website">
+                        
+    
+                    
+                </a>
+            </div>
+            <div class="card-body col">
+                <h2 class="card-title">
+                    <a class="text-dark" href="/vending-website">Re-designing a Vending Provider's Website</a>
+                    
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+            
+            
+        
+        
+            
+            
+            <!-- begin post -->
+
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class = "row">
+            <div class="maxthumb col">
+                <a href="/google-mymaps">
+                    
+                        
+                            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/google-mymaps.png" alt="Improving Google MyMaps">
+                        
+    
+                    
+                </a>
+            </div>
+            <div class="card-body col">
+                <h2 class="card-title">
+                    <a class="text-dark" href="/google-mymaps">Improving Google MyMaps</a>
+                    
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+            
+             
+            
+</div>
+</div>
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first:
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+    </div>
+
+    
+    
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                Copyright © 2022 Tessa Goh 
+            </div>
+            <div class="col-md-6 col-sm-12 text-center text-lg-right" id="footer-links">
+                <a class="m-2" target="_blank" href="mailto:tessagsy@gmail.com?subject=Let's Connect!">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+    
+                <a class="m-2" target="_blank" href="https://www.linkedin.com/in/tessagoh/" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a class="m-2" target="_blank" href="https://www.behance.net/tgsy" rel="noopener noreferrer">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+                
+                <a class="m-2" target="_blank" href="https://instagram.com/snappytoons?igshid=YmMyMTA2M2Y=" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+================================================== -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="/assets/js/prism.js"></script>
+
+<script src="/assets/js/theme.js"></script>
+
+
+<script src="/assets/js/lazyload.js"></script>
+
+
+
+<script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
+
+
+</body>
+</html>

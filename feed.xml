@@ -3,11 +3,285 @@
   <channel>
     <title>Tessa Goh</title>
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2022 16:35:49 +0800</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2022 16:35:49 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Oct 2022 17:40:12 +0800</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2022 17:40:12 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Improving a Multi-Currency Wallet</title>
+        <description>&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;The YouTrip app has been stagnating, with few improvements to the app since it started four years ago. With a business model that mainly profits through cross-border transactions, it is likely the business suffered a heavy blow with the travel ban during the COVID-19 pandemic.&lt;/p&gt;
+
+&lt;p&gt;It is little surprise, therefore, that YouTrip introduced Perks - exclusive privileges in the form of discounts and rebates with partner merchants for its cardholders to encourage transactions using their Mastercard. More recently, they have also partnered with HL Assurance, a local insurance company, to offer discounted insurance plans for YouTrip travellers.&lt;/p&gt;
+
+&lt;p&gt;However, even as an avid YouTrip user myself, I find these newly introduced features difficult to use due to their poor usability.&lt;/p&gt;
+
+&lt;p&gt;From word of mouth, I understand the company places significant investments in their marketing efforts. YouTrip has a blog and Telegram channel that the marketing team updates frequently. However, they offer their customers only disjointed access to this marketing content.&lt;/p&gt;
+
+&lt;p&gt;There has also been an increasing number of competitors that have entered the Singapore market since, which begs an improvement in the YouTrip app to ensure it stays competitive and retains its market share in the long run.&lt;/p&gt;
+
+&lt;div class=&quot;additional-notes&quot;&gt;&lt;h4&gt;💜 Disclaimer&lt;/h4&gt;
+I am not affiliated with YouTrip and this redesign was done completely of my own volition.&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;online-reviews&quot;&gt;Online Reviews&lt;/h4&gt;
+&lt;p&gt;To verify that I was not the only user who thought YouTrip experience could be further improved, I looked at user reviews available online for data.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-review-scores.png&quot; alt=&quot;YouTrip Online Review Scoreboards&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;YouTrip has a review score of 4.6 on Seedly (a personal finance community) forum. &lt;br /&gt; It also sits relatively high with scores of 4.3 and 4.0 on the Apple Store and Google Play Store respectively&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;YouTrip has a relatively high review score on the various review boards. However, inspection reveals recent reviews are not doing as well.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-review-screengrabs.png&quot; alt=&quot;YouTrip Online Review Screengrabs&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;While the overall review scores fare relatively well, recent reviews are dropping.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Common feedback observed can be summarised as such:&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-review-summary.png&quot; alt=&quot;YouTrip Online Review Summary Points&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Summary of common feedback retrieved from online reviews&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;competitive-analysis&quot;&gt;Competitive Analysis&lt;/h3&gt;
+&lt;p&gt;To understand the competitors that YouTrip was up against, I did a simple competitive analysis of other multi-currency accounts available in the market:&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-ca.jpeg&quot; alt=&quot;YouTrip compared to other popular multi-currency accounts available in the market.&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;YouTrip compared to other popular multi-currency accounts available in the market.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It is clear from this simple feature comparison that YouTrip mainly appeals to potential customers as a free multi-currency wallet for convenient travel payments during travel.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;heuristics-evaluation&quot;&gt;Heuristics Evaluation&lt;/h3&gt;
+&lt;p&gt;To identify issues with the existing app, I assessed its information architecture and did a round of heuristics evaluation on the user interface.&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-heuristics-eval.png&quot; alt=&quot;YouTrip User Persona&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;A screenshot and site map of the existing YouTrip iOS mobile app&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The YouTrip app consists of five tabs in the navbar and a settings page that allows the configuration of account information and app settings. It has an interface that is straightforward to navigate and simple to use. However,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;it &lt;strong&gt;offers little convenience&lt;/strong&gt; to its users.
+    &lt;ul&gt;
+      &lt;li&gt;As a product that allows its user to ‘Lock in competitive exchange rates, it does not offer a glossary view of forex rates. Rather, a user would have to swipe to each of the 10 supported currencies to view the current exchange rate. This is highly inconvenient for users (like myself) who do not have the habit (and thus use any existing tools) of keeping a lookout for favourable currency rates.&lt;/li&gt;
+      &lt;li&gt;In addition, when using the app for making purchases in other currencies apart from the 10 in-app exchange currencies supported, there is no convenient way to check the current exchange rate in-app. As usual, Google is the best companion.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;it &lt;strong&gt;lacks customisability&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The app arranges all wallets from left to right by most recent to least recently accessed. It does not allow users to customise their wallet view so the user can easily access currency wallets that matter more quickly.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;its &lt;strong&gt;information architecture could be improved&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The information architecture of the app could also be re-organised. For instance, the Card tab takes up precious space in the navbar but provides little additional useful information and control to users. The discounted insurance plan offered occupies a separate tab on its own in the navbar, even though it is also a Perk offered to the users, in partnership with HL Insurance.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;some of its functions have &lt;strong&gt;poor discoverability&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Certain functions like Search for transactions also have poor discoverability. There are also instances of poor contrast resulting in poor legibility due to the adherence to branding colours.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;user-research&quot;&gt;User Research&lt;/h3&gt;
+&lt;p&gt;To validate these issues identified, I conducted an online survey with 16 YouTrip users using Typeform.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-survey.png&quot; alt=&quot;Survey Screengrab on YouTrip experience with Typeform&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;As I was scouting for participants for my research that it was difficult to find YouTrip users, even among my peers, who are generally tech-savvy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-survey-results.png&quot; alt=&quot;Survey Results on YouTrip experience with Typeform&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Selected survey results on the YouTrip experience&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;What I found was as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;As expected, &lt;strong&gt;users mainly used YouTrip during travel&lt;/strong&gt;, only a small percentage for online shopping.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Most users did not have a habit of keeping a lookout for favourable currency rates&lt;/strong&gt; and thus were unlikely to use YouTrip to ‘lock’ in on favourable exchange rates.&lt;/li&gt;
+  &lt;li&gt;Before making purchases with YouTrip, users generally head to &lt;strong&gt;Google to check and convert prices to SGD&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;onboarding and findability of Perks can be improved to encourage usage&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Despite their strong marketing efforts, &lt;strong&gt;72.7% of users did not know that YouTrip has a blog&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;user-persona-and-journey-mapping&quot;&gt;User Persona and Journey Mapping&lt;/h4&gt;
+&lt;p&gt;I summarised all my research findings in the form of a user persona and mapped out the experience of using YouTrip as the main mode of payment for a travel trip to better identify opportunities for improvement.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-persona.png&quot; alt=&quot;YouTrip User Persona&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;User Persona capturing the needs and frustrations of a typical user who intends to use YouTrip as her mode source of payment for a travel trip to Japan&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-userjourney.png&quot; alt=&quot;YouTrip User Journey Map&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;User Journey Map detailing the potential opportunities for design improvements&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ideation&quot;&gt;Ideation&lt;/h3&gt;
+&lt;p&gt;As always, ideation began on pen and paper, before moving on to a digital prototyping tool.&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-ideation.png&quot; alt=&quot;YouTrip User Journey Map&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Figma was used as the main prototyping tool for the whole of this project&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;usability-testing&quot;&gt;Usability Testing&lt;/h3&gt;
+&lt;p&gt;I began testing my low-fi designs by using Maze as the platform for unmoderated remote usability testing, making sure to use convincing placeholder data in my wireframes. I got about five users to test my preliminary design.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-ut1.png&quot; alt=&quot;Screenshot of Usability Testing done on Maze&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;The pre-requisite for participants was to be existing YouTrip users&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;findings--insights&quot;&gt;Findings &amp;amp; Insights&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;The &lt;strong&gt;discoverability of new tabs&lt;/strong&gt; in the navbar could be improved.
+    &lt;ul&gt;
+      &lt;li&gt;User onboarding in the form of overlays can potentially alleviate this.&lt;/li&gt;
+      &lt;li&gt;The term ‘Marketplace’ was also not intuitive to the users.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Users tend to skip ahead of reading ‘How to’ when redeeming their perks.
+    &lt;ul&gt;
+      &lt;li&gt;Dialogue prompts for first-time perk users can help.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With these findings &amp;amp; insights in mind, I improved upon my designs as I worked on the hi-fidelity prototypes.&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/youtrip-prototyping.png&quot; alt=&quot;Screenshot of YouTrip hi-fi prototyping done on Figma&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;Hi-fidelity prototypes done on Figma&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-solution&quot;&gt;The Solution&lt;/h3&gt;
+&lt;p&gt;Several feature additions and improvements been added to improve the overall experience of the app, with the following highlights:&lt;/p&gt;
+
+&lt;div class=&quot;hifi-solution&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md&quot;&gt;
+    &lt;div class=&quot;video-center&quot;&gt;
+      &lt;video width=&quot;72%&quot; type=&quot;video/mp4&quot; controlsList=&quot;nodownload&quot; controls=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+        &lt;source src=&quot;assets/images/youtrip-solution-01-ertable-converter.m4v&quot; /&gt;
+        Your browser does not support the video.
+      &lt;/video&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md&quot; id=&quot;solution-description&quot;&gt;
+    &lt;h4&gt;In app Real-Time Exchange Rate Table and Converter&lt;/h4&gt;
+      &lt;p&gt; A new feature addition that
+        &lt;ul&gt;
+          &lt;li&gt;&lt;b&gt;streamlines price checking&lt;/b&gt; and decision-making process during travel or while making online purchases&lt;/li&gt;
+          &lt;li&gt;helps &lt;b&gt;differentiate&lt;/b&gt; between in-app exchange currencies and other supported currencies&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;hifi-solution-2&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md&quot;&gt;
+    &lt;div class=&quot;video-center&quot;&gt;
+      &lt;video width=&quot;72%&quot; type=&quot;video/mp4&quot; controlsList=&quot;nodownload&quot; controls=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+        &lt;source src=&quot;assets/images/youtrip-solution-06-calculator.m4v&quot; /&gt;
+        Your browser does not support the video.
+      &lt;/video&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md&quot; id=&quot;solution-description&quot;&gt;
+    &lt;h4&gt;Calculator&lt;/h4&gt;
+      &lt;p&gt; Another new feature addition complementing the in-app real-time exchange rate table and converter above that
+        &lt;ul&gt;
+          &lt;li&gt;also &lt;b&gt;streamlines price checking&lt;/b&gt; and decision-making process during travel&lt;/li&gt;
+          &lt;li&gt;help in &lt;b&gt;expense tabulation&lt;/b&gt; and &lt;b&gt;encourage ATM withdrawal&lt;/b&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;hifi-solution&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md&quot;&gt;
+    &lt;div class=&quot;video-center&quot;&gt;
+      &lt;video width=&quot;72%&quot; type=&quot;video/mp4&quot; controlsList=&quot;nodownload&quot; controls=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+        &lt;source src=&quot;assets/images/youtrip-solution-04-perks.m4v&quot; /&gt;
+        Your browser does not support the video.
+      &lt;/video&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md&quot; id=&quot;solution-description&quot;&gt;
+    &lt;h4&gt;Improved Perks&lt;/h4&gt;
+      &lt;p&gt; Proposed improvements to existing YouTrip Perks that
+        &lt;ul&gt;
+          &lt;li&gt;makes it easier to search for perks by &lt;b&gt;categorising priviledges available and offering a search function&lt;/b&gt;&lt;/li&gt;
+          &lt;li&gt;offers &lt;b&gt;visibility on cashback status&lt;/b&gt; through 'Accumulated Perks'&lt;/li&gt;
+          &lt;li&gt;&lt;b&gt;improves onboarding&lt;/b&gt; to encourage usage&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h3&gt;
+
+&lt;h4 id=&quot;project-learnings&quot;&gt;Project Learnings&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Always set the expectations of participants in a usability test if you can do so yourself&lt;/strong&gt;:
+It was my first time conducting a usability test in an unmoderated, remote environment. Even when using an established tool for the usability test, one should always stage the environment and set the expectations when you can do it personally.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-could-be-done-better&quot;&gt;What could be done better&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Limited access to YouTrip users&lt;/strong&gt;: &amp;lt;20 users involved in the survey, and are mostly tech-savvy working adults; in the same target group&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Usability Testing&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Maze is on desktop and YouTrip is a mobile app&lt;/li&gt;
+      &lt;li&gt;Unmoderated usability testing has its drawbacks as you are not personally with the participant as they work through their tasks.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;areas-for-further-development&quot;&gt;Areas for further development&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Reliability of payments&lt;/strong&gt;:
+Visibility of payment status for transactions could be improved to raise trust in the service. However, more in-depth information would be necessary to build on the solution.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Security Issues and Customer support&lt;/strong&gt;: 
+Internal issues that are beyond my control without more information but are critical to the overall YouTrip experience.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2022 00:00:00 +0800</pubDate>
+        <link>/youtrip-redesign</link>
+        <guid isPermaLink="true">/youtrip-redesign</guid>
+        
+        
+        <category>Personal Project</category>
+        
+      </item>
     
       <item>
         <title>Building a Super C3 System</title>
@@ -108,8 +382,8 @@
 &lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 02 Mar 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/superc3system</link>
-        <guid isPermaLink="true">http://localhost:4000/superc3system</guid>
+        <link>/superc3system</link>
+        <guid isPermaLink="true">/superc3system</guid>
         
         
         <category>Design Lead and Research</category>
@@ -276,8 +550,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Mar 2022 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/vending-website</link>
-        <guid isPermaLink="true">http://localhost:4000/vending-website</guid>
+        <link>/vending-website</link>
+        <guid isPermaLink="true">/vending-website</guid>
         
         
         <category>Web Design</category>
@@ -444,8 +718,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/google-mymaps</link>
-        <guid isPermaLink="true">http://localhost:4000/google-mymaps</guid>
+        <link>/google-mymaps</link>
+        <guid isPermaLink="true">/google-mymaps</guid>
         
         
         <category>Personal Project</category>
