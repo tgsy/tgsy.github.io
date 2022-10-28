@@ -3,10 +3,10 @@
   <channel>
     <title>Tessa Goh</title>
     <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2022 18:17:51 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2022 18:17:51 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 28 Oct 2022 14:25:04 +0800</pubDate>
+    <lastBuildDate>Fri, 28 Oct 2022 14:25:04 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -281,8 +281,8 @@ Internal issues that are beyond my control without more information but are crit
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 01 Sep 2022 00:00:00 +0800</pubDate>
-        <link>/youtrip-redesign</link>
-        <guid isPermaLink="true">/youtrip-redesign</guid>
+        <link>http://localhost:4000/youtrip-redesign</link>
+        <guid isPermaLink="true">http://localhost:4000/youtrip-redesign</guid>
         
         
         <category>Personal Project</category>
@@ -291,11 +291,13 @@ Internal issues that are beyond my control without more information but are crit
     
       <item>
         <title>Building a Super C3 System</title>
-        <description>&lt;h3 id=&quot;about-the-project&quot;&gt;About the Project&lt;/h3&gt;
+        <description>&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
 
-&lt;div class=&quot;additional-notes&quot;&gt;&lt;h4&gt;❓ What are C3 Systems?&lt;/h4&gt;In the military context, C3 Systems are fundamental to operations by delivering the critical information required to &lt;b&gt;plan, coordinate and control forces and operations across defence missions&lt;/b&gt; in real-time.&lt;/div&gt;
+&lt;h3 id=&quot;about-the-project&quot;&gt;About the Project&lt;/h3&gt;
 
 &lt;h4 id=&quot;what-the-super-c3-system-is&quot;&gt;What the Super C3 System is&lt;/h4&gt;
+&lt;p&gt;In the military context, C3 Systems are fundamental to operations by delivering the critical information required to &lt;strong&gt;plan, coordinate and control forces and operations across defence missions&lt;/strong&gt; in real-time.&lt;/p&gt;
+
 &lt;p&gt;The Super C3 System is a powerful desktop app that serves the &lt;strong&gt;planning, monitoring and execution needs&lt;/strong&gt; of army soldiers across the various vocations during wartime exercises and operations. It follows a modular software architecture and builds on a &lt;strong&gt;Smart Geographical Information System (GIS)&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;why-it-started&quot;&gt;Why it Started&lt;/h4&gt;
@@ -357,7 +359,7 @@ Internal issues that are beyond my control without more information but are crit
 
 &lt;figure&gt;
 &lt;p&gt;&lt;img src=&quot;assets/images/superc3-results.png&quot; alt=&quot;Impact on the project's UX in quantitative terms&quot; /&gt;&lt;/p&gt;
-  &lt;figcaption&gt;The overall system usability improved from 50.0 to 63.6 following a revamp of the system’s UX. A module I designed was rated a SUS score of 80.8 (falling into the ‘Good’ category of the SUS Acceptability Score range) and was estimated by a user to reduce up to 90% of the total time required in their existing workflow.&lt;/figcaption&gt;
+  &lt;figcaption&gt;The overall system usability improved following a revamp of the system’s UX.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;ul&gt;
@@ -384,12 +386,10 @@ Internal issues that are beyond my control without more information but are crit
   &lt;li&gt;&lt;strong&gt;Prioritisation is key.&lt;/strong&gt; Focus on delivering a quality MVP first when rolling out new features/functions and avoid getting distracted by out-of-scope requests (or sometimes, even your own ideas).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;The design ≠ the final product.&lt;/strong&gt; Sometimes we can get carried away with producing pixel-perfect designs, but what matters most is always the final product delivered. When resources are tight, ensuring the product is developed right should be the priority.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 02 Mar 2022 00:00:00 +0800</pubDate>
-        <link>/superc3system</link>
-        <guid isPermaLink="true">/superc3system</guid>
+        <link>http://localhost:4000/superc3system</link>
+        <guid isPermaLink="true">http://localhost:4000/superc3system</guid>
         
         
         <category>Design Lead and Research</category>
@@ -556,8 +556,8 @@ Internal issues that are beyond my control without more information but are crit
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Mar 2022 00:00:00 +0800</pubDate>
-        <link>/vending-website</link>
-        <guid isPermaLink="true">/vending-website</guid>
+        <link>http://localhost:4000/vending-website</link>
+        <guid isPermaLink="true">http://localhost:4000/vending-website</guid>
         
         
         <category>Web Design</category>
@@ -724,8 +724,8 @@ Internal issues that are beyond my control without more information but are crit
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
-        <link>/google-mymaps</link>
-        <guid isPermaLink="true">/google-mymaps</guid>
+        <link>http://localhost:4000/google-mymaps</link>
+        <guid isPermaLink="true">http://localhost:4000/google-mymaps</guid>
         
         
         <category>Personal Project</category>
