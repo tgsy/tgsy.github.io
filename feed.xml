@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tessa Goh</title>
-    <description>👋 Hi! I'm Tessa. I'm a UX designer, currently based in Singapore.</description>
+    <description>👋 Hi! I&apos;m Tessa. I&apos;m a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Oct 2022 14:25:04 +0800</pubDate>
-    <lastBuildDate>Fri, 28 Oct 2022 14:25:04 +0800</lastBuildDate>
+    <pubDate>Thu, 23 Feb 2023 14:58:07 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2023 14:58:07 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -233,7 +233,7 @@ I am not affiliated with YouTrip and this redesign was done completely of my own
       &lt;p&gt; Proposed improvements to existing YouTrip Perks that
         &lt;ul&gt;
           &lt;li&gt;makes it easier to search for perks by &lt;b&gt;categorising priviledges available and offering a search function&lt;/b&gt;&lt;/li&gt;
-          &lt;li&gt;offers &lt;b&gt;visibility on cashback status&lt;/b&gt; through 'Accumulated Perks'&lt;/li&gt;
+          &lt;li&gt;offers &lt;b&gt;visibility on cashback status&lt;/b&gt; through &apos;Accumulated Perks&apos;&lt;/li&gt;
           &lt;li&gt;&lt;b&gt;improves onboarding&lt;/b&gt; to encourage usage&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/p&gt;
@@ -284,6 +284,8 @@ Internal issues that are beyond my control without more information but are crit
         <link>http://localhost:4000/youtrip-redesign</link>
         <guid isPermaLink="true">http://localhost:4000/youtrip-redesign</guid>
         
+        
+        <category>Mobile App</category>
         
         <category>Personal Project</category>
         
@@ -358,7 +360,7 @@ Internal issues that are beyond my control without more information but are crit
 &lt;h3 id=&quot;seeing-results&quot;&gt;Seeing Results&lt;/h3&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/superc3-results.png&quot; alt=&quot;Impact on the project's UX in quantitative terms&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/superc3-results.png&quot; alt=&quot;Impact on the project&apos;s UX in quantitative terms&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;The overall system usability improved following a revamp of the system’s UX.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -392,12 +394,14 @@ Internal issues that are beyond my control without more information but are crit
         <guid isPermaLink="true">http://localhost:4000/superc3system</guid>
         
         
-        <category>Design Lead and Research</category>
+        <category>Design Lead</category>
+        
+        <category>User Research</category>
         
       </item>
     
       <item>
-        <title>Re-designing a Vending Provider's Website</title>
+        <title>Re-designing a Vending Provider&apos;s Website</title>
         <description>&lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;/h3&gt;
 
 &lt;p&gt;The main reasons behind the re-design were as such:&lt;/p&gt;
@@ -408,7 +412,7 @@ Internal issues that are beyond my control without more information but are crit
 &lt;/ol&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-old.png&quot; alt=&quot;Home and What We Offer page of Achieva Vending Pte Ltd's old website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-old.png&quot; alt=&quot;Home and What We Offer page of Achieva Vending Pte Ltd&apos;s old website&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Screengrabs of the old site&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -419,7 +423,7 @@ Internal issues that are beyond my control without more information but are crit
 &lt;p&gt;To &lt;strong&gt;identify the main types of users&lt;/strong&gt; visiting the company’s website, I &lt;strong&gt;scouted past contact form submissions&lt;/strong&gt; to understand why users visited the site.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-formsubmissions.png&quot; alt=&quot;Form submissions taken from Achieva Vending Pte Ltd's website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-formsubmissions.png&quot; alt=&quot;Form submissions taken from Achieva Vending Pte Ltd&apos;s website&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Past contact form submissions&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -454,7 +458,7 @@ Internal issues that are beyond my control without more information but are crit
 &lt;p&gt;After a preliminary sharing and discussion with the business owners, some sections in the proposed IA were removed due to business considerations and eventually looked like this:&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-ia.png&quot; alt=&quot;Improved site map for Achieva Vending's website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-ia.png&quot; alt=&quot;Improved site map for Achieva Vending&apos;s website&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Site map for the improved website&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -483,13 +487,13 @@ Internal issues that are beyond my control without more information but are crit
 &lt;script src=&quot;bower_components/ideal-image-slider/extensions/captions/iis-captions.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
-  // new IdealImageSlider.Slider('#slider');
+  // new IdealImageSlider.Slider(&apos;#slider&apos;);
   var slider1 = new IdealImageSlider.Slider({
-	selector: '#slider1',
+	selector: &apos;#slider1&apos;,
 	//height: 400, // Required but can be set by CSS
 	interval: 4000
 });
-  // var slider = new IdealImageSlider.Slider('#slider');
+  // var slider = new IdealImageSlider.Slider(&apos;#slider&apos;);
   slider1.addBulletNav();
   slider1.addCaptions();
   slider1.start();
@@ -502,7 +506,7 @@ Internal issues that are beyond my control without more information but are crit
 &lt;p&gt;The site’s colour scheme builds upon the colours existing in the company’s logo by adding a colour (Trypan Blue #3D14B8) that is complementary to the Apple Green (#8fb914) present in the logo.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-color-scheme.png&quot; alt=&quot;Colour palette used for Achieva Vending's new website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-color-scheme.png&quot; alt=&quot;Colour palette used for Achieva Vending&apos;s new website&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Color scheme adopted for the new site, built upon the company’s logo&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -511,17 +515,17 @@ Internal issues that are beyond my control without more information but are crit
 &lt;p&gt;I made the hi-fi prototypes with &lt;strong&gt;Sketch&lt;/strong&gt;, the visual graphics with &lt;strong&gt;Adobe Illustrator and Photoshop&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-hifi.png&quot; alt=&quot;Achieva Vending's hi-fi prototypes&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-hifi.png&quot; alt=&quot;Achieva Vending&apos;s hi-fi prototypes&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Hi-fi mockups created on Sketch&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-header.png&quot; alt=&quot;Achieva Vending's website header image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-header.png&quot; alt=&quot;Achieva Vending&apos;s website header image&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Header image in the Home page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-visuals.png&quot; alt=&quot;Achieva Vending's website illustrations&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-visuals.png&quot; alt=&quot;Achieva Vending&apos;s website illustrations&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Vending Machine illustrations created for the Home page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -531,7 +535,7 @@ Internal issues that are beyond my control without more information but are crit
 &lt;p&gt;The site was &lt;strong&gt;implemented and published with Weebly&lt;/strong&gt;. I built the site on top of an existing theme available and then modified it to match my designs using the HTML editor. Below are screenshots of the improved website.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-final-product1.png&quot; alt=&quot;Screengrabs of Achieva Vending's new website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/av-redesign-final-product1.png&quot; alt=&quot;Screengrabs of Achieva Vending&apos;s new website&quot; /&gt;&lt;/p&gt;
   &lt;figcaption&gt;Screenshots of the improved site: ‘Home’ page and ‘What We Offer’ page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -561,6 +565,8 @@ Internal issues that are beyond my control without more information but are crit
         
         
         <category>Web Design</category>
+        
+        <category>Visual Design</category>
         
       </item>
     
@@ -653,7 +659,7 @@ Internal issues that are beyond my control without more information but are crit
 	
   &lt;img data-src=&quot;assets/images/google-mymaps-wireframes_trip.png&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (2/3)&quot; src=&quot;&quot; alt=&quot;Optimise Google MyMaps for trip planning.&quot; /&gt;
 	
-  &lt;img data-src=&quot;assets/images/google-mymaps-wireframes_mobile-accessibility.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (3/3)&quot; alt=&quot;Improve Google MyMaps's mobile accessibility.&quot; /&gt;
+  &lt;img data-src=&quot;assets/images/google-mymaps-wireframes_mobile-accessibility.png&quot; data-src-2x=&quot;&quot; src=&quot;&quot; title=&quot;Low-fi wireframes I drew to kickstart my solutioning (3/3)&quot; alt=&quot;Improve Google MyMaps&apos;s mobile accessibility.&quot; /&gt;
   
 &lt;/div&gt;
 
@@ -664,9 +670,9 @@ Internal issues that are beyond my control without more information but are crit
 &lt;script src=&quot;bower_components/ideal-image-slider/extensions/captions/iis-captions.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
-//new IdealImageSlider.Slider('#slider');
+//new IdealImageSlider.Slider(&apos;#slider&apos;);
   var slider = new IdealImageSlider.Slider({
-	selector: '#slider',
+	selector: &apos;#slider&apos;,
 	//height: 400, // Required but can be set by CSS
 	interval: 4000
 });
@@ -727,6 +733,8 @@ Internal issues that are beyond my control without more information but are crit
         <link>http://localhost:4000/google-mymaps</link>
         <guid isPermaLink="true">http://localhost:4000/google-mymaps</guid>
         
+        
+        <category>App Improvement</category>
         
         <category>Personal Project</category>
         
