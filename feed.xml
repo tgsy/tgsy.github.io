@@ -5,12 +5,12 @@
     <description>👋 Hi! I&apos;m Tessa. I&apos;m a UX designer, currently based in Singapore.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Feb 2023 17:24:32 +0800</pubDate>
-    <lastBuildDate>Thu, 23 Feb 2023 17:24:32 +0800</lastBuildDate>
+    <pubDate>Thu, 23 Feb 2023 21:59:00 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2023 21:59:00 +0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>Improving a Multi-Currency Wallet</title>
+        <title>YouTrip</title>
         <description>&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
 &lt;p&gt;The YouTrip app has been stagnating, with few improvements to the app since it started four years ago. With a business model that mainly profits through cross-border transactions, it is likely the business suffered a heavy blow with the travel ban during the COVID-19 pandemic.&lt;/p&gt;
 
@@ -241,6 +241,12 @@ I am not affiliated with YouTrip and this redesign was done completely of my own
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;prototype&quot;&gt;Prototype&lt;/h4&gt;
+&lt;p&gt;Feel free to click around with the high fidelity mockups below:&lt;/p&gt;
+
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1);&quot; width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVkUaLxbcoS5rMtlqUMe1gn%2FPersonal-Project---YouTrip-(Mockups)%3Fpage-id%3D12%253A2%26node-id%3D349%253A12631%26viewport%3D586%252C599%252C0.05%26scaling%3Dscale-down%26starting-point-node-id%3D349%253A12631%26show-proto-sidebar%3D1&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h3&gt;
@@ -273,12 +279,6 @@ Visibility of payment status for transactions could be improved to raise trust i
 Internal issues that are beyond my control without more information but are critical to the overall YouTrip experience.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;additional-notes&quot;&gt;
-&lt;h4&gt;Thanks for reading!&lt;/h4&gt;
-👉 Feel free to &lt;a href=&quot;mailto:tessagsy@gmail.com?subject=YouTrip Improvement Prototypes&quot; target=&quot;_blank&quot;&gt;reach out&lt;/a&gt; if you would like to access the hi-fidelity prototypes made with Figma.
-&lt;/div&gt;
 </description>
         <pubDate>Thu, 01 Sep 2022 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/youtrip-redesign</link>
@@ -292,7 +292,7 @@ Internal issues that are beyond my control without more information but are crit
       </item>
     
       <item>
-        <title>Building a Super C3 System</title>
+        <title>Super C3 System</title>
         <description>&lt;div id=&quot;disclaimer-nda&quot;&gt;&lt;h4&gt;‼️ Disclaimer&lt;/h4&gt; &lt;em&gt;As a past employee at DSTA, I am to abide by the Official Secrets Act and safeguard the confidentiality of the information I have had access to during my employment. As such, I cannot display the works I have done during my time at the company. However, I am willing to share more in detail about my contributions to the project over a face-to-face chat. ☕️&lt;/em&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;about-the-project&quot;&gt;About the Project&lt;/h3&gt;
@@ -401,7 +401,7 @@ Internal issues that are beyond my control without more information but are crit
       </item>
     
       <item>
-        <title>Re-designing a Vending Provider&apos;s Website</title>
+        <title>Achieva Vending</title>
         <description>&lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;/h3&gt;
 
 &lt;p&gt;The main reasons behind the re-design were as such:&lt;/p&gt;
@@ -571,7 +571,7 @@ Internal issues that are beyond my control without more information but are crit
       </item>
     
       <item>
-        <title>Improving Google MyMaps</title>
+        <title>Google MyMaps</title>
         <description>&lt;h3 id=&quot;the-focus&quot;&gt;The Focus&lt;/h3&gt;
 
 &lt;p&gt;Users who use the platform for their travel trips, which generally consists of three stages:&lt;/p&gt;
