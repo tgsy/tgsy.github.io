@@ -1,0 +1,21 @@
+title: "Tessa Goh — Senior Product Designer (UI/UX)"
+description: "Resume of Tessa Goh, Senior Product Designer (UI/UX)"
+baseurl: ""
+url: "https://tgsy.github.io"
+
+author:
+  name: Tessa Goh
+  role: Senior Product Designer (UI/UX)
+  email: tessa.gsy@gmail.com
+  # phone: "(65) 8228 2456"
+  location: Singapore
+  linkedin: linkedin.com/in/tessagoh
+  website: tessagoh.design
+
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md

@@ -1,0 +1,95 @@
+summary: >
+  Senior Product Designer with ~5 years experience in banking and defence. 
+  I design usable, compliant systems for complex environments — designing tools that support operational needs and front-office teams.
+  Skilled in research, product thinking, building scalable systems, and mentoring.
+
+experience:
+  - company: OCBC
+    long_name: Oversea-Chinese Banking Corporation
+    url: https://www.ocbc.com/group/gateway
+    role: UI/UX Designer, Manager → Assistant Vice President
+    period: Jun 2023 — Present
+    location: Singapore
+    highlights:
+      - Design and streamline internal banking platforms, elevating operational efficiency of regional teams across personal and corporate banking functions
+      - Lead remote design collaboration with cross-functional stakeholders across Singapore, Malaysia and China
+      - Supervised and onboarded juniors and rotating graduate associates, providing mentorship and design guidance
+      - Championed design iterations based on user feedback loops
+      - Authored and maintained structured design documentation to ensure visual and functional consistency across product lines
+      - Contributing to the development of an enterprise design system
+
+  - company: DSTA
+    long_name: Defence Science and Technology Agency
+    url: https://www.dsta.gov.sg/
+    role: UX Architect → Senior UX Architect
+    period: Mar 2020 — Mar 2022
+    location: Singapore
+    highlights:
+      - Co-led design of a military operations platform through two major product launches
+      - Collaborated cross-functionally in a project team of 20+ engineers, product managers and military stakeholders
+      - Conducted user interviews, field studies, contextual inquiries and workshops with army personnel to identify key design opportunities
+      - Led usability testings to drive iteration
+      - Redesigned workflows that resulted in ~90% reduction in processing time
+      - Improved usability rating by 13.6% following UX overhaul efforts
+
+  - company: GDIC
+    long_name: Global Data Innovation Centre, Denstu Aegis Network
+    url: https://www.dentsu.com/news-releases/dentsu-aegis-network-establishes-global-data-innovation-centre
+    role: UI/UX Intern
+    period: May 2018 — Aug 2018
+    location: Singapore
+    highlights:
+      - Collaborated with product management and engineering to define the design vision for an AI-powered marketing insights application
+      - Created user flow diagrams, information architecture and wireframes
+
+education:
+  - institution: Singapore University of Technology & Design
+    degree: B.E. (Hons), Computer Science
+    period: May 2016 — Sep 2019
+    note: GPA 4.04/5.00 · Magna Cum Laude · Specialisation — UI/UX Design
+
+certifications:
+  - name: Human-Centered Design Practitioner
+    issuer: LUMA Institute
+    date: Feb 2024
+
+  - name: Visual Design, HCI, Mobile UX Design, Agile Methods for UX
+    issuer: Interaction Design Foundation
+    date: Jun 2022 — Feb 2024
+
+  - name: UX Certificate (#1043402)
+    issuer: Nielsen Norman Group
+    date: Mar 2021
+
+skills:
+  craft:
+    - User Research & Interviews
+    - Field Studies & Contextual Inquiry
+    - Synthesis & Affinity Mapping
+    - User Journey Mapping
+    - Wireframing & Prototyping
+    - Interaction Design
+    - Design Systems
+    - Usability Testing
+  tools:
+    - Figma
+    - Sketch
+    - Adobe Creative Suite
+    - Axure RP9
+    - Invision
+    - Procreate
+    - Miro
+    - Confluence
+    - Jira
+    - Notion
+  technical:
+    - HTML / CSS / JavaScript
+    - Java
+    - Python
+    - Git
+
+languages:
+  - name: English
+    level: Native
+  - name: Chinese
+    level: Professional working proficiency

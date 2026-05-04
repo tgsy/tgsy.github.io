@@ -1,0 +1,137 @@
+---
+layout: default
+title: "Tessa Goh — Senior Product Designer (UI/UX)"
+---
+
+{% assign r = site.data.resume %}
+{% assign a = site.author %}
+
+<header class="site-header">
+  <div class="wrapper">
+    <div class="header-inner">
+      <div>
+        <h1 class="header-name">{{ a.name }}</h1>
+        <p class="header-role">{{ a.role }}</p>
+      </div>
+      <nav class="header-contact" aria-label="Contact links">
+        <a href="mailto:{{ a.email }}">{{ a.email }}</a>
+        <a href="https://{{ a.linkedin }}" target="_blank" rel="noopener">{{ a.linkedin }}</a>
+        <a href="https://{{ a.website }}" target="_blank" rel="noopener">{{ a.website }}</a>
+        <span style="font-family:var(--font-mono);font-size:0.72rem;color:var(--muted);">{{ a.phone }}</span>
+        <span style="font-family:var(--font-mono);font-size:0.72rem;color:var(--muted);">{{ a.location }}</span>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="summary-strip">
+  <div class="wrapper">
+    <p>{{ r.summary }}</p>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="main-content">
+
+    <main class="primary-col">
+
+      <section class="section" aria-label="Work experience">
+        <h2 class="section-label">Experience</h2>
+        {% for job in r.experience %}
+        <article class="exp-item">
+          <div class="exp-header">
+            <span class="exp-company">{{ job.company }}</span>
+            <span class="exp-period">{{ job.period }}</span>
+          </div>
+          <span class="exp-company-long" style="font-family:var(--font-mono);font-size:0.72rem;color:var(--muted);">
+            {{ job.long_name }}
+          </span>
+          <p class="exp-role">{{ job.role }} &nbsp;·&nbsp; {{ job.location }}</p>
+          <ul class="exp-highlights">
+            {% for h in job.highlights %}
+            <li>{{ h }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+        {% endfor %}
+      </section>
+
+      <section class="section" aria-label="Education">
+        <h2 class="section-label">Education</h2>
+        {% for edu in r.education %}
+        <div class="edu-item">
+          <p class="edu-institution">{{ edu.institution }}</p>
+          <p class="edu-degree">{{ edu.degree }} </p>
+          <!-- <p class="edu-degree">{{ edu.degree }} &nbsp;·&nbsp; {{ edu.period }}</p> -->
+          <p class="edu-degree">{{ edu.period }}</p>
+          {% if edu.note %}<p class="edu-note">{{ edu.note }}</p>{% endif %}
+        </div>
+        {% endfor %}
+      </section>
+
+      <section class="section" aria-label="Certifications">
+        <h2 class="section-label">Certifications</h2>
+        {% for cert in r.certifications %}
+        <div class="cert-item">
+          <div class="cert-header">
+            <span class="cert-issuer">{{ cert.issuer }}</span>
+            <span class="exp-period">{{ cert.date }}</span>
+          </div>
+          <p class="cert-name">{{ cert.name }}</p>
+        </div>
+        {% endfor %}
+      </section>
+
+    </main>
+
+    <aside class="sidebar-col" aria-label="Skills and languages">
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Product Design</span>
+        <div class="skill-group">
+          {% for skill in r.skills.craft %}
+          <span class="skill-tag">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Tools</span>
+        <div class="skill-group">
+          {% for skill in r.skills.tools %}
+          <span class="skill-tag">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Technical</span>
+        <div class="skill-group">
+          {% for skill in r.skills.technical %}
+          <span class="skill-tag">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Languages</span>
+        <div class="skill-group">
+          {% for lang in r.languages %}
+          <span class="skill-tag lang-tag">
+            <span class="lang-name">{{ lang.name }}</span>
+            <span class="lang-level">{{ lang.level }}</span>
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+
+    </aside>
+
+  </div>
+
+  <footer class="site-footer">
+    <p class="footer-note">Updated {{ 'now' | date: "%Y" }} &nbsp;·&nbsp; Built with Claude, Jekyll &amp; hosted on GitHub Pages</p>
+    <button class="download-btn" href="/assets/cv_tessagoh.pdf">Download Resumé</button>
+  </footer>
+
+</div>

@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "base64"
+gem "webrick"
+gem "csv"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "bigdecimal"
+gem "faraday-retry"
+gem "jekyll", "~> 4.3.2"
