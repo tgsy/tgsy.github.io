@@ -25,7 +25,7 @@ experience:
     period: Mar 2020 — Mar 2022
     location: Singapore
     highlights:
-      - Co-led design of a military operations platform through two major product launches
+      - Owned design of multiple modules in a military operations platform through two major product launches
       - Collaborated cross-functionally in a project team of 20+ engineers, product managers and military stakeholders
       - Conducted user interviews, field studies, contextual inquiries and workshops with army personnel to identify key design opportunities
       - Led usability testings to drive iteration
@@ -63,11 +63,15 @@ certifications:
 
 skills:
   craft:
-    - User Research & Interviews
-    - Field Studies & Contextual Inquiry
-    - Synthesis & Affinity Mapping
+    - User Research
+    - Interviews
+    - Field Studies
+    - Contextual Inquiry
+    - Synthesis
+    - Affinity Mapping
     - User Journey Mapping
-    - Wireframing & Prototyping
+    - Wireframing
+    - Prototyping
     - Interaction Design
     - Design Systems
     - Usability Testing

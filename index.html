@@ -14,7 +14,7 @@ title: "Tessa Goh — Senior Product Designer (UI/UX)"
         <p class="header-role">{{ a.role }}</p>
       </div>
       <nav class="header-contact" aria-label="Contact links">
-        <a href="mailto:{{ a.email }}">{{ a.email }}</a>
+        <a href="mailto:{{ a.email }}"><span class="material-icons" aria-hidden="true">mail</span>{{ a.email }}</a>
         <a href="https://{{ a.linkedin }}" target="_blank" rel="noopener">{{ a.linkedin }}</a>
         <a href="https://{{ a.website }}" target="_blank" rel="noopener">{{ a.website }}</a>
         <span style="font-family:var(--font-mono);font-size:0.72rem;color:var(--muted);">{{ a.phone }}</span>
@@ -90,7 +90,7 @@ title: "Tessa Goh — Senior Product Designer (UI/UX)"
         <span class="sidebar-label">Product Design</span>
         <div class="skill-group">
           {% for skill in r.skills.craft %}
-          <span class="skill-tag">{{ skill }}</span>
+          <span class="skill-tag" style="animation-delay: {{ forloop.index0 | times: 0.03 | plus: 0.4 }}s">{{ skill }}</span>
           {% endfor %}
         </div>
       </div>
@@ -99,7 +99,7 @@ title: "Tessa Goh — Senior Product Designer (UI/UX)"
         <span class="sidebar-label">Tools</span>
         <div class="skill-group">
           {% for skill in r.skills.tools %}
-          <span class="skill-tag">{{ skill }}</span>
+          <span class="skill-tag" style="animation-delay: {{ forloop.index0 | times: 0.03 | plus: 0.4 }}s">{{ skill }}</span>
           {% endfor %}
         </div>
       </div>
@@ -108,7 +108,7 @@ title: "Tessa Goh — Senior Product Designer (UI/UX)"
         <span class="sidebar-label">Technical</span>
         <div class="skill-group">
           {% for skill in r.skills.technical %}
-          <span class="skill-tag">{{ skill }}</span>
+          <span class="skill-tag" style="animation-delay: {{ forloop.index0 | times: 0.03 | plus: 0.4 }}s">{{ skill }}</span>
           {% endfor %}
         </div>
       </div>
@@ -117,7 +117,7 @@ title: "Tessa Goh — Senior Product Designer (UI/UX)"
         <span class="sidebar-label">Languages</span>
         <div class="skill-group">
           {% for lang in r.languages %}
-          <span class="skill-tag lang-tag">
+          <span class="skill-tag lang-tag" style="animation-delay: {{ forloop.index0 | times: 0.03 | plus: 0.4 }}s">
             <span class="lang-name">{{ lang.name }}</span>
             <span class="lang-level">{{ lang.level }}</span>
           </span>
@@ -129,10 +129,14 @@ title: "Tessa Goh — Senior Product Designer (UI/UX)"
 
   </div>
 
-  <footer class="site-footer">
-    <p class="footer-note">Updated {{ 'now' | date: "%Y" }} &nbsp;·&nbsp; Built with Claude, Jekyll &amp; hosted on GitHub Pages</p>
-    <!-- <button class="download-btn" href="/assets/cv_tessagoh.pdf">Download Resumé</button> -->
-    <a class="download-btn" href="/assets/cv_tessagoh.pdf" download>Download Resumé</a>
-  </footer>
-
 </div>
+
+<footer class="site-footer">
+  <div class="wrapper footer-inner">
+    <p class="footer-note">Updated {{ 'now' | date: "%Y" }} &nbsp;·&nbsp; Built with Claude, Jekyll &amp; hosted on GitHub Pages</p>
+    <a class="download-btn" href="/assets/cv_tessagoh.pdf" download>
+      <span class="material-symbols-outlined" aria-hidden="true">download</span>
+      Download Resumé
+    </a>
+  </div>
+</footer>
