@@ -3,11 +3,12 @@
    ============================================================ */
 :root {
   --ink:        #1a1a1a;
-  --paper:      #f3f3f1;
+  --paper:      #f9f9f9;
   --accent:     #3b48c4;
   --accent-dim: #6b77e0;
   --tag-bg:     #eceeff;
-  --band-bg:    #dde2ef;
+  --footer-bg:     #efefef;
+  --footer-stroke: #dde2ef;
   --muted:      #6e6e6e;
   --rule:       rgba(26, 26, 26, 0.12);
 
@@ -390,7 +391,8 @@ body {
    FOOTER
    ============================================================ */
 .site-footer {
-  background: var(--band-bg);
+  background: var(--footer-bg);
+  border-top: 1px solid var(--footer-stroke);
   margin-top: 1rem;
 }
 
